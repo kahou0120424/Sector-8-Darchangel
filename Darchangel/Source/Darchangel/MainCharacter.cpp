@@ -4,8 +4,9 @@
 #include "MainCharacter.h"
 #include "Components/SkeletalMeshComponent.h"
 #include "GameFramework/Actor.h"
+#include "DrawDebugHelpers.h"
+#include "cmath"
 #include "Kismet/KismetMathLibrary.h"
-#include "Kismet/GameplayStatics.h"
 
 ///////////////////////////////////////////////////////////////////////
 //Distance Formula
@@ -38,7 +39,7 @@ AMainCharacter::AMainCharacter()
 
 
 	CameraBoom->TargetArmLength = 300.0f; // how far away the camera from the player
-	CameraBoom->bUsePawnControlRotation = true; //rotate the arm base of the controller 
+	//CameraBoom->bUsePawnControlRotation = true; //rotate the arm base of the controller 
 
 	FollowCamera = CreateDefaultSubobject<UCameraComponent>(TEXT("FollowCamera"));
 	FollowCamera->SetupAttachment(CameraBoom, USpringArmComponent::SocketName); // attact the camera on the end of the boom, let the boom adjust the mass controller rotation of the camera
@@ -66,7 +67,7 @@ void AMainCharacter::Raycast()
 	CollisionParams.AddIgnoredActor(this);
 
 	//Draw raycast
-	//DrawDebugLine(GetWorld(), Start, End, FColor::Green, false, 1, 0, 1);
+	DrawDebugLine(GetWorld(), Start, End, FColor::Green, false, 1, 0, 1);
 
 	bool isHit = GetWorld()->LineTraceSingleByChannel(OutHit, Start, End, ECC_Visibility, CollisionParams);
 
@@ -110,8 +111,8 @@ void AMainCharacter::SetupPlayerInputComponent(UInputComponent* PlayerInputCompo
 {
 	Super::SetupPlayerInputComponent(PlayerInputComponent);
 
-	PlayerInputComponent->BindAxis("Turn", this, &APawn::AddControllerYawInput);
-	PlayerInputComponent->BindAxis("LookUp", this, &APawn::AddControllerPitchInput);
+	//PlayerInputComponent->BindAxis("Turn", this, &APawn::AddControllerYawInput);
+	//PlayerInputComponent->BindAxis("LookUp", this, &APawn::AddControllerPitchInput);
 
 	PlayerInputComponent->BindAction("Jump", IE_Pressed, this, &ACharacter::Jump);
 	PlayerInputComponent->BindAction("Jump", IE_Released, this, &ACharacter::StopJumping);

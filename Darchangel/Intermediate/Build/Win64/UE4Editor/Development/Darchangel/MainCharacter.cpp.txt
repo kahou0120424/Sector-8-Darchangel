@@ -144,16 +144,8 @@ D:\Program Files\Epic Games\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\In
 D:\Program Files\Epic Games\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Inc\UMG\WidgetBlueprintGeneratedClass.generated.h
 D:\Program Files\Epic Games\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Inc\UMG\UserWidget.generated.h
 C:\Users\User\Documents\Sector-8-Darchangel\Darchangel\Intermediate\Build\Win64\UE4Editor\Inc\Darchangel\MainCharacter.generated.h
+D:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\Engine\Public\DrawDebugHelpers.h
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.26.28801\INCLUDE\cmath
 D:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\Engine\Classes\Kismet/KismetMathLibrary.h
 D:\Program Files\Epic Games\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\KismetMathLibrary.generated.h
 D:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\Engine\Classes\Kismet\KismetMathLibrary.inl
-D:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\Engine\Classes\Kismet/GameplayStatics.h
-D:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\Engine\Classes\Kismet/KismetSystemLibrary.h
-D:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\Engine\Classes\Engine/CollisionProfile.h
-D:\Program Files\Epic Games\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\CollisionProfile.generated.h
-D:\Program Files\Epic Games\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\KismetSystemLibrary.generated.h
-D:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\Engine\Classes\Sound/DialogueTypes.h
-D:\Program Files\Epic Games\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\DialogueTypes.generated.h
-D:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\Engine\Classes\Kismet\GameplayStaticsTypes.h
-D:\Program Files\Epic Games\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\GameplayStaticsTypes.generated.h
-D:\Program Files\Epic Games\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\GameplayStatics.generated.h
