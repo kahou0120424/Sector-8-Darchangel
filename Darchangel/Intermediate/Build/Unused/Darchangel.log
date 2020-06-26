@@ -1,0 +1,12 @@
+﻿  Using 'git status' to determine working set for adaptive non-unity build (C:\Users\User\Documents\Sector-8-Darchangel).
+  Building DarchangelEditor...
+  Using Visual Studio 2019 14.26.28806 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.26.28801) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+  Building 4 actions with 6 processes...
+    [1/4] MainCharacter.cpp
+    [2/4] UE4Editor-Darchangel-0019.lib
+       Creating library C:\Users\User\Documents\Sector-8-Darchangel\Darchangel\Intermediate\Build\Win64\UE4Editor\Development\Darchangel\UE4Editor-Darchangel-0019.lib and object C:\Users\User\Documents\Sector-8-Darchangel\Darchangel\Intermediate\Build\Win64\UE4Editor\Development\Darchangel\UE4Editor-Darchangel-0019.exp
+    [3/4] UE4Editor-Darchangel-0019.dll
+       Creating library C:\Users\User\Documents\Sector-8-Darchangel\Darchangel\Intermediate\Build\Win64\UE4Editor\Development\Darchangel\UE4Editor-Darchangel-0019.suppressed.lib and object C:\Users\User\Documents\Sector-8-Darchangel\Darchangel\Intermediate\Build\Win64\UE4Editor\Development\Darchangel\UE4Editor-Darchangel-0019.suppressed.exp
+    [4/4] DarchangelEditor.target
+  Total time in Parallel executor: 3.64 seconds
+  Total execution time: 4.30 seconds
