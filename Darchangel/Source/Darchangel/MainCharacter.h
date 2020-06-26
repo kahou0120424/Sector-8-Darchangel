@@ -28,15 +28,29 @@ public:
 
 	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = Camera)
 		UCameraComponent* FollowCamera;
+	
+
+	UPROPERTY(EditAnywhere, Category = "Chains Of Hell", meta = (ClampMin = "0.01", ClampMax = "0.1"))
+		float speed;
 
 	void MoveForward(float Axis);
 	void MoveRight(float Axis);
-	
+
+	FVector targetLocation;
+	FVector playerPos;
+	FHitResult OutHit;
+	FVector velocity;
+	bool isPull;
+
+	float percent;
+	float seconds = 10;
+	float timer;
 
 
 protected:
 	// Called when the game starts or when spawned
 	virtual void BeginPlay() override;
+	void Raycast();
 
 public:	
 	// Called every frame

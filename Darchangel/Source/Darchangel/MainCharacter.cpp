@@ -7,6 +7,15 @@
 #include "Kismet/KismetMathLibrary.h"
 #include "Kismet/GameplayStatics.h"
 
+///////////////////////////////////////////////////////////////////////
+//Distance Formula
+double Distance(FVector a, FVector b)
+{
+	double distance = abs(sqrt(pow(b.X - a.X, 2) + pow(b.Y - a.Y, 2)));
+	return distance;
+}
+///////////////////////////////////////////////////////////////////////
+
 // Sets default values
 AMainCharacter::AMainCharacter()
 {
@@ -43,11 +52,57 @@ void AMainCharacter::BeginPlay()
 	
 }
 
+void AMainCharacter::Raycast()
+{
+
+	FVector Start = this->GetActorLocation();
+	FVector ForwardVector = this->GetActorForwardVector();
+
+
+	Start = Start + ForwardVector;
+	FVector End = Start + (ForwardVector * 5000.0f);
+
+	FCollisionQueryParams CollisionParams;
+	CollisionParams.AddIgnoredActor(this);
+
+	//Draw raycast
+	//DrawDebugLine(GetWorld(), Start, End, FColor::Green, false, 1, 0, 1);
+
+	bool isHit = GetWorld()->LineTraceSingleByChannel(OutHit, Start, End, ECC_Visibility, CollisionParams);
+
+	if (isHit)
+	{		
+		isPull = true;
+		playerPos = this->GetActorLocation();
+		targetLocation = OutHit.Actor->GetActorLocation();
+		velocity = -GetActorForwardVector();
+	}
+
+
+}
+
 // Called every frame
 void AMainCharacter::Tick(float DeltaTime)
 {
 	Super::Tick(DeltaTime);
-
+	if (isPull == true)
+	{
+		float distance = Distance(playerPos, OutHit.Actor->GetActorLocation());		
+		timer = speed; // no acceloration		
+		percent = timer / seconds;
+		velocity += velocity * timer;	
+		FString TheFloatStr = FString::SanitizeFloat(distance);	
+		if (distance >= 200)
+		{
+			OutHit.Actor->AddActorLocalOffset((velocity), false, 0, ETeleportType::None);
+		}
+		else
+		{
+			isPull = false;
+			percent = 0;
+			timer = 0;
+		}
+	}
 }
 
 // Called to bind functionality to input
@@ -63,6 +118,8 @@ void AMainCharacter::SetupPlayerInputComponent(UInputComponent* PlayerInputCompo
 
 	PlayerInputComponent->BindAxis("MoveForward", this, &AMainCharacter::MoveForward);
 	PlayerInputComponent->BindAxis("MoveRight", this, &AMainCharacter::MoveRight);
+
+	PlayerInputComponent->BindAction("ChainsOfHell", IE_Pressed, this, &AMainCharacter::Raycast);
 }
 
 void AMainCharacter::MoveForward(float Axis)
