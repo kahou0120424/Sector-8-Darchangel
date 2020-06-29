@@ -3,7 +3,7 @@
   <ItemGroup>
     <None Include="..\..\Darchangel.uproject" />
     <Filter Include="Source">
-      <UniqueIdentifier>{B1DDE4AB-2C86-4652-A852-CF35246116FF}</UniqueIdentifier>
+      <UniqueIdentifier>{E218DFE1-0825-43C1-93E4-04AE2FCA5316}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\Darchangel.Target.cs">
       <Filter>Source</Filter>
@@ -12,7 +12,7 @@
       <Filter>Source</Filter>
     </None>
     <Filter Include="Config">
-      <UniqueIdentifier>{56AC9CA0-017B-421D-9E41-CD0A36FF54DC}</UniqueIdentifier>
+      <UniqueIdentifier>{D99CAC46-8447-47AD-8D17-2FCF81B0234B}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Config\DefaultEditor.ini">
       <Filter>Config</Filter>
@@ -30,7 +30,7 @@
       <Filter>Config</Filter>
     </None>
     <Filter Include="Source\Darchangel">
-      <UniqueIdentifier>{04F8FAFB-9E13-4B51-A27F-8D6579717E14}</UniqueIdentifier>
+      <UniqueIdentifier>{F042A68B-272B-421C-90E6-66A4A4E26BE1}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\Darchangel\Darchangel.Build.cs">
       <Filter>Source\Darchangel</Filter>
@@ -53,21 +53,17 @@
     <ClInclude Include="..\..\Source\Darchangel\DarchangelGameMode.h">
       <Filter>Source\Darchangel</Filter>
     </ClInclude>
-  </ItemGroup>
-  <ItemGroup>
-    <ClInclude Include="..\..\Source\Darchangel\MainCharacter.h">
-      <Filter>Source\Darchangel</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\Source\Darchangel\MainCharacter_gm.h">
-      <Filter>Source\Darchangel</Filter>
-    </ClInclude>
-  </ItemGroup>
-  <ItemGroup>
     <ClCompile Include="..\..\Source\Darchangel\MainCharacter.cpp">
       <Filter>Source\Darchangel</Filter>
     </ClCompile>
+    <ClInclude Include="..\..\Source\Darchangel\MainCharacter.h">
+      <Filter>Source\Darchangel</Filter>
+    </ClInclude>
     <ClCompile Include="..\..\Source\Darchangel\MainCharacter_gm.cpp">
       <Filter>Source\Darchangel</Filter>
     </ClCompile>
+    <ClInclude Include="..\..\Source\Darchangel\MainCharacter_gm.h">
+      <Filter>Source\Darchangel</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
