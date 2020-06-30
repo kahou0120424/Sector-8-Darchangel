@@ -1,8 +1,8 @@
 {
 	"SourceFiles": [
-		"D:\\College Stuff\\FYP\\Sector8 Project\\Darchangel\\Source\\Darchangel\\Darchangel.Build.cs",
-		"D:\\College Stuff\\FYP\\Sector8 Project\\Darchangel\\Source\\Darchangel.Target.cs",
-		"D:\\College Stuff\\FYP\\Sector8 Project\\Darchangel\\Source\\DarchangelEditor.Target.cs"
+		"C:\\Users\\User\\Documents\\Sector-8-Darchangel\\Darchangel\\Source\\Darchangel\\Darchangel.Build.cs",
+		"C:\\Users\\User\\Documents\\Sector-8-Darchangel\\Darchangel\\Source\\Darchangel.Target.cs",
+		"C:\\Users\\User\\Documents\\Sector-8-Darchangel\\Darchangel\\Source\\DarchangelEditor.Target.cs"
 	],
 	"EngineVersion": "4.24.3"
 }

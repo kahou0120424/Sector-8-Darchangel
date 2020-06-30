@@ -2,12 +2,12 @@
 	"Targets": [
 		{
 			"Name": "Darchangel",
-			"Path": "D:\\College Stuff\\FYP\\Sector8 Project\\Darchangel\\Source\\Darchangel.Target.cs",
+			"Path": "C:\\Users\\User\\Documents\\Sector-8-Darchangel\\Darchangel\\Source\\Darchangel.Target.cs",
 			"Type": "Game"
 		},
 		{
 			"Name": "DarchangelEditor",
-			"Path": "D:\\College Stuff\\FYP\\Sector8 Project\\Darchangel\\Source\\DarchangelEditor.Target.cs",
+			"Path": "C:\\Users\\User\\Documents\\Sector-8-Darchangel\\Darchangel\\Source\\DarchangelEditor.Target.cs",
 			"Type": "Editor"
 		}
 	]

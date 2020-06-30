@@ -39,11 +39,12 @@ AMainCharacter::AMainCharacter()
 
 
 	CameraBoom->TargetArmLength = 300.0f; // how far away the camera from the player
-	//CameraBoom->bUsePawnControlRotation = true; //rotate the arm base of the controller 
+	CameraBoom->bUsePawnControlRotation = true; //rotate the arm base of the controller 
 
 	FollowCamera = CreateDefaultSubobject<UCameraComponent>(TEXT("FollowCamera"));
 	FollowCamera->SetupAttachment(CameraBoom, USpringArmComponent::SocketName); // attact the camera on the end of the boom, let the boom adjust the mass controller rotation of the camera
 	FollowCamera->bUsePawnControlRotation = false; // Camera did not rotate relative to the r
+	
 }
 
 // Called when the game starts or when spawned
@@ -65,18 +66,24 @@ void AMainCharacter::Raycast()
 
 	FCollisionQueryParams CollisionParams;
 	CollisionParams.AddIgnoredActor(this);
+	CollisionParams.AddIgnoredActor(ActorHasTag("Wall"));
 
 	//Draw raycast
 	DrawDebugLine(GetWorld(), Start, End, FColor::Green, false, 1, 0, 1);
 
 	bool isHit = GetWorld()->LineTraceSingleByChannel(OutHit, Start, End, ECC_Visibility, CollisionParams);
+	//bool isHit = GetWorld()->LineTraceMultiByChannel(OutHit, Start, End, ECC_Visibility, CollisionParams);
 
 	if (isHit)
 	{		
-		isPull = true;
-		playerPos = this->GetActorLocation();
-		targetLocation = OutHit.Actor->GetActorLocation();
-		velocity = -GetActorForwardVector();
+		if (OutHit.Actor->ActorHasTag("Enemy"))
+		{
+			isPull = true;
+			playerPos = this->GetActorLocation();
+			targetLocation = OutHit.Actor->GetActorLocation();
+			velocity = -GetActorForwardVector();
+		}
+		
 	}
 
 
@@ -111,14 +118,15 @@ void AMainCharacter::SetupPlayerInputComponent(UInputComponent* PlayerInputCompo
 {
 	Super::SetupPlayerInputComponent(PlayerInputComponent);
 
-	//PlayerInputComponent->BindAxis("Turn", this, &APawn::AddControllerYawInput);
-	//PlayerInputComponent->BindAxis("LookUp", this, &APawn::AddControllerPitchInput);
+	PlayerInputComponent->BindAxis("Turn", this, &APawn::AddControllerYawInput);
+	PlayerInputComponent->BindAxis("LookUp", this, &APawn::AddControllerPitchInput);
 
 	PlayerInputComponent->BindAction("Jump", IE_Pressed, this, &ACharacter::Jump);
 	PlayerInputComponent->BindAction("Jump", IE_Released, this, &ACharacter::StopJumping);
 
 	PlayerInputComponent->BindAxis("MoveForward", this, &AMainCharacter::MoveForward);
 	PlayerInputComponent->BindAxis("MoveRight", this, &AMainCharacter::MoveRight);
+
 
 	PlayerInputComponent->BindAction("ChainsOfHell", IE_Pressed, this, &AMainCharacter::Raycast);
 }
