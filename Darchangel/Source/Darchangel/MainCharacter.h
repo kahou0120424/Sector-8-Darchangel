@@ -46,6 +46,30 @@ public:
 	float seconds = 10;
 	float timer;
 
+	// dash
+	UFUNCTION()
+	void Dash();
+
+	UPROPERTY(EditAnywhere)
+	float dashDistance;
+
+	UPROPERTY(EditAnywhere)
+	float dashCooldown;
+
+	UPROPERTY()
+	bool canDash;
+
+	UPROPERTY(EditAnywhere)
+	float dashStop;
+
+	UPROPERTY()
+	FTimerHandle dashHandle;
+
+	UFUNCTION()
+	void StopDash();
+
+	UFUNCTION()
+	void ResetDash();
 
 protected:
 	// Called when the game starts or when spawned

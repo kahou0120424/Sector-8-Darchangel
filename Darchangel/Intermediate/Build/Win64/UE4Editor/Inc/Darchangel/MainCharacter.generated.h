@@ -14,8 +14,60 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 #define DARCHANGEL_MainCharacter_generated_h
 
 #define Darchangel_Source_Darchangel_MainCharacter_h_20_SPARSE_DATA
-#define Darchangel_Source_Darchangel_MainCharacter_h_20_RPC_WRAPPERS
-#define Darchangel_Source_Darchangel_MainCharacter_h_20_RPC_WRAPPERS_NO_PURE_DECLS
+#define Darchangel_Source_Darchangel_MainCharacter_h_20_RPC_WRAPPERS \
+ \
+	DECLARE_FUNCTION(execResetDash) \
+	{ \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		P_THIS->ResetDash(); \
+		P_NATIVE_END; \
+	} \
+ \
+	DECLARE_FUNCTION(execStopDash) \
+	{ \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		P_THIS->StopDash(); \
+		P_NATIVE_END; \
+	} \
+ \
+	DECLARE_FUNCTION(execDash) \
+	{ \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		P_THIS->Dash(); \
+		P_NATIVE_END; \
+	}
+
+
+#define Darchangel_Source_Darchangel_MainCharacter_h_20_RPC_WRAPPERS_NO_PURE_DECLS \
+ \
+	DECLARE_FUNCTION(execResetDash) \
+	{ \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		P_THIS->ResetDash(); \
+		P_NATIVE_END; \
+	} \
+ \
+	DECLARE_FUNCTION(execStopDash) \
+	{ \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		P_THIS->StopDash(); \
+		P_NATIVE_END; \
+	} \
+ \
+	DECLARE_FUNCTION(execDash) \
+	{ \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		P_THIS->Dash(); \
+		P_NATIVE_END; \
+	}
+
+
 #define Darchangel_Source_Darchangel_MainCharacter_h_20_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesAMainCharacter(); \

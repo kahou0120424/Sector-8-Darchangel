@@ -3,10 +3,19 @@
 
 #include "MainCharacter.h"
 #include "Components/SkeletalMeshComponent.h"
+#include "HeadMountedDisplayFunctionLibrary.h"
+#include "Camera/CameraComponent.h"
+#include "Components/CapsuleComponent.h"
+#include "Components/InputComponent.h"
+#include "GameFramework/CharacterMovementComponent.h"
+#include "GameFramework/Controller.h"
+#include "GameFramework/SpringArmComponent.h"
 #include "GameFramework/Actor.h"
 #include "DrawDebugHelpers.h"
 #include "cmath"
 #include "Kismet/KismetMathLibrary.h"
+#include "Runtime/Engine/Classes/GameFramework/CharacterMovementComponent.h"
+#include "Runtime/Engine/Public/TimerManager.h"
 
 ///////////////////////////////////////////////////////////////////////
 //Distance Formula
@@ -45,6 +54,10 @@ AMainCharacter::AMainCharacter()
 	FollowCamera->SetupAttachment(CameraBoom, USpringArmComponent::SocketName); // attact the camera on the end of the boom, let the boom adjust the mass controller rotation of the camera
 	FollowCamera->bUsePawnControlRotation = false; // Camera did not rotate relative to the r
 	
+	canDash = true;
+	dashDistance = 6000.0f;
+	dashCooldown = 1.0f;
+	dashStop = 0.1f;
 }
 
 // Called when the game starts or when spawned
@@ -127,8 +140,8 @@ void AMainCharacter::SetupPlayerInputComponent(UInputComponent* PlayerInputCompo
 	PlayerInputComponent->BindAxis("MoveForward", this, &AMainCharacter::MoveForward);
 	PlayerInputComponent->BindAxis("MoveRight", this, &AMainCharacter::MoveRight);
 
-
 	PlayerInputComponent->BindAction("ChainsOfHell", IE_Pressed, this, &AMainCharacter::Raycast);
+	PlayerInputComponent->BindAction("Dash", IE_Pressed, this, &AMainCharacter::Dash);
 }
 
 void AMainCharacter::MoveForward(float Axis)
@@ -154,6 +167,28 @@ void AMainCharacter::MoveRight(float Axis)
 }
 
 
+void AMainCharacter::Dash()
+{
+	if (canDash)
+	{
+		GetCharacterMovement()->BrakingFrictionFactor = 0.0f;
+		LaunchCharacter(FVector(FollowCamera->GetForwardVector().X, FollowCamera->GetForwardVector().Y, 0).GetSafeNormal() * dashDistance, true, true);
+		canDash = false;
+		GetWorldTimerManager().SetTimer(dashHandle, this, &AMainCharacter::ResetDash, dashCooldown, false);
+	}
+}
+
+void AMainCharacter::StopDash()
+{
+	GetCharacterMovement()->StopMovementImmediately();
+	GetCharacterMovement()->BrakingFrictionFactor = 2.0f;
+	GetWorldTimerManager().SetTimer(dashHandle, this, &AMainCharacter::ResetDash, dashCooldown, false);
+}
+
+void AMainCharacter::ResetDash()
+{
+	canDash = true;
+}
 
 
 
