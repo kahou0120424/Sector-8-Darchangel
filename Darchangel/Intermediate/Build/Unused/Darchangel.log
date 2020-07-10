@@ -1,16 +1,12 @@
-﻿  Using 'git status' to determine working set for adaptive non-unity build (C:\Users\User\Documents\Sector-8-Darchangel).
-  Parsing headers for DarchangelEditor
-    Running UnrealHeaderTool "C:\Users\User\Documents\Sector-8-Darchangel\Darchangel\Darchangel.uproject" "C:\Users\User\Documents\Sector-8-Darchangel\Darchangel\Intermediate\Build\Win64\DarchangelEditor\Development\DarchangelEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
-  Reflection code generated for DarchangelEditor in 5.2946608 seconds
+﻿  Using 'git status' to determine working set for adaptive non-unity build (C:\Users\User\Documents\Unreal Projects\Darchangel).
   Building DarchangelEditor...
   Using Visual Studio 2019 14.26.28806 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.26.28801) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
-  Building 5 actions with 6 processes...
-    [1/5] MainCharacter.cpp
-    [2/5] MainCharacter.gen.cpp
-    [3/5] UE4Editor-Darchangel-0010.lib
-       Creating library C:\Users\User\Documents\Sector-8-Darchangel\Darchangel\Intermediate\Build\Win64\UE4Editor\Development\Darchangel\UE4Editor-Darchangel-0010.lib and object C:\Users\User\Documents\Sector-8-Darchangel\Darchangel\Intermediate\Build\Win64\UE4Editor\Development\Darchangel\UE4Editor-Darchangel-0010.exp
-    [4/5] UE4Editor-Darchangel-0010.dll
-       Creating library C:\Users\User\Documents\Sector-8-Darchangel\Darchangel\Intermediate\Build\Win64\UE4Editor\Development\Darchangel\UE4Editor-Darchangel-0010.suppressed.lib and object C:\Users\User\Documents\Sector-8-Darchangel\Darchangel\Intermediate\Build\Win64\UE4Editor\Development\Darchangel\UE4Editor-Darchangel-0010.suppressed.exp
-    [5/5] DarchangelEditor.target
-  Total time in Parallel executor: 4.42 seconds
-  Total execution time: 10.48 seconds
+  Building 4 actions with 6 processes...
+    [1/4] MainCharacter.cpp
+    [2/4] UE4Editor-Darchangel-0003.lib
+       Creating library C:\Users\User\Documents\Unreal Projects\Darchangel\Darchangel\Intermediate\Build\Win64\UE4Editor\Development\Darchangel\UE4Editor-Darchangel-0003.lib and object C:\Users\User\Documents\Unreal Projects\Darchangel\Darchangel\Intermediate\Build\Win64\UE4Editor\Development\Darchangel\UE4Editor-Darchangel-0003.exp
+    [3/4] UE4Editor-Darchangel-0003.dll
+       Creating library C:\Users\User\Documents\Unreal Projects\Darchangel\Darchangel\Intermediate\Build\Win64\UE4Editor\Development\Darchangel\UE4Editor-Darchangel-0003.suppressed.lib and object C:\Users\User\Documents\Unreal Projects\Darchangel\Darchangel\Intermediate\Build\Win64\UE4Editor\Development\Darchangel\UE4Editor-Darchangel-0003.suppressed.exp
+    [4/4] DarchangelEditor.target
+  Total time in Parallel executor: 59.51 seconds
+  Total execution time: 61.49 seconds

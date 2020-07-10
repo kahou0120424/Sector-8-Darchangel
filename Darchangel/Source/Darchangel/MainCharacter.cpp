@@ -16,6 +16,7 @@
 #include "Kismet/KismetMathLibrary.h"
 #include "Runtime/Engine/Classes/GameFramework/CharacterMovementComponent.h"
 #include "Runtime/Engine/Public/TimerManager.h"
+#include "Engine.h"
 
 ///////////////////////////////////////////////////////////////////////
 //Distance Formula
@@ -53,6 +54,27 @@ AMainCharacter::AMainCharacter()
 	FollowCamera = CreateDefaultSubobject<UCameraComponent>(TEXT("FollowCamera"));
 	FollowCamera->SetupAttachment(CameraBoom, USpringArmComponent::SocketName); // attact the camera on the end of the boom, let the boom adjust the mass controller rotation of the camera
 	FollowCamera->bUsePawnControlRotation = false; // Camera did not rotate relative to the r
+
+	// Attack Animation
+	///////////////////////////////////////////////////////////////////////////////////////////////////////
+	static ConstructorHelpers::FObjectFinder<UAnimMontage> AttackMontageObject(TEXT("AnimMontage'/Game/ParagonGreystone/Characters/Heroes/Greystone/Animations/Attack_PrimaryA_Montage.Attack_PrimaryA_Montage'"));
+	if (AttackMontageObject.Succeeded())
+	{
+		AttackMontage = AttackMontageObject.Object;
+	}
+
+	static ConstructorHelpers::FObjectFinder<UAnimMontage> AttackMontageObject2(TEXT("AnimMontage'/Game/ParagonGreystone/Characters/Heroes/Greystone/Animations/Attack_PrimaryB_Montage.Attack_PrimaryB_Montage'"));
+	if (AttackMontageObject.Succeeded())
+	{
+		AttackMontage2 = AttackMontageObject2.Object;
+	}
+
+	static ConstructorHelpers::FObjectFinder<UAnimMontage> AttackMontageObject3(TEXT("AnimMontage'/Game/ParagonGreystone/Characters/Heroes/Greystone/Animations/Attack_PrimaryC_Montage.Attack_PrimaryC_Montage'"));
+	if (AttackMontageObject.Succeeded())
+	{
+		AttackMontage3 = AttackMontageObject3.Object;
+	}
+	///////////////////////////////////////////////////////////////////////////////////////////////////////
 	
 	canDash = true;
 	dashDistance = 6000.0f;
@@ -102,6 +124,31 @@ void AMainCharacter::Raycast()
 
 }
 
+void AMainCharacter::AttackStart()
+{
+	if (!isAttacking)
+	{
+		if (atkCount == 0)
+		{
+			PlayAnimMontage(AttackMontage, 1.f, FName("Attack_PrimaryA"));
+			atkCount++;
+		}
+		else if (atkCount == 1)
+		{
+			PlayAnimMontage(AttackMontage2, 1.f, FName("Attack_PrimaryB"));
+			atkCount++;
+		}
+		else
+		{
+			PlayAnimMontage(AttackMontage3, 1.f, FName("Attack_PrimaryC"));
+			atkCount = 0;
+		}
+
+		isAttacking = true;
+		atkCD = 0;
+	}
+}
+
 // Called every frame
 void AMainCharacter::Tick(float DeltaTime)
 {
@@ -111,7 +158,7 @@ void AMainCharacter::Tick(float DeltaTime)
 		float distance = Distance(playerPos, OutHit.Actor->GetActorLocation());		
 		timer = speed; // no acceloration		
 		percent = timer / seconds;
-		velocity += velocity * timer;	
+		velocity += velocity * percent;
 		FString TheFloatStr = FString::SanitizeFloat(distance);	
 		if (distance >= 200)
 		{
@@ -124,6 +171,15 @@ void AMainCharacter::Tick(float DeltaTime)
 			timer = 0;
 		}
 	}
+
+	if (isAttacking == true)
+	{
+		atkCD += DeltaTime;
+		if (atkCD >= AttackDelay)
+		{
+			isAttacking = false;
+		}
+	}
 }
 
 // Called to bind functionality to input
@@ -131,8 +187,8 @@ void AMainCharacter::SetupPlayerInputComponent(UInputComponent* PlayerInputCompo
 {
 	Super::SetupPlayerInputComponent(PlayerInputComponent);
 
-	PlayerInputComponent->BindAxis("Turn", this, &APawn::AddControllerYawInput);
-	PlayerInputComponent->BindAxis("LookUp", this, &APawn::AddControllerPitchInput);
+	//PlayerInputComponent->BindAxis("Turn", this, &APawn::AddControllerYawInput);
+	//PlayerInputComponent->BindAxis("LookUp", this, &APawn::AddControllerPitchInput);
 
 	PlayerInputComponent->BindAction("Jump", IE_Pressed, this, &ACharacter::Jump);
 	PlayerInputComponent->BindAction("Jump", IE_Released, this, &ACharacter::StopJumping);
@@ -142,6 +198,8 @@ void AMainCharacter::SetupPlayerInputComponent(UInputComponent* PlayerInputCompo
 
 	PlayerInputComponent->BindAction("ChainsOfHell", IE_Pressed, this, &AMainCharacter::Raycast);
 	PlayerInputComponent->BindAction("Dash", IE_Pressed, this, &AMainCharacter::Dash);
+
+	PlayerInputComponent->BindAction("Normal Attack", IE_Pressed, this, &AMainCharacter::AttackStart);
 }
 
 void AMainCharacter::MoveForward(float Axis)

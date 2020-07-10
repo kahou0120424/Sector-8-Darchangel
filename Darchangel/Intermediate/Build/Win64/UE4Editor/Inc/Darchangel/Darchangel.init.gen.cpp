@@ -21,7 +21,7 @@ void EmptyLinkFunctionForGeneratedCodeDarchangel_init() {}
 				nullptr,
 				0,
 				PKG_CompiledIn | 0x00000000,
-				0x6C3FAF4E,
+				0xE2305CBE,
 				0xF71E1418,
 				METADATA_PARAMS(nullptr, 0)
 			};

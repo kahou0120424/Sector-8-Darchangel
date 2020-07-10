@@ -33,6 +33,18 @@ public:
 	UPROPERTY(EditAnywhere, Category = "Chains Of Hell", meta = (ClampMin = "0.01", ClampMax = "0.1"))
 		float speed;
 
+	//** Attakc Animation
+	UPROPERTY(EditDefaultsOnly, BlueprintReadOnly, Category = Animation, meta = (AllowPrivateAccess = "true"))
+		class UAnimMontage* AttackMontage;
+	UPROPERTY(EditDefaultsOnly, BlueprintReadOnly, Category = Animation, meta = (AllowPrivateAccess = "true"))
+		class UAnimMontage* AttackMontage2;
+	UPROPERTY(EditDefaultsOnly, BlueprintReadOnly, Category = Animation, meta = (AllowPrivateAccess = "true"))
+		class UAnimMontage* AttackMontage3;
+
+	//** Character Settings
+	UPROPERTY(EditDefaultsOnly, BlueprintReadOnly, Category = CharacterSetting, meta = (AllowPrivateAccess = "true"))
+		float AttackDelay;
+
 	void MoveForward(float Axis);
 	void MoveRight(float Axis);
 
@@ -75,6 +87,10 @@ protected:
 	// Called when the game starts or when spawned
 	virtual void BeginPlay() override;
 	void Raycast();
+	void AttackStart();
+	bool isAttacking;
+	float atkCD;
+	float atkCount = 0;
 
 public:	
 	// Called every frame
