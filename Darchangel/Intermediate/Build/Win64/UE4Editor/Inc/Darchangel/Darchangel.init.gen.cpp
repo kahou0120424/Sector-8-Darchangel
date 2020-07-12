@@ -21,8 +21,8 @@ void EmptyLinkFunctionForGeneratedCodeDarchangel_init() {}
 				nullptr,
 				0,
 				PKG_CompiledIn | 0x00000000,
-				0xE2305CBE,
-				0xF71E1418,
+				0x2EE8D679,
+				0x89EE52AE,
 				METADATA_PARAMS(nullptr, 0)
 			};
 			UE4CodeGen_Private::ConstructUPackage(ReturnPackage, PackageParams);

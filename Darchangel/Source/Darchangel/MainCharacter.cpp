@@ -17,6 +17,8 @@
 #include "Runtime/Engine/Classes/GameFramework/CharacterMovementComponent.h"
 #include "Runtime/Engine/Public/TimerManager.h"
 #include "Engine.h"
+#include "Perception/AIPerceptionStimuliSourceComponent.h"
+#include "Perception/AISense_Sight.h"
 
 ///////////////////////////////////////////////////////////////////////
 //Distance Formula
@@ -80,6 +82,8 @@ AMainCharacter::AMainCharacter()
 	dashDistance = 6000.0f;
 	dashCooldown = 1.0f;
 	dashStop = 0.1f;
+
+	setup_stimulus();
 }
 
 // Called when the game starts or when spawned
@@ -200,6 +204,13 @@ void AMainCharacter::SetupPlayerInputComponent(UInputComponent* PlayerInputCompo
 	PlayerInputComponent->BindAction("Dash", IE_Pressed, this, &AMainCharacter::Dash);
 
 	PlayerInputComponent->BindAction("Normal Attack", IE_Pressed, this, &AMainCharacter::AttackStart);
+}
+
+void AMainCharacter::setup_stimulus()
+{
+	stimulus = CreateDefaultSubobject<UAIPerceptionStimuliSourceComponent>(TEXT("stimulus"));
+	stimulus->RegisterForSense(TSubclassOf < UAISense_Sight>());
+	stimulus->RegisterWithPerceptionSystem();
 }
 
 void AMainCharacter::MoveForward(float Axis)
