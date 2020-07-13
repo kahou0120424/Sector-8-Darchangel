@@ -3,7 +3,7 @@
   <ItemGroup>
     <None Include="..\..\Darchangel.uproject" />
     <Filter Include="Source">
-      <UniqueIdentifier>{181079F7-6C2F-41D8-A002-438987BD00CB}</UniqueIdentifier>
+      <UniqueIdentifier>{F9DDC1EE-7ABC-4D25-9A59-ED2C27AE6E12}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\Darchangel.Target.cs">
       <Filter>Source</Filter>
@@ -12,7 +12,7 @@
       <Filter>Source</Filter>
     </None>
     <Filter Include="Config">
-      <UniqueIdentifier>{A45B05F5-153C-4580-B316-69E80D89AA3A}</UniqueIdentifier>
+      <UniqueIdentifier>{A21FD7D6-4FD5-4DAD-84CD-AF5CD222F871}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Config\DefaultEditor.ini">
       <Filter>Config</Filter>
@@ -30,8 +30,17 @@
       <Filter>Config</Filter>
     </None>
     <Filter Include="Source\Darchangel">
-      <UniqueIdentifier>{1E9DCE8B-E29E-48EF-8CB6-E34645142706}</UniqueIdentifier>
+      <UniqueIdentifier>{AF1945BB-50F6-405A-84CA-509ECB31C525}</UniqueIdentifier>
     </Filter>
+    <ClInclude Include="..\..\Source\Darchangel\blackboard_keys.h">
+      <Filter>Source\Darchangel</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Darchangel\ChasePlayer.cpp">
+      <Filter>Source\Darchangel</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Darchangel\ChasePlayer.h">
+      <Filter>Source\Darchangel</Filter>
+    </ClInclude>
     <None Include="..\..\Source\Darchangel\Darchangel.Build.cs">
       <Filter>Source\Darchangel</Filter>
     </None>
@@ -53,6 +62,18 @@
     <ClInclude Include="..\..\Source\Darchangel\DarchangelGameMode.h">
       <Filter>Source\Darchangel</Filter>
     </ClInclude>
+    <ClCompile Include="..\..\Source\Darchangel\FindPlayerLocation.cpp">
+      <Filter>Source\Darchangel</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Darchangel\FindPlayerLocation.h">
+      <Filter>Source\Darchangel</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Darchangel\FindRandomLocation.cpp">
+      <Filter>Source\Darchangel</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Darchangel\FindRandomLocation.h">
+      <Filter>Source\Darchangel</Filter>
+    </ClInclude>
     <ClCompile Include="..\..\Source\Darchangel\MainCharacter.cpp">
       <Filter>Source\Darchangel</Filter>
     </ClCompile>
@@ -65,42 +86,17 @@
     <ClInclude Include="..\..\Source\Darchangel\MainCharacter_gm.h">
       <Filter>Source\Darchangel</Filter>
     </ClInclude>
-  </ItemGroup>
-  <ItemGroup>
-    <ClInclude Include="..\..\Source\Darchangel\NPC.h">
-      <Filter>Source\Darchangel</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\Source\Darchangel\NPC_AIController.h">
-      <Filter>Source\Darchangel</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\Source\Darchangel\blackboard_keys.h">
-      <Filter>Source\Darchangel</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\Source\Darchangel\FindRandomLocation.h">
-      <Filter>Source\Darchangel</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\Source\Darchangel\FindPlayerLocation.h">
-      <Filter>Source\Darchangel</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\Source\Darchangel\ChasePlayer.h">
-      <Filter>Source\Darchangel</Filter>
-    </ClInclude>
-  </ItemGroup>
-  <ItemGroup>
     <ClCompile Include="..\..\Source\Darchangel\NPC.cpp">
       <Filter>Source\Darchangel</Filter>
     </ClCompile>
+    <ClInclude Include="..\..\Source\Darchangel\NPC.h">
+      <Filter>Source\Darchangel</Filter>
+    </ClInclude>
     <ClCompile Include="..\..\Source\Darchangel\NPC_AIController.cpp">
       <Filter>Source\Darchangel</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\Source\Darchangel\FindRandomLocation.cpp">
+    <ClInclude Include="..\..\Source\Darchangel\NPC_AIController.h">
       <Filter>Source\Darchangel</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\Source\Darchangel\FindPlayerLocation.cpp">
-      <Filter>Source\Darchangel</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\Source\Darchangel\ChasePlayer.cpp">
-      <Filter>Source\Darchangel</Filter>
-    </ClCompile>
+    </ClInclude>
   </ItemGroup>
 </Project>

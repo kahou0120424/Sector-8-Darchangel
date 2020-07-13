@@ -33,6 +33,7 @@
 /NODEFAULTLIB:"LIBCPD"
 /FUNCTIONPADMIN
 "C:\Users\PC\Desktop\Darchangel\Darchangel\Intermediate\Build\Win64\DarchangelEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h.obj"
+"C:\Users\PC\Desktop\Darchangel\Darchangel\Intermediate\Build\Win64\UE4Editor\Development\Darchangel\ChasePlayer.cpp.obj"
 "C:\Users\PC\Desktop\Darchangel\Darchangel\Intermediate\Build\Win64\UE4Editor\Development\Darchangel\Darchangel.cpp.obj"
 "C:\Users\PC\Desktop\Darchangel\Darchangel\Intermediate\Build\Win64\UE4Editor\Development\Darchangel\DarchangelCharacter.cpp.obj"
 "C:\Users\PC\Desktop\Darchangel\Darchangel\Intermediate\Build\Win64\UE4Editor\Development\Darchangel\DarchangelGameMode.cpp.obj"
@@ -42,6 +43,7 @@
 "C:\Users\PC\Desktop\Darchangel\Darchangel\Intermediate\Build\Win64\UE4Editor\Development\Darchangel\MainCharacter_gm.cpp.obj"
 "C:\Users\PC\Desktop\Darchangel\Darchangel\Intermediate\Build\Win64\UE4Editor\Development\Darchangel\NPC.cpp.obj"
 "C:\Users\PC\Desktop\Darchangel\Darchangel\Intermediate\Build\Win64\UE4Editor\Development\Darchangel\NPC_AIController.cpp.obj"
+"C:\Users\PC\Desktop\Darchangel\Darchangel\Intermediate\Build\Win64\UE4Editor\Development\Darchangel\ChasePlayer.gen.cpp.obj"
 "C:\Users\PC\Desktop\Darchangel\Darchangel\Intermediate\Build\Win64\UE4Editor\Development\Darchangel\Darchangel.init.gen.cpp.obj"
 "C:\Users\PC\Desktop\Darchangel\Darchangel\Intermediate\Build\Win64\UE4Editor\Development\Darchangel\DarchangelCharacter.gen.cpp.obj"
 "C:\Users\PC\Desktop\Darchangel\Darchangel\Intermediate\Build\Win64\UE4Editor\Development\Darchangel\DarchangelGameMode.gen.cpp.obj"
