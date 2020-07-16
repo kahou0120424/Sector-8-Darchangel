@@ -241,7 +241,7 @@ void AMainCharacter::Dash()
 	if (canDash)
 	{
 		GetCharacterMovement()->BrakingFrictionFactor = 0.0f;
-		LaunchCharacter(FVector(FollowCamera->GetForwardVector().X, FollowCamera->GetForwardVector().Y, 0).GetSafeNormal() * dashDistance, true, true);
+		LaunchCharacter(FVector(GetActorForwardVector().X, GetActorForwardVector().Y, 0).GetSafeNormal() * dashDistance, true, true);
 		canDash = false;
 		GetWorldTimerManager().SetTimer(dashHandle, this, &AMainCharacter::ResetDash, dashCooldown, false);
 	}
@@ -250,7 +250,7 @@ void AMainCharacter::Dash()
 void AMainCharacter::StopDash()
 {
 	GetCharacterMovement()->StopMovementImmediately();
-	GetCharacterMovement()->BrakingFrictionFactor = 2.0f;
+	GetCharacterMovement()->BrakingFrictionFactor = 100000000.0f;
 	GetWorldTimerManager().SetTimer(dashHandle, this, &AMainCharacter::ResetDash, dashCooldown, false);
 }
 
