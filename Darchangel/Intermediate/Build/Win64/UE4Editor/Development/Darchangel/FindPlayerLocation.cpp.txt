@@ -1,5 +1,5 @@
-C:\Users\PC\Desktop\Darchangel\Darchangel\Intermediate\Build\Win64\UE4Editor\Development\Darchangel\Definitions.Darchangel.h
-C:\Users\PC\Desktop\Darchangel\Darchangel\Source\Darchangel\FindPlayerLocation.h
+D:\Users\Soh\Documents\Unreal Projects\FYP\Darchangel\Intermediate\Build\Win64\UE4Editor\Development\Darchangel\Definitions.Darchangel.h
+d:\users\soh\documents\unreal projects\fyp\darchangel\source\darchangel\FindPlayerLocation.h
 D:\Epic Games\UE_4.24\Engine\Source\Runtime\AIModule\Classes\BehaviorTree/Tasks/BTTask_BlackboardBase.h
 D:\Epic Games\UE_4.24\Engine\Source\Runtime\AIModule\Classes\BehaviorTree/BTTaskNode.h
 D:\Epic Games\UE_4.24\Engine\Source\Runtime\AIModule\Classes\BehaviorTree/BTNode.h
@@ -20,7 +20,7 @@ D:\Epic Games\UE_4.24\Engine\Source\Runtime\Engine\Classes\AI/NavigationSystemCo
 D:\Epic Games\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\NavigationSystemConfig.generated.h
 D:\Epic Games\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Inc\AIModule\AITypes.generated.h
 D:\Epic Games\UE_4.24\Engine\Source\Runtime\AIModule\Classes\BrainComponent.h
-D:\Epic Games\UE_4.24\Engine\Source\Runtime\AIModule\Classes\AIResourceInterface.h
+d:\epic games\ue_4.24\engine\source\runtime\aimodule\classes\AIResourceInterface.h
 D:\Epic Games\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Inc\AIModule\AIResourceInterface.generated.h
 D:\Epic Games\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Inc\AIModule\BrainComponent.generated.h
 D:\Epic Games\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Inc\AIModule\BehaviorTreeComponent.generated.h
@@ -35,7 +35,7 @@ D:\Epic Games\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Inc\AIModule\AIT
 D:\Epic Games\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Inc\AIModule\BTNode.generated.h
 D:\Epic Games\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Inc\AIModule\BTTaskNode.generated.h
 D:\Epic Games\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Inc\AIModule\BTTask_BlackboardBase.generated.h
-C:\Users\PC\Desktop\Darchangel\Darchangel\Intermediate\Build\Win64\UE4Editor\Inc\Darchangel\FindPlayerLocation.generated.h
+D:\Users\Soh\Documents\Unreal Projects\FYP\Darchangel\Intermediate\Build\Win64\UE4Editor\Inc\Darchangel\FindPlayerLocation.generated.h
 D:\Epic Games\UE_4.24\Engine\Source\Runtime\AIModule\Classes\BehaviorTree/BlackboardComponent.h
 D:\Epic Games\UE_4.24\Engine\Source\Runtime\AIModule\Classes\BehaviorTree/Blackboard/BlackboardKeyType.h
 D:\Epic Games\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Inc\AIModule\BlackboardKeyType.generated.h
@@ -47,15 +47,15 @@ D:\Epic Games\UE_4.24\Engine\Source\Runtime\AIModule\Classes\BehaviorTree/Blackb
 D:\Epic Games\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Inc\AIModule\BlackboardData.generated.h
 D:\Epic Games\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Inc\AIModule\BlackboardComponent.generated.h
 D:\Epic Games\UE_4.24\Engine\Source\Runtime/NavigationSystem/Public/NavigationSystem.h
-D:\Epic Games\UE_4.24\Engine\Source\Runtime\NavigationSystem\Public\NavigationData.h
+d:\epic games\ue_4.24\engine\source\runtime\navigationsystem\public\NavigationData.h
 D:\Epic Games\UE_4.24\Engine\Source\Runtime\Engine\Classes\AI/Navigation/NavigationDataInterface.h
 D:\Epic Games\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\NavigationDataInterface.generated.h
 D:\Epic Games\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Inc\NavigationSystem\NavigationData.generated.h
-D:\Epic Games\UE_4.24\Engine\Source\Runtime\NavigationSystem\Public\NavigationOctree.h
-D:\Epic Games\UE_4.24\Engine\Source\Runtime\NavigationSystem\Public\NavigationOctreeController.h
-D:\Epic Games\UE_4.24\Engine\Source\Runtime\NavigationSystem\Public\NavigationDirtyAreasController.h
+d:\epic games\ue_4.24\engine\source\runtime\navigationsystem\public\NavigationOctree.h
+d:\epic games\ue_4.24\engine\source\runtime\navigationsystem\public\NavigationOctreeController.h
+d:\epic games\ue_4.24\engine\source\runtime\navigationsystem\public\NavigationDirtyAreasController.h
 D:\Epic Games\UE_4.24\Engine\Source\Editor\UnrealEd\Public\UnrealEdMisc.h
-D:\Epic Games\UE_4.24\Engine\Source\Editor\UnrealEd\Public\Editor.h
+d:\epic games\ue_4.24\engine\source\editor\unrealed\public\Editor.h
 D:\Epic Games\UE_4.24\Engine\Source\Editor\UnrealEd\Classes\Editor/EditorEngine.h
 D:\Epic Games\UE_4.24\Engine\Source\Editor\UnrealEd\Classes\Editor/Transactor.h
 D:\Epic Games\UE_4.24\Engine\Source\Runtime\Core\Public\Serialization/ArchiveSerializedPropertyChain.h
@@ -65,11 +65,11 @@ D:\Epic Games\UE_4.24\Engine\Source\Editor\UnrealEd\Classes\Settings/LevelEditor
 D:\Epic Games\UE_4.24\Engine\Source\Editor\PropertyEditor\Public\IPropertyTypeCustomization.h
 D:\Epic Games\UE_4.24\Engine\Source\Editor\EditorStyle\Public\EditorStyleSet.h
 D:\Epic Games\UE_4.24\Engine\Source\Editor\PropertyEditor\Public\PropertyHandle.h
-D:\Epic Games\UE_4.24\Engine\Source\Editor\PropertyEditor\Public\PropertyEditorModule.h
-D:\Epic Games\UE_4.24\Engine\Source\Editor\UnrealEd\Public\Toolkits/IToolkitHost.h
-D:\Epic Games\UE_4.24\Engine\Source\Editor\UnrealEd\Public\Toolkits/IToolkit.h
-D:\Epic Games\UE_4.24\Engine\Source\Editor\PropertyEditor\Public\IDetailsView.h
-D:\Epic Games\UE_4.24\Engine\Source\Editor\PropertyEditor\Public\PropertyEditorDelegates.h
+d:\epic games\ue_4.24\engine\source\editor\propertyeditor\public\PropertyEditorModule.h
+d:\epic games\ue_4.24\engine\source\editor\unrealed\public\Toolkits/IToolkitHost.h
+d:\epic games\ue_4.24\engine\source\editor\unrealed\public\Toolkits/IToolkit.h
+d:\epic games\ue_4.24\engine\source\editor\propertyeditor\public\IDetailsView.h
+d:\epic games\ue_4.24\engine\source\editor\propertyeditor\public\PropertyEditorDelegates.h
 D:\Epic Games\UE_4.24\Engine\Source\Runtime\Slate\Public\Widgets/Input/SComboBox.h
 D:\Epic Games\UE_4.24\Engine\Source\Runtime\Slate\Public\Framework/Application/SlateUser.h
 D:\Epic Games\UE_4.24\Engine\Source\Runtime\Slate\Public\SlateScope.h
@@ -77,7 +77,7 @@ D:\Epic Games\UE_4.24\Engine\Source\Runtime\Slate\Public\Widgets/Input/SComboBut
 D:\Epic Games\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Inc\UnrealEd\LevelEditorPlayNetworkEmulationSettings.generated.h
 D:\Epic Games\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Inc\UnrealEd\LevelEditorPlaySettings.generated.h
 D:\Epic Games\UE_4.24\Engine\Source\Editor\UnrealEd\Classes\Settings/LevelEditorViewportSettings.h
-D:\Epic Games\UE_4.24\Engine\Source\Editor\UnrealEd\Public\Viewports.h
+d:\epic games\ue_4.24\engine\source\editor\unrealed\public\Viewports.h
 D:\Epic Games\UE_4.24\Engine\Source\Editor\UnrealEd\Classes\Editor/UnrealEdTypes.h
 D:\Epic Games\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Inc\UnrealEd\UnrealEdTypes.generated.h
 D:\Epic Games\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Inc\UnrealEd\LevelEditorViewportSettings.generated.h
@@ -88,12 +88,12 @@ D:\Epic Games\UE_4.24\Engine\Source\Developer\TargetPlatform\Public\Interfaces/I
 D:\Epic Games\UE_4.24\Engine\Source\Editor\EditorSubsystem\Public\EditorSubsystem.h
 D:\Epic Games\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Inc\EditorSubsystem\EditorSubsystem.generated.h
 D:\Epic Games\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Inc\UnrealEd\EditorEngine.generated.h
-D:\Epic Games\UE_4.24\Engine\Source\Editor\UnrealEd\Public\Subsystems/ImportSubsystem.h
+d:\epic games\ue_4.24\engine\source\editor\unrealed\public\Subsystems/ImportSubsystem.h
 D:\Epic Games\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Inc\UnrealEd\ImportSubsystem.generated.h
 D:\Epic Games\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Inc\NavigationSystem\NavigationSystem.generated.h
-C:\Users\PC\Desktop\Darchangel\Darchangel\Source\Darchangel\NPC_AIController.h
+d:\users\soh\documents\unreal projects\fyp\darchangel\source\darchangel\NPC_AIController.h
 D:\Epic Games\UE_4.24\Engine\Source\Runtime\AIModule\Classes\AIController.h
-D:\Epic Games\UE_4.24\Engine\Source\Runtime\AIModule\Classes\Navigation/PathFollowingComponent.h
+d:\epic games\ue_4.24\engine\source\runtime\aimodule\classes\Navigation/PathFollowingComponent.h
 D:\Epic Games\UE_4.24\Engine\Source\Runtime\Engine\Classes\GameFramework/NavMovementComponent.h
 D:\Epic Games\UE_4.24\Engine\Source\Runtime\Engine\Classes\AI/Navigation/PathFollowingAgentInterface.h
 D:\Epic Games\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\PathFollowingAgentInterface.generated.h
@@ -101,16 +101,16 @@ D:\Epic Games\UE_4.24\Engine\Source\Runtime\Engine\Classes\GameFramework/Movemen
 D:\Epic Games\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\MovementComponent.generated.h
 D:\Epic Games\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\NavMovementComponent.generated.h
 D:\Epic Games\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Inc\AIModule\PathFollowingComponent.generated.h
-D:\Epic Games\UE_4.24\Engine\Source\Runtime\AIModule\Classes\Perception/AIPerceptionListenerInterface.h
+d:\epic games\ue_4.24\engine\source\runtime\aimodule\classes\Perception/AIPerceptionListenerInterface.h
 D:\Epic Games\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Inc\AIModule\AIPerceptionListenerInterface.generated.h
-D:\Epic Games\UE_4.24\Engine\Source\Runtime\AIModule\Classes\GenericTeamAgentInterface.h
+d:\epic games\ue_4.24\engine\source\runtime\aimodule\classes\GenericTeamAgentInterface.h
 D:\Epic Games\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Inc\AIModule\GenericTeamAgentInterface.generated.h
 D:\Epic Games\UE_4.24\Engine\Source\Runtime\Engine\Public\VisualLogger/VisualLoggerDebugSnapshotInterface.h
 D:\Epic Games\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\VisualLoggerDebugSnapshotInterface.generated.h
 D:\Epic Games\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Inc\AIModule\AIController.generated.h
 D:\Epic Games\UE_4.24\Engine\Source\Runtime\AIModule\Classes\Perception/AIPerceptionTypes.h
 D:\Epic Games\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Inc\AIModule\AIPerceptionTypes.generated.h
-C:\Users\PC\Desktop\Darchangel\Darchangel\Intermediate\Build\Win64\UE4Editor\Inc\Darchangel\NPC_AIController.generated.h
+D:\Users\Soh\Documents\Unreal Projects\FYP\Darchangel\Intermediate\Build\Win64\UE4Editor\Inc\Darchangel\NPC_AIController.generated.h
 D:\Epic Games\UE_4.24\Engine\Source\Runtime\AIModule\Classes\BehaviorTree/Blackboard/BlackboardKeyType_Vector.h
 D:\Epic Games\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Inc\AIModule\BlackboardKeyType_Vector.generated.h
 D:\Epic Games\UE_4.24\Engine\Source\Runtime/Engine/Classes/Kismet/GameplayStatics.h
@@ -120,11 +120,11 @@ D:\Epic Games\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\Colli
 D:\Epic Games\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\KismetSystemLibrary.generated.h
 D:\Epic Games\UE_4.24\Engine\Source\Runtime\Engine\Classes\Sound/DialogueTypes.h
 D:\Epic Games\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\DialogueTypes.generated.h
-D:\Epic Games\UE_4.24\Engine\Source\Runtime\Engine\Classes\Kismet\GameplayStaticsTypes.h
+d:\epic games\ue_4.24\engine\source\runtime\engine\classes\kismet\GameplayStaticsTypes.h
 D:\Epic Games\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\GameplayStaticsTypes.generated.h
 D:\Epic Games\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\GameplayStatics.generated.h
 D:\Epic Games\UE_4.24\Engine\Source\Runtime\Engine\Classes\GameFramework/Character.h
 D:\Epic Games\UE_4.24\Engine\Source\Runtime\Engine\Classes\GameFramework/RootMotionSource.h
 D:\Epic Games\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\RootMotionSource.generated.h
 D:\Epic Games\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\Character.generated.h
-C:\Users\PC\Desktop\Darchangel\Darchangel\Source\Darchangel\blackboard_keys.h
+d:\users\soh\documents\unreal projects\fyp\darchangel\source\darchangel\blackboard_keys.h

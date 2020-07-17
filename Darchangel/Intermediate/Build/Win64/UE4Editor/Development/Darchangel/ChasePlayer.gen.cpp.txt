@@ -1,7 +1,7 @@
-C:\Users\PC\Desktop\Darchangel\Darchangel\Intermediate\Build\Win64\UE4Editor\Development\Darchangel\Definitions.Darchangel.h
+D:\Users\Soh\Documents\Unreal Projects\FYP\Darchangel\Intermediate\Build\Win64\UE4Editor\Development\Darchangel\Definitions.Darchangel.h
 D:\Epic Games\UE_4.24\Engine\Source\Runtime\CoreUObject\Public\UObject/GeneratedCppIncludes.h
 D:\Epic Games\UE_4.24\Engine\Source\Runtime\CoreUObject\Public\UObject/MetaData.h
-C:\Users\PC\Desktop\Darchangel\Darchangel\Source\Darchangel/ChasePlayer.h
+D:\Users\Soh\Documents\Unreal Projects\FYP\Darchangel\Source\Darchangel/ChasePlayer.h
 D:\Epic Games\UE_4.24\Engine\Source\Runtime\AIModule\Classes\BehaviorTree/Tasks/BTTask_BlackboardBase.h
 D:\Epic Games\UE_4.24\Engine\Source\Runtime\AIModule\Classes\BehaviorTree/BTTaskNode.h
 D:\Epic Games\UE_4.24\Engine\Source\Runtime\AIModule\Classes\BehaviorTree/BTNode.h
@@ -22,7 +22,7 @@ D:\Epic Games\UE_4.24\Engine\Source\Runtime\Engine\Classes\AI/NavigationSystemCo
 D:\Epic Games\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\NavigationSystemConfig.generated.h
 D:\Epic Games\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Inc\AIModule\AITypes.generated.h
 D:\Epic Games\UE_4.24\Engine\Source\Runtime\AIModule\Classes\BrainComponent.h
-D:\Epic Games\UE_4.24\Engine\Source\Runtime\AIModule\Classes\AIResourceInterface.h
+d:\epic games\ue_4.24\engine\source\runtime\aimodule\classes\AIResourceInterface.h
 D:\Epic Games\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Inc\AIModule\AIResourceInterface.generated.h
 D:\Epic Games\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Inc\AIModule\BrainComponent.generated.h
 D:\Epic Games\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Inc\AIModule\BehaviorTreeComponent.generated.h
@@ -37,10 +37,10 @@ D:\Epic Games\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Inc\AIModule\AIT
 D:\Epic Games\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Inc\AIModule\BTNode.generated.h
 D:\Epic Games\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Inc\AIModule\BTTaskNode.generated.h
 D:\Epic Games\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Inc\AIModule\BTTask_BlackboardBase.generated.h
-C:\Users\PC\Desktop\Darchangel\Darchangel\Source\Darchangel\NPC.h
+d:\users\soh\documents\unreal projects\fyp\darchangel\source\darchangel\NPC.h
 D:\Epic Games\UE_4.24\Engine\Source\Runtime\Engine\Classes\GameFramework/Character.h
 D:\Epic Games\UE_4.24\Engine\Source\Runtime\Engine\Classes\GameFramework/RootMotionSource.h
 D:\Epic Games\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\RootMotionSource.generated.h
 D:\Epic Games\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\Character.generated.h
-C:\Users\PC\Desktop\Darchangel\Darchangel\Intermediate\Build\Win64\UE4Editor\Inc\Darchangel\NPC.generated.h
-C:\Users\PC\Desktop\Darchangel\Darchangel\Intermediate\Build\Win64\UE4Editor\Inc\Darchangel\ChasePlayer.generated.h
+d:\users\soh\documents\unreal projects\fyp\darchangel\intermediate\build\win64\ue4editor\inc\darchangel\NPC.generated.h
+d:\users\soh\documents\unreal projects\fyp\darchangel\intermediate\build\win64\ue4editor\inc\darchangel\ChasePlayer.generated.h
