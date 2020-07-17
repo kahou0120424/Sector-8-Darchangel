@@ -1,8 +1,8 @@
 {
 	"SourceFiles": [
-		"D:\\Users\\Soh\\Documents\\Unreal Projects\\FYP\\Darchangel\\Source\\Darchangel\\Darchangel.Build.cs",
-		"D:\\Users\\Soh\\Documents\\Unreal Projects\\FYP\\Darchangel\\Source\\Darchangel.Target.cs",
-		"D:\\Users\\Soh\\Documents\\Unreal Projects\\FYP\\Darchangel\\Source\\DarchangelEditor.Target.cs"
+		"C:\\Users\\PC001\\Documents\\Unreal Projects\\Darchangel\\Darchangel\\Source\\Darchangel\\Darchangel.Build.cs",
+		"C:\\Users\\PC001\\Documents\\Unreal Projects\\Darchangel\\Darchangel\\Source\\Darchangel.Target.cs",
+		"C:\\Users\\PC001\\Documents\\Unreal Projects\\Darchangel\\Darchangel\\Source\\DarchangelEditor.Target.cs"
 	],
 	"EngineVersion": "4.24.3"
 }
