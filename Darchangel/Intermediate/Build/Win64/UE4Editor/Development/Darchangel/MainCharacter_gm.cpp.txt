@@ -1,9 +1,9 @@
-D:\College Stuff\FYP\Darchangel\Darchangel\Intermediate\Build\Win64\UE4Editor\Development\Darchangel\Definitions.Darchangel.h
-D:\College Stuff\FYP\Darchangel\Darchangel\Source\Darchangel\MainCharacter_gm.h
-D:\Games\UE_4.24\Engine\Source\Runtime\Engine\Classes\GameFramework/GameMode.h
-D:\Games\UE_4.24\Engine\Source\Runtime\Engine\Classes\GameFramework/GameModeBase.h
-D:\Games\UE_4.24\Engine\Source\Runtime\Engine\Classes\Engine/ServerStatReplicator.h
-D:\Games\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\ServerStatReplicator.generated.h
-D:\Games\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\GameModeBase.generated.h
-D:\Games\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\GameMode.generated.h
-D:\College Stuff\FYP\Darchangel\Darchangel\Intermediate\Build\Win64\UE4Editor\Inc\Darchangel\MainCharacter_gm.generated.h
+D:\Users\Soh\Documents\Unreal Projects\FYP\Darchangel\Intermediate\Build\Win64\UE4Editor\Development\Darchangel\Definitions.Darchangel.h
+d:\users\soh\documents\unreal projects\fyp\darchangel\source\darchangel\MainCharacter_gm.h
+D:\Epic Games\UE_4.24\Engine\Source\Runtime\Engine\Classes\GameFramework/GameMode.h
+D:\Epic Games\UE_4.24\Engine\Source\Runtime\Engine\Classes\GameFramework/GameModeBase.h
+D:\Epic Games\UE_4.24\Engine\Source\Runtime\Engine\Classes\Engine/ServerStatReplicator.h
+D:\Epic Games\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\ServerStatReplicator.generated.h
+D:\Epic Games\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\GameModeBase.generated.h
+D:\Epic Games\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\GameMode.generated.h
+D:\Users\Soh\Documents\Unreal Projects\FYP\Darchangel\Intermediate\Build\Win64\UE4Editor\Inc\Darchangel\MainCharacter_gm.generated.h
