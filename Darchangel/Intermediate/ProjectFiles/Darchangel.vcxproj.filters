@@ -3,7 +3,7 @@
   <ItemGroup>
     <None Include="..\..\Darchangel.uproject" />
     <Filter Include="Source">
-      <UniqueIdentifier>{492CA9EC-DA1C-46B1-ABE3-EB23BE4E31BB}</UniqueIdentifier>
+      <UniqueIdentifier>{96A75EC0-C8F6-408D-8A32-08BB7F314AF2}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\Darchangel.Target.cs">
       <Filter>Source</Filter>
@@ -12,7 +12,7 @@
       <Filter>Source</Filter>
     </None>
     <Filter Include="Config">
-      <UniqueIdentifier>{3E94479B-7870-424E-A7EE-9A1260C86151}</UniqueIdentifier>
+      <UniqueIdentifier>{9DB53FAE-5AE1-436F-A493-255E98F4FC80}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Config\DefaultEditor.ini">
       <Filter>Config</Filter>
@@ -30,7 +30,7 @@
       <Filter>Config</Filter>
     </None>
     <Filter Include="Source\Darchangel">
-      <UniqueIdentifier>{718C14AF-A340-4575-AB6B-B1D968EB677A}</UniqueIdentifier>
+      <UniqueIdentifier>{87EE4C23-BD00-4C95-AB53-034BE554877A}</UniqueIdentifier>
     </Filter>
     <ClInclude Include="..\..\Source\Darchangel\blackboard_keys.h">
       <Filter>Source\Darchangel</Filter>

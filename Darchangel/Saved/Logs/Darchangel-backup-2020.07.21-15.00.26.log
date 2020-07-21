@@ -1,0 +1,1334 @@
+﻿Log file open, 07/21/20 22:57:28
+LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
+LogWindows: File 'aqProf.dll' does not exist
+LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi.dll' does not exist
+LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi32e.dll' does not exist
+LogConsoleResponse: Display: Failed to find resolution value strings in scalability ini. Falling back to default.
+LogInit: Display: Running engine for game: Darchangel
+LogPlatformFile: Not using cached read wrapper
+LogTaskGraph: Started task graph with 5 named threads and 23 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.114703
+LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
+LogICUInternationalization: ICU TimeZone Detection - Raw Offset: +8:00, Platform Override: ''
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin AISupport
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin ActorLayerUtilities
+LogPluginManager: Mounting plugin AnimationSharing
+LogPluginManager: Mounting plugin CLionSourceCodeAccess
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin PlasticSourceControl
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioCodeSourceCodeAccess
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin CryptoKeys
+LogPluginManager: Mounting plugin CurveEditorTools
+LogPluginManager: Mounting plugin DataValidation
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin MacGraphicsSwitching
+LogPluginManager: Mounting plugin MaterialAnalyzer
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin DatasmithContent
+LogPluginManager: Mounting plugin VariantManagerContent
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin AutomationUtils
+LogPluginManager: Mounting plugin BackChannel
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin GeometryCache
+LogPluginManager: Mounting plugin PlatformCrypto
+LogPluginManager: Mounting plugin ProxyLODPlugin
+LogPluginManager: Mounting plugin SkeletalReduction
+LogPluginManager: Mounting plugin MagicLeap
+LogPluginManager: Mounting plugin MagicLeapMedia
+LogPluginManager: Mounting plugin MLSDK
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin ImgMedia
+LogPluginManager: Mounting plugin MediaCompositing
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WebMMedia
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin ActorSequence
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin NetcodeUnitTest
+LogPluginManager: Mounting plugin NUTUnrealEngine4
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin LauncherChunkInstaller
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleImageUtils
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin AssetTags
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin EditableMesh
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin PostSplashScreen
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SignificanceManager
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin WebMMoviePlayer
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogPluginManager: Mounting plugin ScreenshotTools
+LogInit: Using libcurl 7.55.1-DEV
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.1.1
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - MaxHostConnections = 16  - Libcurl will limit the number of connections to a host
+LogInit:  - LocalHostAddr = Default
+LogInit:  - BufferSize = 65536
+LogOnline: OSS: Creating online subsystem instance for: NULL
+LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+LogOnline: OSS: TryLoadSubsystemAndSetDefault: Loaded subsystem for module [NULL]
+LogInit: Build: ++UE4+Release-4.24-CL-11590370
+LogInit: Engine Version: 4.24.3-11590370+++UE4+Release-4.24
+LogInit: Compatible Engine Version: 4.24.0-10570792+++UE4+Release-4.24
+LogInit: Net CL: 10570792
+LogInit: OS: Windows 10 (Release 1909) (), CPU: Intel(R) Core(TM) i7-6700HQ CPU @ 2.60GHz, GPU: Intel(R) HD Graphics 530
+LogInit: Compiled (64-bit): Feb 24 2020 15:39:18
+LogInit: Compiled with Visual C++: 19.16.27032.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.24
+LogInit: Command Line:  -EpicPortal -epicusername=Dinklegum -epicuserid=03fa9814f218427d9fa7530fdbbe964c -epiclocale=en
+LogInit: Base Directory: C:/Program Files/Epic Games/UE_4.24/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogDevObjectVersion: Number of dev versions registered: 25
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 3
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 37
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 36
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 2
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 2
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 36
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 11
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 2
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 3
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 17
+LogDevObjectVersion:   Dev-Anim (AF43A65D-7FD3-4947-9873-3E8ED9C1BB05): 2
+LogDevObjectVersion:   Dev-ReflectionCapture (6B266CEC-1EC7-4B8F-A30B-E4D90942FC07): 1
+LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
+LogDevObjectVersion:   FortniteMain (601D1886-AC64-4F84-AA16-D3DE0DEAC7D6): 31
+LogDevObjectVersion:   Dev-Enterprise (9DFFBCD6-494F-0158-E221-12823C92A888): 8
+LogDevObjectVersion:   Dev-Niagara (F2AED0AC-9AFE-416F-8664-AA7FFA26D6FC): 1
+LogDevObjectVersion:   Dev-Destruction (174F1F0B-B4C6-45A5-B13F-2EE8D0FB917D): 9
+LogDevObjectVersion:   Dev-Physics-Ext (35F94A83-E258-406C-A318-09F59610247C): 8
+LogDevObjectVersion:   Dev-CineCamera (B2E18506-4273-CFC2-A54E-F4BB758BBA07): 1
+LogInit: Presizing for max 25165824 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+LogConfig: Setting CVar [[con.DebugEarlyDefault:1]]
+LogConfig: Setting CVar [[r.setres:1280x720]]
+[2020.07.21-14.57.28:706][  0]LogConfig: Setting CVar [[r.VSync:0]]
+[2020.07.21-14.57.28:706][  0]LogConfig: Setting CVar [[r.RHICmdBypass:0]]
+[2020.07.21-14.57.28:706][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [C:/Users/Foong/Documents/Unreal Projects/FYP/Darchangel/Saved/Config/Windows/Engine.ini]
+[2020.07.21-14.57.28:706][  0]LogConfig: Setting CVar [[r.GPUCrashDebugging:0]]
+[2020.07.21-14.57.28:706][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererOverrideSettings] File [C:/Users/Foong/Documents/Unreal Projects/FYP/Darchangel/Saved/Config/Windows/Engine.ini]
+[2020.07.21-14.57.28:706][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [C:/Users/Foong/Documents/Unreal Projects/FYP/Darchangel/Saved/Config/Windows/Engine.ini]
+[2020.07.21-14.57.28:706][  0]LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
+[2020.07.21-14.57.28:706][  0]LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
+[2020.07.21-14.57.28:706][  0]LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
+[2020.07.21-14.57.28:706][  0]LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
+[2020.07.21-14.57.28:706][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
+[2020.07.21-14.57.28:706][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
+[2020.07.21-14.57.28:707][  0]LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
+[2020.07.21-14.57.28:707][  0]LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
+[2020.07.21-14.57.28:707][  0]LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
+[2020.07.21-14.57.28:707][  0]LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
+[2020.07.21-14.57.28:707][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
+[2020.07.21-14.57.28:707][  0]LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
+[2020.07.21-14.57.28:707][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
+[2020.07.21-14.57.28:707][  0]LogConfig: Setting CVar [[s.FlushStreamingOnExit:1]]
+[2020.07.21-14.57.28:707][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.GarbageCollectionSettings] File [C:/Users/Foong/Documents/Unreal Projects/FYP/Darchangel/Saved/Config/Windows/Engine.ini]
+[2020.07.21-14.57.28:707][  0]LogConfig: Setting CVar [[gc.MaxObjectsNotConsideredByGC:1]]
+[2020.07.21-14.57.28:707][  0]LogConfig: Setting CVar [[gc.SizeOfPermanentObjectPool:0]]
+[2020.07.21-14.57.28:707][  0]LogConfig: Setting CVar [[gc.FlushStreamingOnGC:0]]
+[2020.07.21-14.57.28:707][  0]LogConfig: Setting CVar [[gc.NumRetriesBeforeForcingGC:10]]
+[2020.07.21-14.57.28:707][  0]LogConfig: Setting CVar [[gc.AllowParallelGC:1]]
+[2020.07.21-14.57.28:707][  0]LogConfig: Setting CVar [[gc.TimeBetweenPurgingPendingKillObjects:61.1]]
+[2020.07.21-14.57.28:707][  0]LogConfig: Setting CVar [[gc.MaxObjectsInEditor:25165824]]
+[2020.07.21-14.57.28:707][  0]LogConfig: Setting CVar [[gc.IncrementalBeginDestroyEnabled:1]]
+[2020.07.21-14.57.28:707][  0]LogConfig: Setting CVar [[gc.CreateGCClusters:1]]
+[2020.07.21-14.57.28:707][  0]LogConfig: Setting CVar [[gc.MinGCClusterSize:5]]
+[2020.07.21-14.57.28:707][  0]LogConfig: Setting CVar [[gc.ActorClusteringEnabled:0]]
+[2020.07.21-14.57.28:707][  0]LogConfig: Setting CVar [[gc.BlueprintClusteringEnabled:0]]
+[2020.07.21-14.57.28:707][  0]LogConfig: Setting CVar [[gc.UseDisregardForGCOnDedicatedServers:0]]
+[2020.07.21-14.57.28:707][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.NetworkSettings] File [C:/Users/Foong/Documents/Unreal Projects/FYP/Darchangel/Saved/Config/Windows/Engine.ini]
+[2020.07.21-14.57.28:707][  0]LogConfig: Applying CVar settings from Section [/Script/UnrealEd.CookerSettings] File [C:/Users/Foong/Documents/Unreal Projects/FYP/Darchangel/Saved/Config/Windows/Engine.ini]
+[2020.07.21-14.57.28:711][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/Users/Foong/Documents/Unreal Projects/FYP/Darchangel/Saved/Config/Windows/Scalability.ini]
+[2020.07.21-14.57.28:711][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2020.07.21-14.57.28:711][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2020.07.21-14.57.28:711][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/Users/Foong/Documents/Unreal Projects/FYP/Darchangel/Saved/Config/Windows/Scalability.ini]
+[2020.07.21-14.57.28:711][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2020.07.21-14.57.28:711][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/Users/Foong/Documents/Unreal Projects/FYP/Darchangel/Saved/Config/Windows/Scalability.ini]
+[2020.07.21-14.57.28:711][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2020.07.21-14.57.28:711][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2020.07.21-14.57.28:711][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2020.07.21-14.57.28:711][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2020.07.21-14.57.28:711][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2020.07.21-14.57.28:711][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2020.07.21-14.57.28:712][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2020.07.21-14.57.28:712][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2020.07.21-14.57.28:712][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2020.07.21-14.57.28:712][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2020.07.21-14.57.28:712][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2020.07.21-14.57.28:712][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2020.07.21-14.57.28:712][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2020.07.21-14.57.28:712][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2020.07.21-14.57.28:712][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2020.07.21-14.57.28:712][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2020.07.21-14.57.28:712][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2020.07.21-14.57.28:712][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2020.07.21-14.57.28:712][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/Users/Foong/Documents/Unreal Projects/FYP/Darchangel/Saved/Config/Windows/Scalability.ini]
+[2020.07.21-14.57.28:712][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2020.07.21-14.57.28:712][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2020.07.21-14.57.28:712][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2020.07.21-14.57.28:712][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2020.07.21-14.57.28:712][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2020.07.21-14.57.28:712][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2020.07.21-14.57.28:712][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2020.07.21-14.57.28:712][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2020.07.21-14.57.28:712][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2020.07.21-14.57.28:712][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2020.07.21-14.57.28:712][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2020.07.21-14.57.28:712][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2020.07.21-14.57.28:712][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2020.07.21-14.57.28:712][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2020.07.21-14.57.28:712][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2020.07.21-14.57.28:712][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2020.07.21-14.57.28:712][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2020.07.21-14.57.28:712][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2020.07.21-14.57.28:712][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2020.07.21-14.57.28:712][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2020.07.21-14.57.28:712][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2020.07.21-14.57.28:712][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2020.07.21-14.57.28:712][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2020.07.21-14.57.28:713][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2020.07.21-14.57.28:713][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2020.07.21-14.57.28:713][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2020.07.21-14.57.28:713][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2020.07.21-14.57.28:713][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2020.07.21-14.57.28:713][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2020.07.21-14.57.28:713][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2020.07.21-14.57.28:713][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/Users/Foong/Documents/Unreal Projects/FYP/Darchangel/Saved/Config/Windows/Scalability.ini]
+[2020.07.21-14.57.28:713][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2020.07.21-14.57.28:713][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2020.07.21-14.57.28:713][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2020.07.21-14.57.28:713][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2020.07.21-14.57.28:713][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2020.07.21-14.57.28:713][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
+[2020.07.21-14.57.28:713][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2020.07.21-14.57.28:713][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2020.07.21-14.57.28:713][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2020.07.21-14.57.28:713][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/Users/Foong/Documents/Unreal Projects/FYP/Darchangel/Saved/Config/Windows/Scalability.ini]
+[2020.07.21-14.57.28:713][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2020.07.21-14.57.28:713][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2020.07.21-14.57.28:713][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2020.07.21-14.57.28:713][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
+[2020.07.21-14.57.28:713][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2020.07.21-14.57.28:713][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2020.07.21-14.57.28:713][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2020.07.21-14.57.28:713][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2020.07.21-14.57.28:713][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2020.07.21-14.57.28:713][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2020.07.21-14.57.28:713][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2020.07.21-14.57.28:713][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
+[2020.07.21-14.57.28:713][  0]LogConfig: Setting CVar [[r.SSGI.Quality:3]]
+[2020.07.21-14.57.28:713][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2020.07.21-14.57.28:713][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2020.07.21-14.57.28:714][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
+[2020.07.21-14.57.28:714][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountPerSlice:1]]
+[2020.07.21-14.57.28:714][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
+[2020.07.21-14.57.28:714][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
+[2020.07.21-14.57.28:714][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
+[2020.07.21-14.57.28:714][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:32.0]]
+[2020.07.21-14.57.28:714][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
+[2020.07.21-14.57.28:714][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:32.0]]
+[2020.07.21-14.57.28:714][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
+[2020.07.21-14.57.28:714][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
+[2020.07.21-14.57.28:714][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
+[2020.07.21-14.57.28:714][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/Users/Foong/Documents/Unreal Projects/FYP/Darchangel/Saved/Config/Windows/Scalability.ini]
+[2020.07.21-14.57.28:714][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2020.07.21-14.57.28:714][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2020.07.21-14.57.28:714][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [C:/Users/Foong/Documents/Unreal Projects/FYP/Darchangel/Saved/Config/Windows/Scalability.ini]
+[2020.07.21-14.57.28:714][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.SampleCount:16]]
+[2020.07.21-14.57.28:714][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.JitterIntegration:0]]
+[2020.07.21-14.57.28:714][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:16]]
+[2020.07.21-14.57.28:714][  0]LogInit: Selected Device Profile: [Windows]
+[2020.07.21-14.57.28:714][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2020.07.21-14.57.28:717][  0]LogHAL: Display: Platform has ~ 12 GB [12669792256 / 17179869184 / 12], which maps to Larger [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2020.07.21-14.57.28:717][  0]LogInit: Going up to parent DeviceProfile []
+[2020.07.21-14.57.28:717][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/Users/Foong/Documents/Unreal Projects/FYP/Darchangel/Saved/Config/Windows/Scalability.ini]
+[2020.07.21-14.57.28:717][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2020.07.21-14.57.28:717][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2020.07.21-14.57.28:717][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/Users/Foong/Documents/Unreal Projects/FYP/Darchangel/Saved/Config/Windows/Scalability.ini]
+[2020.07.21-14.57.28:717][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2020.07.21-14.57.28:717][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/Users/Foong/Documents/Unreal Projects/FYP/Darchangel/Saved/Config/Windows/Scalability.ini]
+[2020.07.21-14.57.28:717][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2020.07.21-14.57.28:717][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2020.07.21-14.57.28:717][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2020.07.21-14.57.28:717][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2020.07.21-14.57.28:717][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2020.07.21-14.57.28:717][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2020.07.21-14.57.28:717][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2020.07.21-14.57.28:717][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2020.07.21-14.57.28:718][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2020.07.21-14.57.28:718][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2020.07.21-14.57.28:718][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2020.07.21-14.57.28:718][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2020.07.21-14.57.28:718][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2020.07.21-14.57.28:718][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2020.07.21-14.57.28:718][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2020.07.21-14.57.28:718][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2020.07.21-14.57.28:718][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2020.07.21-14.57.28:718][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2020.07.21-14.57.28:718][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/Users/Foong/Documents/Unreal Projects/FYP/Darchangel/Saved/Config/Windows/Scalability.ini]
+[2020.07.21-14.57.28:718][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2020.07.21-14.57.28:718][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2020.07.21-14.57.28:718][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2020.07.21-14.57.28:718][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2020.07.21-14.57.28:718][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2020.07.21-14.57.28:718][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2020.07.21-14.57.28:718][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2020.07.21-14.57.28:718][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2020.07.21-14.57.28:718][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2020.07.21-14.57.28:718][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2020.07.21-14.57.28:718][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2020.07.21-14.57.28:718][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2020.07.21-14.57.28:718][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2020.07.21-14.57.28:718][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2020.07.21-14.57.28:718][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2020.07.21-14.57.28:718][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2020.07.21-14.57.28:718][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2020.07.21-14.57.28:718][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2020.07.21-14.57.28:718][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2020.07.21-14.57.28:718][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2020.07.21-14.57.28:718][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2020.07.21-14.57.28:718][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2020.07.21-14.57.28:718][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2020.07.21-14.57.28:718][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2020.07.21-14.57.28:718][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2020.07.21-14.57.28:718][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2020.07.21-14.57.28:718][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2020.07.21-14.57.28:719][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2020.07.21-14.57.28:719][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2020.07.21-14.57.28:719][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2020.07.21-14.57.28:719][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/Users/Foong/Documents/Unreal Projects/FYP/Darchangel/Saved/Config/Windows/Scalability.ini]
+[2020.07.21-14.57.28:719][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2020.07.21-14.57.28:719][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2020.07.21-14.57.28:719][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2020.07.21-14.57.28:719][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2020.07.21-14.57.28:719][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2020.07.21-14.57.28:719][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
+[2020.07.21-14.57.28:719][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2020.07.21-14.57.28:719][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2020.07.21-14.57.28:719][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2020.07.21-14.57.28:719][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/Users/Foong/Documents/Unreal Projects/FYP/Darchangel/Saved/Config/Windows/Scalability.ini]
+[2020.07.21-14.57.28:719][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2020.07.21-14.57.28:719][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2020.07.21-14.57.28:719][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2020.07.21-14.57.28:719][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
+[2020.07.21-14.57.28:719][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2020.07.21-14.57.28:719][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2020.07.21-14.57.28:719][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2020.07.21-14.57.28:719][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2020.07.21-14.57.28:719][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2020.07.21-14.57.28:719][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2020.07.21-14.57.28:719][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2020.07.21-14.57.28:719][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
+[2020.07.21-14.57.28:719][  0]LogConfig: Setting CVar [[r.SSGI.Quality:3]]
+[2020.07.21-14.57.28:719][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2020.07.21-14.57.28:719][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2020.07.21-14.57.28:719][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
+[2020.07.21-14.57.28:719][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountPerSlice:1]]
+[2020.07.21-14.57.28:719][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
+[2020.07.21-14.57.28:719][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
+[2020.07.21-14.57.28:719][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
+[2020.07.21-14.57.28:719][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:32.0]]
+[2020.07.21-14.57.28:719][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
+[2020.07.21-14.57.28:719][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:32.0]]
+[2020.07.21-14.57.28:719][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
+[2020.07.21-14.57.28:720][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
+[2020.07.21-14.57.28:720][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
+[2020.07.21-14.57.28:720][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/Users/Foong/Documents/Unreal Projects/FYP/Darchangel/Saved/Config/Windows/Scalability.ini]
+[2020.07.21-14.57.28:720][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2020.07.21-14.57.28:720][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2020.07.21-14.57.28:720][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [C:/Users/Foong/Documents/Unreal Projects/FYP/Darchangel/Saved/Config/Windows/Scalability.ini]
+[2020.07.21-14.57.28:720][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.SampleCount:16]]
+[2020.07.21-14.57.28:720][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.JitterIntegration:0]]
+[2020.07.21-14.57.28:720][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:16]]
+[2020.07.21-14.57.28:720][  0]LogConfig: Applying CVar settings from Section [Startup] File [../../../Engine/Config/ConsoleVariables.ini]
+[2020.07.21-14.57.28:720][  0]LogConfig: Setting CVar [[net.UseAdaptiveNetUpdateFrequency:0]]
+[2020.07.21-14.57.28:720][  0]LogConfig: Setting CVar [[p.chaos.AllowCreatePhysxBodies:1]]
+[2020.07.21-14.57.28:720][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [C:/Users/Foong/Documents/Unreal Projects/FYP/Darchangel/Saved/Config/Windows/Engine.ini]
+[2020.07.21-14.57.28:720][  0]LogInit: Computer: FOONG
+[2020.07.21-14.57.28:720][  0]LogInit: User: Foong
+[2020.07.21-14.57.28:720][  0]LogInit: CPU Page size=4096, Cores=4
+[2020.07.21-14.57.28:720][  0]LogInit: High frequency timer resolution =10.000000 MHz
+[2020.07.21-14.57.28:720][  0]LogMemory: Memory total: Physical=11.8GB (12GB approx)
+[2020.07.21-14.57.28:720][  0]LogMemory: Platform Memory Stats for Windows
+[2020.07.21-14.57.28:720][  0]LogMemory: Process Physical Memory: 105.85 MB used, 105.85 MB peak
+[2020.07.21-14.57.28:721][  0]LogMemory: Process Virtual Memory: 100.79 MB used, 100.79 MB peak
+[2020.07.21-14.57.28:721][  0]LogMemory: Physical Memory: 5000.07 MB used,  7082.79 MB free, 12082.86 MB total
+[2020.07.21-14.57.28:721][  0]LogMemory: Virtual Memory: 5103.21 MB used,  134212624.00 MB free, 134217728.00 MB total
+[2020.07.21-14.57.28:725][  0]LogWindows: WindowsPlatformFeatures enabled
+[2020.07.21-14.57.28:754][  0]LogInit: Using OS detected language (en-US).
+[2020.07.21-14.57.28:754][  0]LogInit: Using OS detected locale (en-US).
+[2020.07.21-14.57.28:756][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2020.07.21-14.57.28:981][  0]LogInit: Setting process to per monitor DPI aware
+[2020.07.21-14.57.29:017][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2020.07.21-14.57.29:017][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2020.07.21-14.57.29:314][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2020.07.21-14.57.29:314][  0]LogD3D11RHI: D3D11 min allowed feature level: 11_0
+[2020.07.21-14.57.29:314][  0]LogD3D11RHI: D3D11 max allowed feature level: 11_0
+[2020.07.21-14.57.29:314][  0]LogD3D11RHI: D3D11 adapters:
+[2020.07.21-14.57.29:377][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 950M' (Feature Level 11_0)
+[2020.07.21-14.57.29:377][  0]LogD3D11RHI:       4065/0/6041 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2020.07.21-14.57.29:389][  0]LogD3D11RHI:    1. 'Intel(R) HD Graphics 530' (Feature Level 11_0)
+[2020.07.21-14.57.29:389][  0]LogD3D11RHI:       128/0/6041 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
+[2020.07.21-14.57.29:393][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2020.07.21-14.57.29:394][  0]LogD3D11RHI:       0/0/6041 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2020.07.21-14.57.29:394][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2020.07.21-14.57.29:471][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2020.07.21-14.57.29:471][  0]LogD3D11RHI:     GPU DeviceId: 0x139a (for the marketing name, search the web for "GPU Device Id")
+[2020.07.21-14.57.29:471][  0]LogWindows: EnumDisplayDevices:
+[2020.07.21-14.57.29:471][  0]LogWindows:    0. 'Intel(R) HD Graphics 530' (P:1 D:1)
+[2020.07.21-14.57.29:472][  0]LogWindows:    1. 'Intel(R) HD Graphics 530' (P:0 D:0)
+[2020.07.21-14.57.29:473][  0]LogWindows:    2. 'Intel(R) HD Graphics 530' (P:0 D:0)
+[2020.07.21-14.57.29:473][  0]LogWindows: DebugString: PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
+[2020.07.21-14.57.29:473][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 950M
+[2020.07.21-14.57.29:473][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
+[2020.07.21-14.57.29:473][  0]LogD3D11RHI:      Driver Date: Unknown
+[2020.07.21-14.57.29:473][  0]LogRHI: Texture pool is 2846 MB (70% of 4065 MB)
+[2020.07.21-14.57.29:504][  0]LogD3D11RHI: RHI does not have support for 64 bit atomics
+[2020.07.21-14.57.29:504][  0]LogD3D11RHI: Async texture creation enabled
+[2020.07.21-14.57.29:518][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2020.07.21-14.57.29:962][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'AllDesktop'
+[2020.07.21-14.57.29:998][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android'
+[2020.07.21-14.57.29:998][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTC'
+[2020.07.21-14.57.29:998][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ATC'
+[2020.07.21-14.57.29:998][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXT'
+[2020.07.21-14.57.29:998][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC1'
+[2020.07.21-14.57.29:998][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC1a'
+[2020.07.21-14.57.29:998][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2'
+[2020.07.21-14.57.29:998][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_PVRTC'
+[2020.07.21-14.57.29:999][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'AndroidClient'
+[2020.07.21-14.57.29:999][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTCClient'
+[2020.07.21-14.57.29:999][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ATCClient'
+[2020.07.21-14.57.29:999][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXTClient'
+[2020.07.21-14.57.29:999][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC1Client'
+[2020.07.21-14.57.29:999][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC1aClient'
+[2020.07.21-14.57.29:999][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2Client'
+[2020.07.21-14.57.29:999][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_PVRTCClient'
+[2020.07.21-14.57.29:999][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_Multi'
+[2020.07.21-14.57.29:999][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_MultiClient'
+[2020.07.21-14.57.30:021][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOSClient'
+[2020.07.21-14.57.30:021][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOS'
+[2020.07.21-14.57.30:030][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxNoEditor'
+[2020.07.21-14.57.30:038][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxClient'
+[2020.07.21-14.57.30:049][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxServer'
+[2020.07.21-14.57.30:057][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64NoEditor'
+[2020.07.21-14.57.30:066][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64Client'
+[2020.07.21-14.57.30:074][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64Server'
+[2020.07.21-14.57.30:103][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Lumin'
+[2020.07.21-14.57.30:103][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LuminClient'
+[2020.07.21-14.57.30:119][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOSClient'
+[2020.07.21-14.57.30:119][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOS'
+[2020.07.21-14.57.30:128][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsNoEditor'
+[2020.07.21-14.57.30:136][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Windows'
+[2020.07.21-14.57.30:145][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsClient'
+[2020.07.21-14.57.30:154][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsServer'
+[2020.07.21-14.57.30:154][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2020.07.21-14.57.30:158][  0]LogAudioDebug: Display: Lib vorbis DLL was dynamically loaded.
+[2020.07.21-14.57.30:186][  0]LogShaderCompilers: Guid format shader working directory is -24 characters bigger than the processId version (../../../../../../Users/Foong/Documents/Unreal Projects/FYP/Darchangel/Intermediate/Shaders/WorkingDirectory/8464/).
+[2020.07.21-14.57.30:186][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Foong/AppData/Local/Temp/UnrealShaderWorkingDir/B8E658554813FB4B4D743FBF81CD0907/'.
+[2020.07.21-14.57.30:187][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2020.07.21-14.57.30:187][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2020.07.21-14.57.30:187][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2020.07.21-14.57.31:044][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2020.07.21-14.57.31:105][  0]LogDerivedDataCache: Loaded boot cache 0.06s 78MB C:/Users/Foong/AppData/Local/UnrealEngine/4.24/DerivedDataCache/Boot.ddc.
+[2020.07.21-14.57.31:105][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/Foong/AppData/Local/UnrealEngine/4.24/DerivedDataCache/Boot.ddc
+[2020.07.21-14.57.31:106][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/Foong/Documents/Unreal Projects/FYP/Darchangel/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2020.07.21-14.57.31:106][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2020.07.21-14.57.31:106][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/Foong/Documents/Unreal Projects/FYP/Darchangel/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2020.07.21-14.57.31:106][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2020.07.21-14.57.31:117][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2020.07.21-14.57.31:117][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  EnterprisePak pak cache file ../../../Enterprise/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2020.07.21-14.57.31:117][  0]LogDerivedDataCache: Unable to find inner node EnterprisePak for hierarchical cache Hierarchy.
+[2020.07.21-14.57.31:119][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Foong/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2020.07.21-14.57.31:119][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2020.07.21-14.57.31:119][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2020.07.21-14.57.31:151][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2020.07.21-14.57.31:153][  0]LogSlate: Using FreeType 2.10.0
+[2020.07.21-14.57.31:154][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2020.07.21-14.57.31:229][  0]LogAssetRegistry: FAssetRegistry took 0.0032 seconds to start up
+[2020.07.21-14.57.31:603][  0]LogInit: Selected Device Profile: [Windows]
+[2020.07.21-14.57.31:793][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2020.07.21-14.57.31:793][  0]LogMeshReduction: Using SimplygonMeshReduction for automatic skeletal mesh reduction
+[2020.07.21-14.57.31:793][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2020.07.21-14.57.31:793][  0]LogMeshReduction: No distributed automatic mesh merging module available
+[2020.07.21-14.57.31:793][  0]LogMeshMerging: No distributed automatic mesh merging module available
+[2020.07.21-14.57.31:809][  0]LogNetVersion: Darchangel 1.0.0, NetCL: 10570792, EngineNetVer: 13, GameNetVer: 0 (Checksum: 2379080603)
+[2020.07.21-14.57.33:137][  0]LogPackageLocalizationCache: Processed 10 localized package path(s) for 1 prioritized culture(s) in 0.037845 seconds
+[2020.07.21-14.57.33:147][  0]LogUObjectArray: 46750 objects as part of root set at end of initial load.
+[2020.07.21-14.57.33:147][  0]LogUObjectAllocator: 8137160 out of 0 bytes used by permanent object pool.
+[2020.07.21-14.57.33:147][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2020.07.21-14.57.33:624][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2020.07.21-14.57.33:628][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2020.07.21-14.57.35:498][  0]SourceControl: Source control is disabled
+[2020.07.21-14.57.35:499][  0]LogWindows: Warning: CreateProc failed: The system cannot find the file specified. (0x00000002)
+[2020.07.21-14.57.35:499][  0]LogWindows: Warning: URL: C:/Program Files/Git/bin/git.exe version
+[2020.07.21-14.57.35:499][  0]LogWindows: Warning: CreateProc failed: The system cannot find the file specified. (0x00000002)
+[2020.07.21-14.57.35:499][  0]LogWindows: Warning: URL: C:/Program Files (x86)/Git/bin/git.exe version
+[2020.07.21-14.57.35:499][  0]LogWindows: Warning: CreateProc failed: The system cannot find the file specified. (0x00000002)
+[2020.07.21-14.57.35:499][  0]LogWindows: Warning: URL: C:\Users\Foong\AppData\Local/Programs/Git/cmd/git.exe version
+[2020.07.21-14.57.35:499][  0]LogWindows: Warning: CreateProc failed: The system cannot find the file specified. (0x00000002)
+[2020.07.21-14.57.35:499][  0]LogWindows: Warning: URL: C:/Program Files (x86)/SmartGit/git/bin/git.exe version
+[2020.07.21-14.57.35:499][  0]LogWindows: Warning: CreateProc failed: The system cannot find the file specified. (0x00000002)
+[2020.07.21-14.57.35:499][  0]LogWindows: Warning: URL: C:/Program Files (x86)/SmartGit/bin/git.exe version
+[2020.07.21-14.57.36:442][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2020.07.21-14.57.36:456][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2020.07.21-14.57.36:456][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2020.07.21-14.57.36:560][  0]LogOcInput: OculusInput pre-init called
+[2020.07.21-14.57.36:569][  0]LogWindows: Failed to load 'OVRPlugin.dll' (GetLastError=126)
+[2020.07.21-14.57.36:569][  0]LogWindows: File 'OVRPlugin.dll' does not exist
+[2020.07.21-14.57.36:650][  0]LogEngine: Initializing Engine...
+[2020.07.21-14.57.36:652][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2020.07.21-14.57.36:653][  0]LogStats: UGameplayTagsManager::InitializeManager -  0.000 s
+[2020.07.21-14.57.37:075][  0]LogInit: Initializing FReadOnlyCVARCache
+[2020.07.21-14.57.37:082][  0]LogAIModule: Creating AISystem for world Untitled
+[2020.07.21-14.57.37:115][  0]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.07.21-14.57.37:115][  0]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.07.21-14.57.37:115][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.07.21-14.57.37:116][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.07.21-14.57.37:116][  0]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.07.21-14.57.37:116][  0]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.07.21-14.57.37:116][  0]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.07.21-14.57.37:116][  0]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.07.21-14.57.37:116][  0]LogAudio: Display: Using built-in audio occlusion.
+[2020.07.21-14.57.37:117][  0]LogAudioMixer: Display: Initializing audio mixer.
+[2020.07.21-14.57.37:133][  0]LogAudioMixer: Display: Audio Device Output Speaker Info:
+[2020.07.21-14.57.37:133][  0]LogAudioMixer: Display: Name: Speakers (2- Realtek High Definition Audio)
+[2020.07.21-14.57.37:133][  0]LogAudioMixer: Display: Is Default: Yes
+[2020.07.21-14.57.37:133][  0]LogAudioMixer: Display: Sample Rate: 48000
+[2020.07.21-14.57.37:133][  0]LogAudioMixer: Display: Channel Count Used: 2
+[2020.07.21-14.57.37:133][  0]LogAudioMixer: Display: Device Channel Count: 2
+[2020.07.21-14.57.37:133][  0]LogAudioMixer: Display: Channel Order:
+[2020.07.21-14.57.37:133][  0]LogAudioMixer: Display: 0: FrontLeft
+[2020.07.21-14.57.37:133][  0]LogAudioMixer: Display: 1: FrontRight
+[2020.07.21-14.57.37:163][  0]LogAudioMixer: Display: Using Audio Device Speakers (2- Realtek High Definition Audio)
+[2020.07.21-14.57.37:167][  0]LogInit: FAudioDevice initialized.
+[2020.07.21-14.57.37:167][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2020.07.21-14.57.37:326][  0]LogDerivedDataCache: Saved boot cache 0.16s 126MB C:/Users/Foong/AppData/Local/UnrealEngine/4.24/DerivedDataCache/Boot.ddc.
+[2020.07.21-14.57.37:328][  0]LogInit: Texture streaming: Enabled
+[2020.07.21-14.57.37:342][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2020.07.21-14.57.37:342][  0]LogEditorSessionSummary: Verbose: Initializing EditorSessionSummaryWriter for editor session tracking
+[2020.07.21-14.57.37:355][  0]LogEditorSessionSummary: EditorSessionSummaryWriter initialized
+[2020.07.21-14.57.37:399][  0]LogInit: Transaction tracking system initialized
+[2020.07.21-14.57.37:410][  0]BlueprintLog: New page: Editor Load
+[2020.07.21-14.57.37:444][  0]LocalizationService: Localization service is disabled
+[2020.07.21-14.57.37:809][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2020.07.21-14.57.37:809][  0]LogCook: Display: Mobile HDR setting 1
+[2020.07.21-14.57.37:922][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Foong/Documents/Unreal Projects/FYP/Darchangel/Content/' took 0.04s
+[2020.07.21-14.57.38:703][  0]Cmd: MAP LOAD FILE="../../../../../../Users/Foong/Documents/Unreal Projects/FYP/Darchangel/Content/ThirdPersonCPP/Maps/ThirdPersonExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2020.07.21-14.57.38:703][  0]LightingResults: New page: Lighting Build
+[2020.07.21-14.57.38:704][  0]LogWorld: UWorld::CleanupWorld for Untitled, bSessionEnded=true, bCleanupResources=true
+[2020.07.21-14.57.38:704][  0]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.07.21-14.57.38:705][  0]MapCheck: New page: Map Check
+[2020.07.21-14.57.38:705][  0]LightingResults: New page: Lighting Build
+[2020.07.21-14.57.38:736][  0]LogUObjectHash: Compacting FUObjectHashTables data took   2.95ms
+[2020.07.21-14.57.38:853][  0]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2020.07.21-14.57.38:860][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2020.07.21-14.57.38:891][  0]LogUObjectHash: Compacting FUObjectHashTables data took   2.35ms
+[2020.07.21-14.57.38:891][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2020.07.21-14.57.38:891][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.164ms to complete.
+[2020.07.21-14.57.38:891][  0]LogFileHelpers: Loading map 'ThirdPersonExampleMap' took 0.189
+[2020.07.21-14.57.39:068][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.07.21-14.57.39:081][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.07.21-14.57.39:092][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.07.21-14.57.39:102][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.07.21-14.57.39:119][  0]LogCollectionManager: Loaded 0 collections in 0.003697 seconds
+[2020.07.21-14.57.39:137][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Foong/Documents/Unreal Projects/FYP/Darchangel/Saved/Collections/' took 0.00s
+[2020.07.21-14.57.39:137][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Foong/Documents/Unreal Projects/FYP/Darchangel/Content/Developers/Foong/Collections/' took 0.00s
+[2020.07.21-14.57.39:137][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Foong/Documents/Unreal Projects/FYP/Darchangel/Content/Collections/' took 0.00s
+[2020.07.21-14.57.39:137][  0]LogContentBrowser: Native class hierarchy populated in 0.0131 seconds. Added 3024 classes and 719 folders.
+[2020.07.21-14.57.39:142][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0007 seconds. Added 0 classes and 0 folders.
+[2020.07.21-14.57.39:252][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0006 seconds. Added 0 classes and 0 folders.
+[2020.07.21-14.57.39:255][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0005 seconds. Added 2 classes and 3 folders.
+[2020.07.21-14.57.39:320][  0]LogSlate: Took 0.000239 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2020.07.21-14.57.39:323][  0]LogSlate: Took 0.000224 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2020.07.21-14.57.39:328][  0]LogSlate: Took 0.000228 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2020.07.21-14.57.39:424][  0]LogRenderer: Reallocating scene render targets to support 976x232 Format 10 NumSamples 1 (Frame:1).
+[2020.07.21-14.57.39:550][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0005 seconds. Added 0 classes and 0 folders.
+[2020.07.21-14.57.39:550][  0]LogLoad: (Engine Initialization) Total time: 13.70 seconds
+[2020.07.21-14.57.39:550][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2020.07.21-14.57.39:624][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2020.07.21-14.57.39:668][  0]LogSlate: Took 0.000284 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2020.07.21-14.57.39:681][  1]LogFileCache: Retrieving MD5 hashes for directory 'C:/Users/Foong/Documents/Unreal Projects/FYP/Darchangel/Content/' took 0.11s
+[2020.07.21-14.57.39:917][  2]LogAssetRegistry: Asset discovery search completed in 8.6892 seconds
+[2020.07.21-14.57.39:921][  2]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000008 seconds (updated 0 objects)
+[2020.07.21-14.57.51:350][312]LogRenderer: Reallocating scene render targets to support 976x236 Format 10 NumSamples 1 (Frame:4).
+[2020.07.21-14.57.51:396][313]LogRenderer: Reallocating scene render targets to support 976x252 Format 10 NumSamples 1 (Frame:6).
+[2020.07.21-14.57.51:449][314]LogRenderer: Reallocating scene render targets to support 976x272 Format 10 NumSamples 1 (Frame:8).
+[2020.07.21-14.57.51:507][315]LogRenderer: Reallocating scene render targets to support 976x288 Format 10 NumSamples 1 (Frame:10).
+[2020.07.21-14.57.51:558][316]LogRenderer: Reallocating scene render targets to support 976x312 Format 10 NumSamples 1 (Frame:12).
+[2020.07.21-14.57.51:603][317]LogRenderer: Reallocating scene render targets to support 976x332 Format 10 NumSamples 1 (Frame:14).
+[2020.07.21-14.57.51:649][318]LogRenderer: Reallocating scene render targets to support 976x360 Format 10 NumSamples 1 (Frame:16).
+[2020.07.21-14.57.51:697][319]LogRenderer: Reallocating scene render targets to support 976x388 Format 10 NumSamples 1 (Frame:18).
+[2020.07.21-14.57.51:735][320]LogRenderer: Reallocating scene render targets to support 976x392 Format 10 NumSamples 1 (Frame:20).
+[2020.07.21-14.57.51:797][321]LogRenderer: Reallocating scene render targets to support 976x404 Format 10 NumSamples 1 (Frame:22).
+[2020.07.21-14.57.51:878][324]LogRenderer: Reallocating scene render targets to support 976x408 Format 10 NumSamples 1 (Frame:26).
+[2020.07.21-14.57.51:927][325]LogRenderer: Reallocating scene render targets to support 976x412 Format 10 NumSamples 1 (Frame:28).
+[2020.07.21-14.57.54:185][427]LogSlate: Took 0.000264 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2020.07.21-14.57.54:220][427]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Blueprint/MainCharcter_bp.MainCharcter_bp
+[2020.07.21-14.57.54:490][427]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0008 seconds. Added 121 classes and 0 folders.
+[2020.07.21-14.57.55:520][427]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ParagonGreystone/Characters/Heroes/Greystone/Greystone_AnimBlueprint.Greystone_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonGreystone/Characters/Heroes/Greystone/Greystone_AnimBlueprint.Greystone_AnimBlueprint_C:ExecuteUbergraph_Greystone_AnimBlueprint
+
+[2020.07.21-14.57.55:523][427]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ParagonGreystone/Characters/Heroes/Greystone/Greystone_AnimBlueprint.Greystone_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonGreystone/Characters/Heroes/Greystone/Greystone_AnimBlueprint.Greystone_AnimBlueprint_C:ExecuteUbergraph_Greystone_AnimBlueprint
+
+[2020.07.21-14.57.55:535][427]LogSlate: Took 0.000310 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2020.07.21-14.57.55:709][428]LogSlate: Took 0.000288 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2020.07.21-14.58.00:153][665]LogSlate: Window 'MainCharcter_bp' being destroyed
+[2020.07.21-14.58.07:427][ 62]LogLinker: Warning: While loading '../../../../../../Users/Foong/Documents/Unreal Projects/FYP/Darchangel/Content/ThirdPersonBP/Blueprints/BlessedIdol_PH.uasset' failed to load '/Game/ThirdPersonBP/Blueprints/Health': Can't find file.
+[2020.07.21-14.58.07:427][ 62]LogLinker: Warning: While loading '../../../../../../Users/Foong/Documents/Unreal Projects/FYP/Darchangel/Content/ThirdPersonBP/Blueprints/BlessedIdol_PH.uasset' failed to load '/Game/ThirdPersonBP/Blueprints/Health': Can't find file.
+[2020.07.21-14.58.07:431][ 62]LogLinker: Warning: While loading '../../../../../../Users/Foong/Documents/Unreal Projects/FYP/Darchangel/Content/ThirdPersonBP/Blueprints/BlessedIdol_PH.uasset' failed to load '/Game/ThirdPersonBP/Blueprints/Health': Can't find file.
+[2020.07.21-14.58.07:431][ 62]LogLinker: Warning: While loading '../../../../../../Users/Foong/Documents/Unreal Projects/FYP/Darchangel/Content/ThirdPersonBP/Blueprints/BlessedIdol_PH.uasset' failed to load '/Game/ThirdPersonBP/Blueprints/Health': Can't find file.
+[2020.07.21-14.58.07:433][ 62]LogLinker: Warning: While loading '../../../../../../Users/Foong/Documents/Unreal Projects/FYP/Darchangel/Content/ThirdPersonBP/Blueprints/BlessedIdol_PH.uasset' failed to load '/Game/ThirdPersonBP/Blueprints/HealthBar': Can't find file.
+[2020.07.21-14.58.07:433][ 62]LoadErrors: Failed to load /Game/ThirdPersonBP/Blueprints/HealthBar.HealthBar_C Referenced by Widget_GEN_VARIABLE
+[2020.07.21-14.58.07:433][ 62]LogLinker: Warning: While loading '../../../../../../Users/Foong/Documents/Unreal Projects/FYP/Darchangel/Content/ThirdPersonBP/Blueprints/BlessedIdol_PH.uasset' failed to load '/Game/ThirdPersonBP/Blueprints/HealthBar': Can't find file.
+[2020.07.21-14.58.07:433][ 62]LogLinker: Warning: While loading '../../../../../../Users/Foong/Documents/Unreal Projects/FYP/Darchangel/Content/ThirdPersonBP/Blueprints/BlessedIdol_PH.uasset' failed to load '/Game/ThirdPersonBP/Blueprints/HealthBar': Can't find file.
+[2020.07.21-14.58.07:433][ 62]LogLinker: Warning: While loading '../../../../../../Users/Foong/Documents/Unreal Projects/FYP/Darchangel/Content/ThirdPersonBP/Blueprints/BlessedIdol_PH.uasset' failed to load '/Game/ThirdPersonBP/Blueprints/HealthBar': Can't find file.
+[2020.07.21-14.58.07:434][ 62]LogLinker: Warning: While loading '../../../../../../Users/Foong/Documents/Unreal Projects/FYP/Darchangel/Content/ThirdPersonBP/Blueprints/BlessedIdol_PH.uasset' failed to load '/Game/ThirdPersonBP/Blueprints/ThirdPersonGameState': Can't find file.
+[2020.07.21-14.58.07:434][ 62]LogLinker: Warning: While loading '../../../../../../Users/Foong/Documents/Unreal Projects/FYP/Darchangel/Content/ThirdPersonBP/Blueprints/BlessedIdol_PH.uasset' failed to load '/Game/ThirdPersonBP/Blueprints/ThirdPersonGameState': Can't find file.
+[2020.07.21-14.58.07:434][ 62]LogLinker: Warning: While loading '../../../../../../Users/Foong/Documents/Unreal Projects/FYP/Darchangel/Content/ThirdPersonBP/Blueprints/BlessedIdol_PH.uasset' failed to load '/Game/ThirdPersonBP/Blueprints/ThirdPersonGameState': Can't find file.
+[2020.07.21-14.58.07:434][ 62]LogLinker: Warning: While loading '../../../../../../Users/Foong/Documents/Unreal Projects/FYP/Darchangel/Content/ThirdPersonBP/Blueprints/BlessedIdol_PH.uasset' failed to load '/Game/ThirdPersonBP/Blueprints/ThirdPersonGameState': Can't find file.
+[2020.07.21-14.58.07:435][ 62]LogLinker: Warning: While loading '../../../../../../Users/Foong/Documents/Unreal Projects/FYP/Darchangel/Content/ThirdPersonBP/Blueprints/BlessedIdol_PH.uasset' failed to load '/Game/ThirdPersonBP/Blueprints/ThirdPersonGameState': Can't find file.
+[2020.07.21-14.58.07:435][ 62]LogLinker: Warning: While loading '../../../../../../Users/Foong/Documents/Unreal Projects/FYP/Darchangel/Content/ThirdPersonBP/Blueprints/BlessedIdol_PH.uasset' failed to load '/Game/ThirdPersonBP/Blueprints/ThirdPersonGameState': Can't find file.
+[2020.07.21-14.58.07:435][ 62]LogLinker: Warning: While loading '../../../../../../Users/Foong/Documents/Unreal Projects/FYP/Darchangel/Content/ThirdPersonBP/Blueprints/BlessedIdol_PH.uasset' failed to load '/Game/ThirdPersonBP/Blueprints/Health': Can't find file.
+[2020.07.21-14.58.07:435][ 62]LogLinker: Warning: While loading '../../../../../../Users/Foong/Documents/Unreal Projects/FYP/Darchangel/Content/ThirdPersonBP/Blueprints/BlessedIdol_PH.uasset' failed to load '/Game/ThirdPersonBP/Blueprints/Health': Can't find file.
+[2020.07.21-14.58.07:438][ 62]LogLinker: Warning: While loading '../../../../../../Users/Foong/Documents/Unreal Projects/FYP/Darchangel/Content/ThirdPersonBP/Blueprints/GraspOfDeath_PH.uasset' failed to load '/Game/ThirdPersonBP/Blueprints/EnemyNPC': Can't find file.
+[2020.07.21-14.58.07:438][ 62]LogLinker: Warning: While loading '../../../../../../Users/Foong/Documents/Unreal Projects/FYP/Darchangel/Content/ThirdPersonBP/Blueprints/GraspOfDeath_PH.uasset' failed to load '/Game/ThirdPersonBP/Blueprints/EnemyNPC': Can't find file.
+[2020.07.21-14.58.07:438][ 62]LogLinker: Warning: While loading '../../../../../../Users/Foong/Documents/Unreal Projects/FYP/Darchangel/Content/ThirdPersonBP/Blueprints/GraspOfDeath_PH.uasset' failed to load '/Game/ThirdPersonBP/Blueprints/Health': Can't find file.
+[2020.07.21-14.58.07:438][ 62]LogLinker: Warning: While loading '../../../../../../Users/Foong/Documents/Unreal Projects/FYP/Darchangel/Content/ThirdPersonBP/Blueprints/GraspOfDeath_PH.uasset' failed to load '/Game/ThirdPersonBP/Blueprints/Health': Can't find file.
+[2020.07.21-14.58.07:438][ 62]LogLinker: Warning: While loading '../../../../../../Users/Foong/Documents/Unreal Projects/FYP/Darchangel/Content/ThirdPersonBP/Blueprints/GraspOfDeath_PH.uasset' failed to load '/Game/ThirdPersonBP/Blueprints/ThirdPersonGameState': Can't find file.
+[2020.07.21-14.58.07:439][ 62]LogLinker: Warning: While loading '../../../../../../Users/Foong/Documents/Unreal Projects/FYP/Darchangel/Content/ThirdPersonBP/Blueprints/GraspOfDeath_PH.uasset' failed to load '/Game/ThirdPersonBP/Blueprints/ThirdPersonGameState': Can't find file.
+[2020.07.21-14.58.07:439][ 62]LogLinker: Warning: While loading '../../../../../../Users/Foong/Documents/Unreal Projects/FYP/Darchangel/Content/ThirdPersonBP/Blueprints/GraspOfDeath_PH.uasset' failed to load '/Game/ThirdPersonBP/Blueprints/ThirdPersonGameState': Can't find file.
+[2020.07.21-14.58.07:439][ 62]LogLinker: Warning: While loading '../../../../../../Users/Foong/Documents/Unreal Projects/FYP/Darchangel/Content/ThirdPersonBP/Blueprints/GraspOfDeath_PH.uasset' failed to load '/Game/ThirdPersonBP/Blueprints/ThirdPersonGameState': Can't find file.
+[2020.07.21-14.58.07:442][ 62]LogLinker: Warning: While loading '../../../../../../Users/Foong/Documents/Unreal Projects/FYP/Darchangel/Content/ThirdPersonBP/Blueprints/GraspOfDeath_PH.uasset' failed to load '/Game/ThirdPersonBP/Blueprints/EnemyNPC': Can't find file.
+[2020.07.21-14.58.07:442][ 62]LogLinker: Warning: While loading '../../../../../../Users/Foong/Documents/Unreal Projects/FYP/Darchangel/Content/ThirdPersonBP/Blueprints/GraspOfDeath_PH.uasset' failed to load '/Game/ThirdPersonBP/Blueprints/EnemyNPC': Can't find file.
+[2020.07.21-14.58.07:442][ 62]LogLinker: Warning: While loading '../../../../../../Users/Foong/Documents/Unreal Projects/FYP/Darchangel/Content/ThirdPersonBP/Blueprints/GraspOfDeath_PH.uasset' failed to load '/Game/ThirdPersonBP/Blueprints/Health': Can't find file.
+[2020.07.21-14.58.07:442][ 62]LogLinker: Warning: While loading '../../../../../../Users/Foong/Documents/Unreal Projects/FYP/Darchangel/Content/ThirdPersonBP/Blueprints/GraspOfDeath_PH.uasset' failed to load '/Game/ThirdPersonBP/Blueprints/Health': Can't find file.
+[2020.07.21-14.58.07:442][ 62]LogLinker: Warning: While loading '../../../../../../Users/Foong/Documents/Unreal Projects/FYP/Darchangel/Content/ThirdPersonBP/Blueprints/GraspOfDeath_PH.uasset' failed to load '/Game/ThirdPersonBP/Blueprints/ThirdPersonGameState': Can't find file.
+[2020.07.21-14.58.07:442][ 62]LogLinker: Warning: While loading '../../../../../../Users/Foong/Documents/Unreal Projects/FYP/Darchangel/Content/ThirdPersonBP/Blueprints/GraspOfDeath_PH.uasset' failed to load '/Game/ThirdPersonBP/Blueprints/ThirdPersonGameState': Can't find file.
+[2020.07.21-14.58.07:444][ 62]LogLinker: Warning: While loading '../../../../../../Users/Foong/Documents/Unreal Projects/FYP/Darchangel/Content/ThirdPersonBP/Blueprints/BlessedIdol_PH.uasset' failed to load '/Game/ThirdPersonBP/Blueprints/EnemyNPC': Can't find file.
+[2020.07.21-14.58.07:444][ 62]LogLinker: Warning: While loading '../../../../../../Users/Foong/Documents/Unreal Projects/FYP/Darchangel/Content/ThirdPersonBP/Blueprints/BlessedIdol_PH.uasset' failed to load '/Game/ThirdPersonBP/Blueprints/EnemyNPC': Can't find file.
+[2020.07.21-14.58.07:444][ 62]LogLinker: Warning: While loading '../../../../../../Users/Foong/Documents/Unreal Projects/FYP/Darchangel/Content/ThirdPersonBP/Blueprints/BlessedIdol_PH.uasset' failed to load '/Game/ThirdPersonBP/Blueprints/Health': Can't find file.
+[2020.07.21-14.58.07:444][ 62]LogLinker: Warning: While loading '../../../../../../Users/Foong/Documents/Unreal Projects/FYP/Darchangel/Content/ThirdPersonBP/Blueprints/BlessedIdol_PH.uasset' failed to load '/Game/ThirdPersonBP/Blueprints/Health': Can't find file.
+[2020.07.21-14.58.07:444][ 62]LogLinker: Warning: While loading '../../../../../../Users/Foong/Documents/Unreal Projects/FYP/Darchangel/Content/ThirdPersonBP/Blueprints/BlessedIdol_PH.uasset' failed to load '/Game/ThirdPersonBP/Blueprints/ThirdPersonGameState': Can't find file.
+[2020.07.21-14.58.07:444][ 62]LogLinker: Warning: While loading '../../../../../../Users/Foong/Documents/Unreal Projects/FYP/Darchangel/Content/ThirdPersonBP/Blueprints/BlessedIdol_PH.uasset' failed to load '/Game/ThirdPersonBP/Blueprints/ThirdPersonGameState': Can't find file.
+[2020.07.21-14.58.07:444][ 62]LogLinker: Warning: While loading '../../../../../../Users/Foong/Documents/Unreal Projects/FYP/Darchangel/Content/ThirdPersonBP/Blueprints/BlessedIdol_PH.uasset' failed to load '/Game/ThirdPersonBP/Blueprints/ThirdPersonGameState': Can't find file.
+[2020.07.21-14.58.07:445][ 62]LogLinker: Warning: While loading '../../../../../../Users/Foong/Documents/Unreal Projects/FYP/Darchangel/Content/ThirdPersonBP/Blueprints/BlessedIdol_PH.uasset' failed to load '/Game/ThirdPersonBP/Blueprints/ThirdPersonGameState': Can't find file.
+[2020.07.21-14.58.07:445][ 62]LogLinker: Warning: While loading '../../../../../../Users/Foong/Documents/Unreal Projects/FYP/Darchangel/Content/ThirdPersonBP/Blueprints/BlessedIdol_PH.uasset' failed to load '/Game/ThirdPersonBP/Blueprints/ThirdPersonGameState': Can't find file.
+[2020.07.21-14.58.07:445][ 62]LogLinker: Warning: While loading '../../../../../../Users/Foong/Documents/Unreal Projects/FYP/Darchangel/Content/ThirdPersonBP/Blueprints/BlessedIdol_PH.uasset' failed to load '/Game/ThirdPersonBP/Blueprints/ThirdPersonGameState': Can't find file.
+[2020.07.21-14.58.07:445][ 62]LogLinker: Warning: While loading '../../../../../../Users/Foong/Documents/Unreal Projects/FYP/Darchangel/Content/ThirdPersonBP/Blueprints/BlessedIdol_PH.uasset' failed to load '/Game/ThirdPersonBP/Blueprints/EnemyNPC': Can't find file.
+[2020.07.21-14.58.07:445][ 62]LogLinker: Warning: While loading '../../../../../../Users/Foong/Documents/Unreal Projects/FYP/Darchangel/Content/ThirdPersonBP/Blueprints/BlessedIdol_PH.uasset' failed to load '/Game/ThirdPersonBP/Blueprints/EnemyNPC': Can't find file.
+[2020.07.21-14.58.07:445][ 62]LogLinker: Warning: While loading '../../../../../../Users/Foong/Documents/Unreal Projects/FYP/Darchangel/Content/ThirdPersonBP/Blueprints/BlessedIdol_PH.uasset' failed to load '/Game/ThirdPersonBP/Blueprints/Health': Can't find file.
+[2020.07.21-14.58.07:446][ 62]LogLinker: Warning: While loading '../../../../../../Users/Foong/Documents/Unreal Projects/FYP/Darchangel/Content/ThirdPersonBP/Blueprints/BlessedIdol_PH.uasset' failed to load '/Game/ThirdPersonBP/Blueprints/Health': Can't find file.
+[2020.07.21-14.58.07:446][ 62]LogLinker: Warning: While loading '../../../../../../Users/Foong/Documents/Unreal Projects/FYP/Darchangel/Content/ThirdPersonBP/Blueprints/BlessedIdol_PH.uasset' failed to load '/Game/ThirdPersonBP/Blueprints/ThirdPersonGameState': Can't find file.
+[2020.07.21-14.58.07:446][ 62]LogLinker: Warning: While loading '../../../../../../Users/Foong/Documents/Unreal Projects/FYP/Darchangel/Content/ThirdPersonBP/Blueprints/BlessedIdol_PH.uasset' failed to load '/Game/ThirdPersonBP/Blueprints/ThirdPersonGameState': Can't find file.
+[2020.07.21-14.58.07:446][ 62]LogLinker: Warning: While loading '../../../../../../Users/Foong/Documents/Unreal Projects/FYP/Darchangel/Content/ThirdPersonBP/Blueprints/BlessedIdol_PH.uasset' failed to load '/Game/ThirdPersonBP/Blueprints/ThirdPersonGameState': Can't find file.
+[2020.07.21-14.58.07:446][ 62]LogLinker: Warning: While loading '../../../../../../Users/Foong/Documents/Unreal Projects/FYP/Darchangel/Content/ThirdPersonBP/Blueprints/BlessedIdol_PH.uasset' failed to load '/Game/ThirdPersonBP/Blueprints/ThirdPersonGameState': Can't find file.
+[2020.07.21-14.58.07:446][ 62]LogLinker: Warning: While loading '../../../../../../Users/Foong/Documents/Unreal Projects/FYP/Darchangel/Content/ThirdPersonBP/Blueprints/BlessedIdol_PH.uasset' failed to load '/Game/ThirdPersonBP/Blueprints/EnemyNPC': Can't find file.
+[2020.07.21-14.58.07:446][ 62]LogLinker: Warning: While loading '../../../../../../Users/Foong/Documents/Unreal Projects/FYP/Darchangel/Content/ThirdPersonBP/Blueprints/BlessedIdol_PH.uasset' failed to load '/Game/ThirdPersonBP/Blueprints/EnemyNPC': Can't find file.
+[2020.07.21-14.58.07:447][ 62]LogLinker: Warning: While loading '../../../../../../Users/Foong/Documents/Unreal Projects/FYP/Darchangel/Content/ThirdPersonBP/Blueprints/BlessedIdol_PH.uasset' failed to load '/Game/ThirdPersonBP/Blueprints/Health': Can't find file.
+[2020.07.21-14.58.07:447][ 62]LogLinker: Warning: While loading '../../../../../../Users/Foong/Documents/Unreal Projects/FYP/Darchangel/Content/ThirdPersonBP/Blueprints/BlessedIdol_PH.uasset' failed to load '/Game/ThirdPersonBP/Blueprints/Health': Can't find file.
+[2020.07.21-14.58.07:447][ 62]LogLinker: Warning: While loading '../../../../../../Users/Foong/Documents/Unreal Projects/FYP/Darchangel/Content/ThirdPersonBP/Blueprints/BlessedIdol_PH.uasset' failed to load '/Game/ThirdPersonBP/Blueprints/ThirdPersonGameState': Can't find file.
+[2020.07.21-14.58.07:447][ 62]LogLinker: Warning: While loading '../../../../../../Users/Foong/Documents/Unreal Projects/FYP/Darchangel/Content/ThirdPersonBP/Blueprints/BlessedIdol_PH.uasset' failed to load '/Game/ThirdPersonBP/Blueprints/ThirdPersonGameState': Can't find file.
+[2020.07.21-14.58.07:448][ 62]LogLinker: Warning: While loading '../../../../../../Users/Foong/Documents/Unreal Projects/FYP/Darchangel/Content/ThirdPersonBP/Blueprints/BlessedIdol_PH.uasset' failed to load '/Game/ThirdPersonBP/Blueprints/EnemyNPC': Can't find file.
+[2020.07.21-14.58.07:448][ 62]LoadErrors: Failed to load /Game/ThirdPersonBP/Blueprints/EnemyNPC.EnemyNPC_C Referenced by K2Node_DynamicCast_0
+[2020.07.21-14.58.07:448][ 62]LogLinker: Warning: While loading '../../../../../../Users/Foong/Documents/Unreal Projects/FYP/Darchangel/Content/ThirdPersonBP/Blueprints/BlessedIdol_PH.uasset' failed to load '/Game/ThirdPersonBP/Blueprints/EnemyNPC': Can't find file.
+[2020.07.21-14.58.07:449][ 62]LogLinker: Warning: While loading '../../../../../../Users/Foong/Documents/Unreal Projects/FYP/Darchangel/Content/ThirdPersonBP/Blueprints/BlessedIdol_PH.uasset' failed to load '/Game/ThirdPersonBP/Blueprints/EnemyNPC': Can't find file.
+[2020.07.21-14.58.07:449][ 62]LogLinker: Warning: While loading '../../../../../../Users/Foong/Documents/Unreal Projects/FYP/Darchangel/Content/ThirdPersonBP/Blueprints/BlessedIdol_PH.uasset' failed to load '/Game/ThirdPersonBP/Blueprints/EnemyNPC': Can't find file.
+[2020.07.21-14.58.07:449][ 62]LogLinker: Warning: While loading '../../../../../../Users/Foong/Documents/Unreal Projects/FYP/Darchangel/Content/ThirdPersonBP/Blueprints/BlessedIdol_PH.uasset' failed to load '/Game/ThirdPersonBP/Blueprints/ThirdPersonGameState': Can't find file.
+[2020.07.21-14.58.07:450][ 62]LoadErrors: Failed to load /Game/ThirdPersonBP/Blueprints/ThirdPersonGameState.ThirdPersonGameState_C Referenced by K2Node_DynamicCast_1
+[2020.07.21-14.58.07:450][ 62]LogLinker: Warning: While loading '../../../../../../Users/Foong/Documents/Unreal Projects/FYP/Darchangel/Content/ThirdPersonBP/Blueprints/BlessedIdol_PH.uasset' failed to load '/Game/ThirdPersonBP/Blueprints/ThirdPersonGameState': Can't find file.
+[2020.07.21-14.58.07:450][ 62]LogLinker: Warning: While loading '../../../../../../Users/Foong/Documents/Unreal Projects/FYP/Darchangel/Content/ThirdPersonBP/Blueprints/BlessedIdol_PH.uasset' failed to load '/Game/ThirdPersonBP/Blueprints/ThirdPersonGameState': Can't find file.
+[2020.07.21-14.58.07:450][ 62]LogLinker: Warning: While loading '../../../../../../Users/Foong/Documents/Unreal Projects/FYP/Darchangel/Content/ThirdPersonBP/Blueprints/BlessedIdol_PH.uasset' failed to load '/Game/ThirdPersonBP/Blueprints/ThirdPersonGameState': Can't find file.
+[2020.07.21-14.58.07:450][ 62]LogLinker: Warning: While loading '../../../../../../Users/Foong/Documents/Unreal Projects/FYP/Darchangel/Content/ThirdPersonBP/Blueprints/BlessedIdol_PH.uasset' failed to load '/Game/ThirdPersonBP/Blueprints/ThirdPersonGameState': Can't find file.
+[2020.07.21-14.58.07:450][ 62]LoadErrors: Failed to load /Game/ThirdPersonBP/Blueprints/ThirdPersonGameState.ThirdPersonGameState_C Referenced by K2Node_CallFunction_3
+[2020.07.21-14.58.07:450][ 62]LogLinker: Warning: While loading '../../../../../../Users/Foong/Documents/Unreal Projects/FYP/Darchangel/Content/ThirdPersonBP/Blueprints/BlessedIdol_PH.uasset' failed to load '/Game/ThirdPersonBP/Blueprints/ThirdPersonGameState': Can't find file.
+[2020.07.21-14.58.07:451][ 62]LogLinker: Warning: While loading '../../../../../../Users/Foong/Documents/Unreal Projects/FYP/Darchangel/Content/ThirdPersonBP/Blueprints/BlessedIdol_PH.uasset' failed to load '/Game/ThirdPersonBP/Blueprints/ThirdPersonGameState': Can't find file.
+[2020.07.21-14.58.07:451][ 62]LogLinker: Warning: While loading '../../../../../../Users/Foong/Documents/Unreal Projects/FYP/Darchangel/Content/ThirdPersonBP/Blueprints/BlessedIdol_PH.uasset' failed to load '/Game/ThirdPersonBP/Blueprints/ThirdPersonGameState': Can't find file.
+[2020.07.21-14.58.07:451][ 62]LogLinker: Warning: While loading '../../../../../../Users/Foong/Documents/Unreal Projects/FYP/Darchangel/Content/ThirdPersonBP/Blueprints/BlessedIdol_PH.uasset' failed to load '/Game/ThirdPersonBP/Blueprints/ThirdPersonGameState': Can't find file.
+[2020.07.21-14.58.07:451][ 62]LogLinker: Warning: While loading '../../../../../../Users/Foong/Documents/Unreal Projects/FYP/Darchangel/Content/ThirdPersonBP/Blueprints/BlessedIdol_PH.uasset' failed to load '/Game/ThirdPersonBP/Blueprints/ThirdPersonGameState': Can't find file.
+[2020.07.21-14.58.07:452][ 62]LogLinker: Warning: While loading '../../../../../../Users/Foong/Documents/Unreal Projects/FYP/Darchangel/Content/ThirdPersonBP/Blueprints/BlessedIdol_PH.uasset' failed to load '/Game/ThirdPersonBP/Blueprints/Health': Can't find file.
+[2020.07.21-14.58.07:452][ 62]LoadErrors: Failed to load /Game/ThirdPersonBP/Blueprints/Health.Health_C Referenced by K2Node_Message_0
+[2020.07.21-14.58.07:452][ 62]LogLinker: Warning: While loading '../../../../../../Users/Foong/Documents/Unreal Projects/FYP/Darchangel/Content/ThirdPersonBP/Blueprints/BlessedIdol_PH.uasset' failed to load '/Game/ThirdPersonBP/Blueprints/Health': Can't find file.
+[2020.07.21-14.58.07:453][ 62]LogLinker: Warning: While loading '../../../../../../Users/Foong/Documents/Unreal Projects/FYP/Darchangel/Content/ThirdPersonBP/Blueprints/BlessedIdol_PH.uasset' failed to load '/Game/ThirdPersonBP/Blueprints/Health': Can't find file.
+[2020.07.21-14.58.07:453][ 62]LogLinker: Warning: While loading '../../../../../../Users/Foong/Documents/Unreal Projects/FYP/Darchangel/Content/ThirdPersonBP/Blueprints/BlessedIdol_PH.uasset' failed to load '/Game/ThirdPersonBP/Blueprints/Health': Can't find file.
+[2020.07.21-14.58.07:453][ 62]LogLinker: Warning: While loading '../../../../../../Users/Foong/Documents/Unreal Projects/FYP/Darchangel/Content/ThirdPersonBP/Blueprints/BlessedIdol_PH.uasset' failed to load '/Game/ThirdPersonBP/Blueprints/ThirdPersonGameState': Can't find file.
+[2020.07.21-14.58.07:453][ 62]LogLinker: Warning: While loading '../../../../../../Users/Foong/Documents/Unreal Projects/FYP/Darchangel/Content/ThirdPersonBP/Blueprints/BlessedIdol_PH.uasset' failed to load '/Game/ThirdPersonBP/Blueprints/ThirdPersonGameState': Can't find file.
+[2020.07.21-14.58.07:454][ 62]LogLinker: Warning: While loading '../../../../../../Users/Foong/Documents/Unreal Projects/FYP/Darchangel/Content/ThirdPersonBP/Blueprints/BlessedIdol_PH.uasset' failed to load '/Game/ThirdPersonBP/Blueprints/ThirdPersonGameState': Can't find file.
+[2020.07.21-14.58.07:454][ 62]LogLinker: Warning: While loading '../../../../../../Users/Foong/Documents/Unreal Projects/FYP/Darchangel/Content/ThirdPersonBP/Blueprints/BlessedIdol_PH.uasset' failed to load '/Game/ThirdPersonBP/Blueprints/ThirdPersonGameState': Can't find file.
+[2020.07.21-14.58.07:454][ 62]LogLinker: Warning: While loading '../../../../../../Users/Foong/Documents/Unreal Projects/FYP/Darchangel/Content/ThirdPersonBP/Blueprints/BlessedIdol_PH.uasset' failed to load '/Game/ThirdPersonBP/Blueprints/Health': Can't find file.
+[2020.07.21-14.58.07:454][ 62]LogLinker: Warning: While loading '../../../../../../Users/Foong/Documents/Unreal Projects/FYP/Darchangel/Content/ThirdPersonBP/Blueprints/BlessedIdol_PH.uasset' failed to load '/Game/ThirdPersonBP/Blueprints/Health': Can't find file.
+[2020.07.21-14.58.07:454][ 62]LogLinker: Warning: While loading '../../../../../../Users/Foong/Documents/Unreal Projects/FYP/Darchangel/Content/ThirdPersonBP/Blueprints/BlessedIdol_PH.uasset' failed to load '/Game/ThirdPersonBP/Blueprints/ThirdPersonGameState': Can't find file.
+[2020.07.21-14.58.07:455][ 62]LogLinker: Warning: While loading '../../../../../../Users/Foong/Documents/Unreal Projects/FYP/Darchangel/Content/ThirdPersonBP/Blueprints/BlessedIdol_PH.uasset' failed to load '/Game/ThirdPersonBP/Blueprints/ThirdPersonGameState': Can't find file.
+[2020.07.21-14.58.07:456][ 62]LogLinker: Warning: While loading '../../../../../../Users/Foong/Documents/Unreal Projects/FYP/Darchangel/Content/ThirdPersonBP/Blueprints/BlessedIdol_PH.uasset' failed to load '/Game/ThirdPersonBP/Blueprints/ThirdPersonGameState': Can't find file.
+[2020.07.21-14.58.07:456][ 62]LogLinker: Warning: While loading '../../../../../../Users/Foong/Documents/Unreal Projects/FYP/Darchangel/Content/ThirdPersonBP/Blueprints/BlessedIdol_PH.uasset' failed to load '/Game/ThirdPersonBP/Blueprints/ThirdPersonGameState': Can't find file.
+[2020.07.21-14.58.07:456][ 62]LogLinker: Warning: While loading '../../../../../../Users/Foong/Documents/Unreal Projects/FYP/Darchangel/Content/ThirdPersonBP/Blueprints/BlessedIdol_PH.uasset' failed to load '/Game/ThirdPersonBP/Blueprints/ThirdPersonGameState': Can't find file.
+[2020.07.21-14.58.07:456][ 62]LogLinker: Warning: While loading '../../../../../../Users/Foong/Documents/Unreal Projects/FYP/Darchangel/Content/ThirdPersonBP/Blueprints/BlessedIdol_PH.uasset' failed to load '/Game/ThirdPersonBP/Blueprints/ThirdPersonGameState': Can't find file.
+[2020.07.21-14.58.07:457][ 62]LogLinker: Warning: While loading '../../../../../../Users/Foong/Documents/Unreal Projects/FYP/Darchangel/Content/ThirdPersonBP/Blueprints/BlessedIdol_PH.uasset' failed to load '/Game/ThirdPersonBP/Blueprints/ThirdPersonGameState': Can't find file.
+[2020.07.21-14.58.07:457][ 62]LogLinker: Warning: While loading '../../../../../../Users/Foong/Documents/Unreal Projects/FYP/Darchangel/Content/ThirdPersonBP/Blueprints/BlessedIdol_PH.uasset' failed to load '/Game/ThirdPersonBP/Blueprints/ThirdPersonGameState': Can't find file.
+[2020.07.21-14.58.07:457][ 62]LogLinker: Warning: While loading '../../../../../../Users/Foong/Documents/Unreal Projects/FYP/Darchangel/Content/ThirdPersonBP/Blueprints/BlessedIdol_PH.uasset' failed to load '/Game/ThirdPersonBP/Blueprints/ThirdPersonGameState': Can't find file.
+[2020.07.21-14.58.07:457][ 62]LogLinker: Warning: While loading '../../../../../../Users/Foong/Documents/Unreal Projects/FYP/Darchangel/Content/ThirdPersonBP/Blueprints/BlessedIdol_PH.uasset' failed to load '/Game/ThirdPersonBP/Blueprints/ThirdPersonGameState': Can't find file.
+[2020.07.21-14.58.07:458][ 62]LogLinker: Warning: While loading '../../../../../../Users/Foong/Documents/Unreal Projects/FYP/Darchangel/Content/ThirdPersonBP/Blueprints/BlessedIdol_PH.uasset' failed to load '/Game/ThirdPersonBP/Blueprints/ThirdPersonGameState': Can't find file.
+[2020.07.21-14.58.07:458][ 62]LogLinker: Warning: While loading '../../../../../../Users/Foong/Documents/Unreal Projects/FYP/Darchangel/Content/ThirdPersonBP/Blueprints/BlessedIdol_PH.uasset' failed to load '/Game/ThirdPersonBP/Blueprints/ThirdPersonGameState': Can't find file.
+[2020.07.21-14.58.07:458][ 62]LogLinker: Warning: While loading '../../../../../../Users/Foong/Documents/Unreal Projects/FYP/Darchangel/Content/ThirdPersonBP/Blueprints/BlessedIdol_PH.uasset' failed to load '/Game/ThirdPersonBP/Blueprints/Health': Can't find file.
+[2020.07.21-14.58.07:458][ 62]LogLinker: Warning: While loading '../../../../../../Users/Foong/Documents/Unreal Projects/FYP/Darchangel/Content/ThirdPersonBP/Blueprints/BlessedIdol_PH.uasset' failed to load '/Game/ThirdPersonBP/Blueprints/Health': Can't find file.
+[2020.07.21-14.58.07:459][ 62]LogLinker: Warning: While loading '../../../../../../Users/Foong/Documents/Unreal Projects/FYP/Darchangel/Content/ThirdPersonBP/Blueprints/BlessedIdol_PH.uasset' failed to load '/Game/ThirdPersonBP/Blueprints/Health': Can't find file.
+[2020.07.21-14.58.07:459][ 62]LogLinker: Warning: While loading '../../../../../../Users/Foong/Documents/Unreal Projects/FYP/Darchangel/Content/ThirdPersonBP/Blueprints/BlessedIdol_PH.uasset' failed to load '/Game/ThirdPersonBP/Blueprints/Health': Can't find file.
+[2020.07.21-14.58.07:459][ 62]LogLinker: Warning: While loading '../../../../../../Users/Foong/Documents/Unreal Projects/FYP/Darchangel/Content/ThirdPersonBP/Blueprints/BlessedIdol_PH.uasset' failed to load '/Game/ThirdPersonBP/Blueprints/HealthBar': Can't find file.
+[2020.07.21-14.58.07:460][ 62]LogLinker: Warning: While loading '../../../../../../Users/Foong/Documents/Unreal Projects/FYP/Darchangel/Content/ThirdPersonBP/Blueprints/BlessedIdol_PH.uasset' failed to load '/Game/ThirdPersonBP/Blueprints/HealthBar': Can't find file.
+[2020.07.21-14.58.07:460][ 62]LogLinker: Warning: While loading '../../../../../../Users/Foong/Documents/Unreal Projects/FYP/Darchangel/Content/ThirdPersonBP/Blueprints/BlessedIdol_PH.uasset' failed to load '/Game/ThirdPersonBP/Blueprints/Health': Can't find file.
+[2020.07.21-14.58.07:460][ 62]LogLinker: Warning: While loading '../../../../../../Users/Foong/Documents/Unreal Projects/FYP/Darchangel/Content/ThirdPersonBP/Blueprints/BlessedIdol_PH.uasset' failed to load '/Game/ThirdPersonBP/Blueprints/Health': Can't find file.
+[2020.07.21-14.58.07:460][ 62]LogLinker: Warning: While loading '../../../../../../Users/Foong/Documents/Unreal Projects/FYP/Darchangel/Content/ThirdPersonBP/Blueprints/BlessedIdol_PH.uasset' failed to load '/Game/ThirdPersonBP/Blueprints/HealthBar': Can't find file.
+[2020.07.21-14.58.07:460][ 62]LogLinker: Warning: While loading '../../../../../../Users/Foong/Documents/Unreal Projects/FYP/Darchangel/Content/ThirdPersonBP/Blueprints/BlessedIdol_PH.uasset' failed to load '/Game/ThirdPersonBP/Blueprints/HealthBar': Can't find file.
+[2020.07.21-14.58.07:460][ 62]LogLinker: Warning: While loading '../../../../../../Users/Foong/Documents/Unreal Projects/FYP/Darchangel/Content/ThirdPersonBP/Blueprints/BlessedIdol_PH.uasset' failed to load '/Game/ThirdPersonBP/Blueprints/HealthBar': Can't find file.
+[2020.07.21-14.58.07:460][ 62]LogLinker: Warning: While loading '../../../../../../Users/Foong/Documents/Unreal Projects/FYP/Darchangel/Content/ThirdPersonBP/Blueprints/BlessedIdol_PH.uasset' failed to load '/Game/ThirdPersonBP/Blueprints/HealthBar': Can't find file.
+[2020.07.21-14.58.07:461][ 62]LogLinker: Warning: While loading '../../../../../../Users/Foong/Documents/Unreal Projects/FYP/Darchangel/Content/ThirdPersonBP/Blueprints/BlessedIdol_PH.uasset' failed to load '/Game/ThirdPersonBP/Blueprints/Health': Can't find file.
+[2020.07.21-14.58.07:462][ 62]LoadErrors: Failed to load /Game/ThirdPersonBP/Blueprints/Health.Health_C Referenced by ThirdPersonCharacter
+[2020.07.21-14.58.07:462][ 62]LogLinker: Warning: While loading '../../../../../../Users/Foong/Documents/Unreal Projects/FYP/Darchangel/Content/ThirdPersonBP/Blueprints/BlessedIdol_PH.uasset' failed to load '/Game/ThirdPersonBP/Blueprints/Health': Can't find file.
+[2020.07.21-14.58.07:464][ 62]LogLinker: Warning: While loading '../../../../../../Users/Foong/Documents/Unreal Projects/FYP/Darchangel/Content/ThirdPersonBP/Blueprints/BlessedIdol_PH.uasset' failed to load '/Game/ThirdPersonBP/Blueprints/Health': Can't find file.
+[2020.07.21-14.58.07:464][ 62]LoadErrors: Failed to load /Game/ThirdPersonBP/Blueprints/Health.Health_C Referenced by K2Node_Event_0
+[2020.07.21-14.58.07:465][ 62]LogLinker: Warning: While loading '../../../../../../Users/Foong/Documents/Unreal Projects/FYP/Darchangel/Content/ThirdPersonBP/Blueprints/BlessedIdol_PH.uasset' failed to load '/Game/ThirdPersonBP/Blueprints/Health': Can't find file.
+[2020.07.21-14.58.07:465][ 62]LogLinker: Warning: While loading '../../../../../../Users/Foong/Documents/Unreal Projects/FYP/Darchangel/Content/ThirdPersonBP/Blueprints/BlessedIdol_PH.uasset' failed to load '/Game/ThirdPersonBP/Blueprints/Health': Can't find file.
+[2020.07.21-14.58.07:465][ 62]LogLinker: Warning: While loading '../../../../../../Users/Foong/Documents/Unreal Projects/FYP/Darchangel/Content/ThirdPersonBP/Blueprints/BlessedIdol_PH.uasset' failed to load '/Game/ThirdPersonBP/Blueprints/Health': Can't find file.
+[2020.07.21-14.58.07:465][ 62]LogLinker: Warning: While loading '../../../../../../Users/Foong/Documents/Unreal Projects/FYP/Darchangel/Content/ThirdPersonBP/Blueprints/BlessedIdol_PH.uasset' failed to load '/Game/ThirdPersonBP/Blueprints/HealthBar': Can't find file.
+[2020.07.21-14.58.07:466][ 62]LoadErrors: Failed to load /Game/ThirdPersonBP/Blueprints/HealthBar.HealthBar_C Referenced by K2Node_DynamicCast_0
+[2020.07.21-14.58.07:466][ 62]LogLinker: Warning: While loading '../../../../../../Users/Foong/Documents/Unreal Projects/FYP/Darchangel/Content/ThirdPersonBP/Blueprints/BlessedIdol_PH.uasset' failed to load '/Game/ThirdPersonBP/Blueprints/HealthBar': Can't find file.
+[2020.07.21-14.58.07:466][ 62]LogLinker: Warning: While loading '../../../../../../Users/Foong/Documents/Unreal Projects/FYP/Darchangel/Content/ThirdPersonBP/Blueprints/BlessedIdol_PH.uasset' failed to load '/Game/ThirdPersonBP/Blueprints/HealthBar': Can't find file.
+[2020.07.21-14.58.07:466][ 62]LogLinker: Warning: While loading '../../../../../../Users/Foong/Documents/Unreal Projects/FYP/Darchangel/Content/ThirdPersonBP/Blueprints/BlessedIdol_PH.uasset' failed to load '/Game/ThirdPersonBP/Blueprints/HealthBar': Can't find file.
+[2020.07.21-14.58.07:466][ 62]LogLinker: Warning: While loading '../../../../../../Users/Foong/Documents/Unreal Projects/FYP/Darchangel/Content/ThirdPersonBP/Blueprints/BlessedIdol_PH.uasset' failed to load '/Game/ThirdPersonBP/Blueprints/HealthBar': Can't find file.
+[2020.07.21-14.58.07:466][ 62]LoadErrors: Failed to load /Game/ThirdPersonBP/Blueprints/HealthBar.HealthBar_C Referenced by K2Node_VariableSet_1
+[2020.07.21-14.58.07:467][ 62]LogLinker: Warning: While loading '../../../../../../Users/Foong/Documents/Unreal Projects/FYP/Darchangel/Content/ThirdPersonBP/Blueprints/BlessedIdol_PH.uasset' failed to load '/Game/ThirdPersonBP/Blueprints/HealthBar': Can't find file.
+[2020.07.21-14.58.07:467][ 62]LogLinker: Warning: While loading '../../../../../../Users/Foong/Documents/Unreal Projects/FYP/Darchangel/Content/ThirdPersonBP/Blueprints/BlessedIdol_PH.uasset' failed to load '/Game/ThirdPersonBP/Blueprints/Health': Can't find file.
+[2020.07.21-14.58.07:467][ 62]LoadErrors: Failed to load /Game/ThirdPersonBP/Blueprints/Health.Health_C Referenced by K2Node_VariableSet_1
+[2020.07.21-14.58.07:467][ 62]LogLinker: Warning: While loading '../../../../../../Users/Foong/Documents/Unreal Projects/FYP/Darchangel/Content/ThirdPersonBP/Blueprints/BlessedIdol_PH.uasset' failed to load '/Game/ThirdPersonBP/Blueprints/Health': Can't find file.
+[2020.07.21-14.58.07:467][ 62]LogLinker: Warning: While loading '../../../../../../Users/Foong/Documents/Unreal Projects/FYP/Darchangel/Content/ThirdPersonBP/Blueprints/BlessedIdol_PH.uasset' failed to load '/Game/ThirdPersonBP/Blueprints/Health': Can't find file.
+[2020.07.21-14.58.07:467][ 62]LogLinker: Warning: While loading '../../../../../../Users/Foong/Documents/Unreal Projects/FYP/Darchangel/Content/ThirdPersonBP/Blueprints/BlessedIdol_PH.uasset' failed to load '/Game/ThirdPersonBP/Blueprints/Health': Can't find file.
+[2020.07.21-14.58.07:467][ 62]LogLinker: Warning: While loading '../../../../../../Users/Foong/Documents/Unreal Projects/FYP/Darchangel/Content/ThirdPersonBP/Blueprints/BlessedIdol_PH.uasset' failed to load '/Game/ThirdPersonBP/Blueprints/HealthBar': Can't find file.
+[2020.07.21-14.58.07:468][ 62]LogLinker: Warning: While loading '../../../../../../Users/Foong/Documents/Unreal Projects/FYP/Darchangel/Content/ThirdPersonBP/Blueprints/BlessedIdol_PH.uasset' failed to load '/Game/ThirdPersonBP/Blueprints/HealthBar': Can't find file.
+[2020.07.21-14.58.07:468][ 62]LogLinker: Warning: While loading '../../../../../../Users/Foong/Documents/Unreal Projects/FYP/Darchangel/Content/ThirdPersonBP/Blueprints/BlessedIdol_PH.uasset' failed to load '/Game/ThirdPersonBP/Blueprints/Health': Can't find file.
+[2020.07.21-14.58.07:468][ 62]LoadErrors: Failed to load /Game/ThirdPersonBP/Blueprints/Health.Health_C Referenced by K2Node_FunctionEntry_0
+[2020.07.21-14.58.07:469][ 62]LogLinker: Warning: While loading '../../../../../../Users/Foong/Documents/Unreal Projects/FYP/Darchangel/Content/ThirdPersonBP/Blueprints/BlessedIdol_PH.uasset' failed to load '/Game/ThirdPersonBP/Blueprints/Health': Can't find file.
+[2020.07.21-14.58.07:469][ 62]LogLinker: Warning: While loading '../../../../../../Users/Foong/Documents/Unreal Projects/FYP/Darchangel/Content/ThirdPersonBP/Blueprints/BlessedIdol_PH.uasset' failed to load '/Game/ThirdPersonBP/Blueprints/Health': Can't find file.
+[2020.07.21-14.58.07:469][ 62]LoadErrors: Failed to load /Game/ThirdPersonBP/Blueprints/Health.Health_C Referenced by K2Node_FunctionResult_0
+[2020.07.21-14.58.07:469][ 62]LogLinker: Warning: While loading '../../../../../../Users/Foong/Documents/Unreal Projects/FYP/Darchangel/Content/ThirdPersonBP/Blueprints/BlessedIdol_PH.uasset' failed to load '/Game/ThirdPersonBP/Blueprints/Health': Can't find file.
+[2020.07.21-14.58.07:478][ 62]LogBlueprint: Error: [Compiler BlessedIdol_PH] Message node  Invalid Message Node  has an invalid interface.
+[2020.07.21-14.58.07:478][ 62]LogBlueprint: Error: [Compiler BlessedIdol_PH] In use pin  <Unnamed>  no longer exists on node  Invalid Message Node . Please refresh node or break links to remove pin.
+[2020.07.21-14.58.07:478][ 62]LogBlueprint: Error: [Compiler BlessedIdol_PH] In use pin  Target  no longer exists on node  Invalid Message Node . Please refresh node or break links to remove pin.
+[2020.07.21-14.58.07:478][ 62]LogBlueprint: Warning: [Compiler BlessedIdol_PH] Input pin  Amount  specifying non-default value no longer exists on node  Invalid Message Node . Please refresh node or reset pin to default value to remove pin.
+[2020.07.21-14.58.07:479][ 62]LogBlueprint: Error: [Compiler BlessedIdol_PH] Could not find a function named "Damage" in 'BlessedIdol_PH'.
+Make sure 'BlessedIdol_PH' has been compiled for  Invalid Message Node
+[2020.07.21-14.58.07:479][ 62]LogBlueprint: Error: [Compiler BlessedIdol_PH] In use pin  <Unnamed>  no longer exists on node  Spawn AOE . Please refresh node or break links to remove pin.
+[2020.07.21-14.58.07:479][ 62]LogBlueprint: Error: [Compiler BlessedIdol_PH] In use pin  <Unnamed>  no longer exists on node  Spawn AOE . Please refresh node or break links to remove pin.
+[2020.07.21-14.58.07:479][ 62]LogBlueprint: Error: [Compiler BlessedIdol_PH] In use pin  Target  no longer exists on node  Spawn AOE . Please refresh node or break links to remove pin.
+[2020.07.21-14.58.07:479][ 62]LogBlueprint: Error: [Compiler BlessedIdol_PH] In use pin  Location  no longer exists on node  Spawn AOE . Please refresh node or break links to remove pin.
+[2020.07.21-14.58.07:479][ 62]LogBlueprint: Warning: [Compiler BlessedIdol_PH] Input pin  Radius  specifying non-default value no longer exists on node  Spawn AOE . Please refresh node or reset pin to default value to remove pin.
+[2020.07.21-14.58.07:479][ 62]LogBlueprint: Error: [Compiler BlessedIdol_PH] In use pin  AOE Instigator  no longer exists on node  Spawn AOE . Please refresh node or break links to remove pin.
+[2020.07.21-14.58.07:479][ 62]LogBlueprint: Error: [Compiler BlessedIdol_PH] In use pin  Hit Delegate  no longer exists on node  Spawn AOE . Please refresh node or break links to remove pin.
+[2020.07.21-14.58.07:479][ 62]LogBlueprint: Warning: [Compiler BlessedIdol_PH] Input pin  Draw Debug Duration  specifying non-default value no longer exists on node  Spawn AOE . Please refresh node or reset pin to default value to remove pin.
+[2020.07.21-14.58.07:479][ 62]LogBlueprint: Warning: [Compiler BlessedIdol_PH] Input pin  Debug Color  specifying non-default value no longer exists on node  Spawn AOE . Please refresh node or reset pin to default value to remove pin.
+[2020.07.21-14.58.07:480][ 62]LogBlueprint: Error: [Compiler BlessedIdol_PH] Could not find a function named "SpawnAOE" in 'BlessedIdol_PH'.
+Make sure 'BlessedIdol_PH' has been compiled for  Spawn AOE
+[2020.07.21-14.58.07:480][ 62]LogBlueprint: Error: [Compiler BlessedIdol_PH] Can't connect pins  Object  and  Return Value : This cast has an invalid target type (was the class deleted without a redirect?).
+[2020.07.21-14.58.07:480][ 62]LogBlueprint: Error: [Compiler BlessedIdol_PH] In use pin  As Third Person Game State  no longer exists on node  Bad cast node . Please refresh node or break links to remove pin.
+[2020.07.21-14.58.07:480][ 62]LogBlueprint: Error: [Compiler BlessedIdol_PH] Can't connect pins  Return Value  and  Object : This cast has an invalid target type (was the class deleted without a redirect?).
+[2020.07.21-14.58.07:482][ 62]LogBlueprint: Error: [Compiler GraspOfDeath_PH] Message node  Invalid Message Node  has an invalid interface.
+[2020.07.21-14.58.07:483][ 62]LogBlueprint: Error: [Compiler GraspOfDeath_PH] In use pin  <Unnamed>  no longer exists on node  Invalid Message Node . Please refresh node or break links to remove pin.
+[2020.07.21-14.58.07:483][ 62]LogBlueprint: Error: [Compiler GraspOfDeath_PH] In use pin  Target  no longer exists on node  Invalid Message Node . Please refresh node or break links to remove pin.
+[2020.07.21-14.58.07:483][ 62]LogBlueprint: Warning: [Compiler GraspOfDeath_PH] Input pin  Amount  specifying non-default value no longer exists on node  Invalid Message Node . Please refresh node or reset pin to default value to remove pin.
+[2020.07.21-14.58.07:483][ 62]LogBlueprint: Error: [Compiler GraspOfDeath_PH] Could not find a function named "Damage" in 'GraspOfDeath_PH'.
+Make sure 'GraspOfDeath_PH' has been compiled for  Invalid Message Node
+[2020.07.21-14.58.07:483][ 62]LogBlueprint: Error: [Compiler GraspOfDeath_PH] In use pin  <Unnamed>  no longer exists on node  Spawn AOE . Please refresh node or break links to remove pin.
+[2020.07.21-14.58.07:483][ 62]LogBlueprint: Error: [Compiler GraspOfDeath_PH] In use pin  Target  no longer exists on node  Spawn AOE . Please refresh node or break links to remove pin.
+[2020.07.21-14.58.07:484][ 62]LogBlueprint: Error: [Compiler GraspOfDeath_PH] In use pin  Location  no longer exists on node  Spawn AOE . Please refresh node or break links to remove pin.
+[2020.07.21-14.58.07:484][ 62]LogBlueprint: Warning: [Compiler GraspOfDeath_PH] Input pin  Radius  specifying non-default value no longer exists on node  Spawn AOE . Please refresh node or reset pin to default value to remove pin.
+[2020.07.21-14.58.07:484][ 62]LogBlueprint: Error: [Compiler GraspOfDeath_PH] In use pin  AOE Instigator  no longer exists on node  Spawn AOE . Please refresh node or break links to remove pin.
+[2020.07.21-14.58.07:484][ 62]LogBlueprint: Error: [Compiler GraspOfDeath_PH] In use pin  Hit Delegate  no longer exists on node  Spawn AOE . Please refresh node or break links to remove pin.
+[2020.07.21-14.58.07:484][ 62]LogBlueprint: Warning: [Compiler GraspOfDeath_PH] Input pin  Draw Debug Duration  specifying non-default value no longer exists on node  Spawn AOE . Please refresh node or reset pin to default value to remove pin.
+[2020.07.21-14.58.07:484][ 62]LogBlueprint: Warning: [Compiler GraspOfDeath_PH] Input pin  Debug Color  specifying non-default value no longer exists on node  Spawn AOE . Please refresh node or reset pin to default value to remove pin.
+[2020.07.21-14.58.07:484][ 62]LogBlueprint: Error: [Compiler GraspOfDeath_PH] Could not find a function named "SpawnAOE" in 'GraspOfDeath_PH'.
+Make sure 'GraspOfDeath_PH' has been compiled for  Spawn AOE
+[2020.07.21-14.58.07:484][ 62]LogBlueprint: Error: [Compiler GraspOfDeath_PH] Can't connect pins  Object  and  Return Value : This cast has an invalid target type (was the class deleted without a redirect?).
+[2020.07.21-14.58.07:484][ 62]LogBlueprint: Error: [Compiler GraspOfDeath_PH] In use pin  As Third Person Game State  no longer exists on node  Bad cast node . Please refresh node or break links to remove pin.
+[2020.07.21-14.58.07:484][ 62]LogBlueprint: Error: [Compiler GraspOfDeath_PH] Can't connect pins  Return Value  and  Object : This cast has an invalid target type (was the class deleted without a redirect?).
+[2020.07.21-14.58.07:485][ 62]LogBlueprint: Error: [Compiler GraspOfDeath_PH] Can't connect pins  Object  and  Other Actor : This cast has an invalid target type (was the class deleted without a redirect?).
+[2020.07.21-14.58.07:485][ 62]LogBlueprint: Error: [Compiler GraspOfDeath_PH] In use pin  As Enemy NPC  no longer exists on node  Bad cast node . Please refresh node or break links to remove pin.
+[2020.07.21-14.58.07:485][ 62]LogBlueprint: Error: [Compiler GraspOfDeath_PH] Can't connect pins  Other Actor  and  Object : This cast has an invalid target type (was the class deleted without a redirect?).
+[2020.07.21-14.58.07:491][ 62]LogBlueprint: Error: [Compiler ThirdPersonCharacter] Can't connect pins  Self  and  Health Interface : Self Object Reference is not compatible with Interface.
+[2020.07.21-14.58.07:492][ 62]LogBlueprint: Error: [Compiler ThirdPersonCharacter] Can't connect pins  Health Interface  and  Self : Interface is not compatible with Self Object Reference.
+[2020.07.21-14.58.07:492][ 62]LogBlueprint: Warning: [Compiler ThirdPersonCharacter] Could not find a variable named "HealthInterface" in 'ThirdPersonCharacter'.
+Make sure 'ThirdPersonCharacter' has been compiled for  Set HealthInterface
+[2020.07.21-14.58.07:492][ 62]LogBlueprint: Error: [Compiler ThirdPersonCharacter] Can't connect pins  Object  and  Return Value : This cast has an invalid target type (was the class deleted without a redirect?).
+[2020.07.21-14.58.07:492][ 62]LogBlueprint: Error: [Compiler ThirdPersonCharacter] In use pin  As Health Bar  no longer exists on node  Bad cast node . Please refresh node or break links to remove pin.
+[2020.07.21-14.58.07:492][ 62]LogBlueprint: Error: [Compiler ThirdPersonCharacter] Can't connect pins  Return Value  and  Object : This cast has an invalid target type (was the class deleted without a redirect?).
+[2020.07.21-14.58.07:492][ 62]LogBlueprint: Error: [Compiler ThirdPersonCharacter] In use pin  Amount  no longer exists on node  Event Damage . Please refresh node or break links to remove pin.
+[2020.07.21-14.58.07:493][ 62]LogBlueprint: Error: [Compiler ThirdPersonCharacter] Missing Event 'Damage' for  Event Damage
+[2020.07.21-14.58.07:497][ 62]LogBlueprint: Error: [Compiler ThirdPersonCharacter] The property associated with  Health Interface  could not be found in '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C'
+[2020.07.21-14.58.07:504][ 62]LogLinker: Warning: While loading '../../../../../../Users/Foong/Documents/Unreal Projects/FYP/Darchangel/Content/ThirdPersonBP/Blueprints/BlessedIdol_PH.uasset' failed to load '/Game/ThirdPersonBP/Blueprints/ThirdPersonGameState': Can't find file.
+[2020.07.21-14.58.07:504][ 62]LogLinker: Warning: While loading '../../../../../../Users/Foong/Documents/Unreal Projects/FYP/Darchangel/Content/ThirdPersonBP/Blueprints/BlessedIdol_PH.uasset' failed to load '/Game/ThirdPersonBP/Blueprints/ThirdPersonGameState': Can't find file.
+[2020.07.21-14.58.07:505][ 62]LogLinker: Warning: While loading '../../../../../../Users/Foong/Documents/Unreal Projects/FYP/Darchangel/Content/ThirdPersonBP/Blueprints/BlessedIdol_PH.uasset' failed to load '/Game/ThirdPersonBP/Blueprints/ThirdPersonGameState': Can't find file.
+[2020.07.21-14.58.07:505][ 62]LogLinker: Warning: While loading '../../../../../../Users/Foong/Documents/Unreal Projects/FYP/Darchangel/Content/ThirdPersonBP/Blueprints/BlessedIdol_PH.uasset' failed to load '/Game/ThirdPersonBP/Blueprints/ThirdPersonGameState': Can't find file.
+[2020.07.21-14.58.07:505][ 62]LogLinker: Warning: While loading '../../../../../../Users/Foong/Documents/Unreal Projects/FYP/Darchangel/Content/ThirdPersonBP/Blueprints/BlessedIdol_PH.uasset' failed to load '/Game/ThirdPersonBP/Blueprints/Health': Can't find file.
+[2020.07.21-14.58.07:506][ 62]LogLinker: Warning: While loading '../../../../../../Users/Foong/Documents/Unreal Projects/FYP/Darchangel/Content/ThirdPersonBP/Blueprints/BlessedIdol_PH.uasset' failed to load '/Game/ThirdPersonBP/Blueprints/Health': Can't find file.
+[2020.07.21-14.58.07:506][ 62]LogLinker: Warning: While loading '../../../../../../Users/Foong/Documents/Unreal Projects/FYP/Darchangel/Content/ThirdPersonBP/Blueprints/BlessedIdol_PH.uasset' failed to load '/Game/ThirdPersonBP/Blueprints/ThirdPersonGameState': Can't find file.
+[2020.07.21-14.58.07:506][ 62]LogLinker: Warning: While loading '../../../../../../Users/Foong/Documents/Unreal Projects/FYP/Darchangel/Content/ThirdPersonBP/Blueprints/BlessedIdol_PH.uasset' failed to load '/Game/ThirdPersonBP/Blueprints/ThirdPersonGameState': Can't find file.
+[2020.07.21-14.58.07:506][ 62]LogLinker: Warning: While loading '../../../../../../Users/Foong/Documents/Unreal Projects/FYP/Darchangel/Content/ThirdPersonBP/Blueprints/ThirdPersonCharacter.uasset' failed to load '/Game/ThirdPersonBP/Blueprints/Health': Can't find file.
+[2020.07.21-14.58.07:507][ 62]LogLinker: Warning: While loading '../../../../../../Users/Foong/Documents/Unreal Projects/FYP/Darchangel/Content/ThirdPersonBP/Blueprints/ThirdPersonCharacter.uasset' failed to load '/Game/ThirdPersonBP/Blueprints/Health': Can't find file.
+[2020.07.21-14.58.07:507][ 62]LogLinker: Warning: While loading '../../../../../../Users/Foong/Documents/Unreal Projects/FYP/Darchangel/Content/ThirdPersonBP/Blueprints/ThirdPersonCharacter.uasset' failed to load '/Game/ThirdPersonBP/Blueprints/HealthBar': Can't find file.
+[2020.07.21-14.58.07:507][ 62]LogLinker: Warning: While loading '../../../../../../Users/Foong/Documents/Unreal Projects/FYP/Darchangel/Content/ThirdPersonBP/Blueprints/ThirdPersonCharacter.uasset' failed to load '/Game/ThirdPersonBP/Blueprints/HealthBar': Can't find file.
+[2020.07.21-14.58.07:508][ 62]LogLinker: Warning: While loading '../../../../../../Users/Foong/Documents/Unreal Projects/FYP/Darchangel/Content/ThirdPersonBP/Blueprints/ThirdPersonCharacter.uasset' failed to load '/Game/ThirdPersonBP/Blueprints/Health': Can't find file.
+[2020.07.21-14.58.07:509][ 62]LogLinker: Warning: While loading '../../../../../../Users/Foong/Documents/Unreal Projects/FYP/Darchangel/Content/ThirdPersonBP/Blueprints/ThirdPersonCharacter.uasset' failed to load '/Game/ThirdPersonBP/Blueprints/Health': Can't find file.
+[2020.07.21-14.58.07:509][ 62]LogLinker: Warning: While loading '../../../../../../Users/Foong/Documents/Unreal Projects/FYP/Darchangel/Content/ThirdPersonBP/Blueprints/ThirdPersonCharacter.uasset' failed to load '/Game/ThirdPersonBP/Blueprints/HealthBar': Can't find file.
+[2020.07.21-14.58.07:509][ 62]LogLinker: Warning: While loading '../../../../../../Users/Foong/Documents/Unreal Projects/FYP/Darchangel/Content/ThirdPersonBP/Blueprints/ThirdPersonCharacter.uasset' failed to load '/Game/ThirdPersonBP/Blueprints/HealthBar': Can't find file.
+[2020.07.21-14.58.07:509][ 62]LogLinker: Warning: While loading '../../../../../../Users/Foong/Documents/Unreal Projects/FYP/Darchangel/Content/ThirdPersonBP/Blueprints/ThirdPersonCharacter.uasset' failed to load '/Game/ThirdPersonBP/Blueprints/HealthBar': Can't find file.
+[2020.07.21-14.58.07:509][ 62]LogLinker: Warning: While loading '../../../../../../Users/Foong/Documents/Unreal Projects/FYP/Darchangel/Content/ThirdPersonBP/Blueprints/ThirdPersonCharacter.uasset' failed to load '/Game/ThirdPersonBP/Blueprints/HealthBar': Can't find file.
+[2020.07.21-14.58.07:581][ 62]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter
+[2020.07.21-14.58.16:006][513]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ParagonGreystone/Characters/Heroes/Greystone/Greystone_AnimBlueprint.Greystone_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonGreystone/Characters/Heroes/Greystone/Greystone_AnimBlueprint.Greystone_AnimBlueprint_C:ExecuteUbergraph_Greystone_AnimBlueprint
+
+[2020.07.21-14.58.16:011][513]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ParagonGreystone/Characters/Heroes/Greystone/Greystone_AnimBlueprint.Greystone_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonGreystone/Characters/Heroes/Greystone/Greystone_AnimBlueprint.Greystone_AnimBlueprint_C:ExecuteUbergraph_Greystone_AnimBlueprint
+
+[2020.07.21-14.58.16:033][513]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ParagonGreystone/Characters/Heroes/Greystone/Greystone_AnimBlueprint.Greystone_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonGreystone/Characters/Heroes/Greystone/Greystone_AnimBlueprint.Greystone_AnimBlueprint_C:ExecuteUbergraph_Greystone_AnimBlueprint
+
+[2020.07.21-14.58.16:036][513]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ParagonGreystone/Characters/Heroes/Greystone/Greystone_AnimBlueprint.Greystone_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonGreystone/Characters/Heroes/Greystone/Greystone_AnimBlueprint.Greystone_AnimBlueprint_C:ExecuteUbergraph_Greystone_AnimBlueprint
+
+[2020.07.21-14.58.21:097][809]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ParagonGreystone/Characters/Heroes/Greystone/Greystone_AnimBlueprint.Greystone_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonGreystone/Characters/Heroes/Greystone/Greystone_AnimBlueprint.Greystone_AnimBlueprint_C:ExecuteUbergraph_Greystone_AnimBlueprint
+
+[2020.07.21-14.58.21:100][809]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ParagonGreystone/Characters/Heroes/Greystone/Greystone_AnimBlueprint.Greystone_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonGreystone/Characters/Heroes/Greystone/Greystone_AnimBlueprint.Greystone_AnimBlueprint_C:ExecuteUbergraph_Greystone_AnimBlueprint
+
+[2020.07.21-14.58.21:117][809]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ParagonGreystone/Characters/Heroes/Greystone/Greystone_AnimBlueprint.Greystone_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonGreystone/Characters/Heroes/Greystone/Greystone_AnimBlueprint.Greystone_AnimBlueprint_C:ExecuteUbergraph_Greystone_AnimBlueprint
+
+[2020.07.21-14.58.21:119][809]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ParagonGreystone/Characters/Heroes/Greystone/Greystone_AnimBlueprint.Greystone_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonGreystone/Characters/Heroes/Greystone/Greystone_AnimBlueprint.Greystone_AnimBlueprint_C:ExecuteUbergraph_Greystone_AnimBlueprint
+
+[2020.07.21-14.58.34:944][630]BlueprintLog: New page: Compile MainCharcter_bp
+[2020.07.21-14.58.34:962][630]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ParagonGreystone/Characters/Heroes/Greystone/Greystone_AnimBlueprint.Greystone_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonGreystone/Characters/Heroes/Greystone/Greystone_AnimBlueprint.Greystone_AnimBlueprint_C:ExecuteUbergraph_Greystone_AnimBlueprint
+
+[2020.07.21-14.58.34:964][630]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ParagonGreystone/Characters/Heroes/Greystone/Greystone_AnimBlueprint.Greystone_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonGreystone/Characters/Heroes/Greystone/Greystone_AnimBlueprint.Greystone_AnimBlueprint_C:ExecuteUbergraph_Greystone_AnimBlueprint
+
+[2020.07.21-14.58.34:965][630]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ParagonGreystone/Characters/Heroes/Greystone/Greystone_AnimBlueprint.Greystone_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonGreystone/Characters/Heroes/Greystone/Greystone_AnimBlueprint.Greystone_AnimBlueprint_C:ExecuteUbergraph_Greystone_AnimBlueprint
+
+[2020.07.21-14.58.34:966][630]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ParagonGreystone/Characters/Heroes/Greystone/Greystone_AnimBlueprint.Greystone_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonGreystone/Characters/Heroes/Greystone/Greystone_AnimBlueprint.Greystone_AnimBlueprint_C:ExecuteUbergraph_Greystone_AnimBlueprint
+
+[2020.07.21-14.58.35:523][630]LogUObjectHash: Compacting FUObjectHashTables data took   3.99ms
+[2020.07.21-14.58.35:533][630]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ParagonGreystone/Characters/Heroes/Greystone/Greystone_AnimBlueprint.Greystone_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonGreystone/Characters/Heroes/Greystone/Greystone_AnimBlueprint.Greystone_AnimBlueprint_C:ExecuteUbergraph_Greystone_AnimBlueprint
+
+[2020.07.21-14.58.35:536][630]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ParagonGreystone/Characters/Heroes/Greystone/Greystone_AnimBlueprint.Greystone_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonGreystone/Characters/Heroes/Greystone/Greystone_AnimBlueprint.Greystone_AnimBlueprint_C:ExecuteUbergraph_Greystone_AnimBlueprint
+
+[2020.07.21-14.58.35:539][630]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ParagonGreystone/Characters/Heroes/Greystone/Greystone_AnimBlueprint.Greystone_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonGreystone/Characters/Heroes/Greystone/Greystone_AnimBlueprint.Greystone_AnimBlueprint_C:ExecuteUbergraph_Greystone_AnimBlueprint
+
+[2020.07.21-14.58.35:549][630]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ParagonGreystone/Characters/Heroes/Greystone/Greystone_AnimBlueprint.Greystone_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonGreystone/Characters/Heroes/Greystone/Greystone_AnimBlueprint.Greystone_AnimBlueprint_C:ExecuteUbergraph_Greystone_AnimBlueprint
+
+[2020.07.21-14.58.35:551][630]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ParagonGreystone/Characters/Heroes/Greystone/Greystone_AnimBlueprint.Greystone_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonGreystone/Characters/Heroes/Greystone/Greystone_AnimBlueprint.Greystone_AnimBlueprint_C:ExecuteUbergraph_Greystone_AnimBlueprint
+
+[2020.07.21-14.58.36:398][663]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprint/MainCharcter_bp" FILE="../../../../../../Users/Foong/Documents/Unreal Projects/FYP/Darchangel/Content/Blueprint/MainCharcter_bp.uasset" SILENT=true
+[2020.07.21-14.58.36:459][663]LogSavePackage: Moving '../../../../../../Users/Foong/Documents/Unreal Projects/FYP/Darchangel/Saved/MainCharcter_bp2508B364495EDBBFB6BBF3B3B612FF91.tmp' to '../../../../../../Users/Foong/Documents/Unreal Projects/FYP/Darchangel/Content/Blueprint/MainCharcter_bp.uasset'
+[2020.07.21-14.58.36:479][663]AssetCheck: New page: Asset Save: MainCharcter_bp
+[2020.07.21-14.58.36:479][663]LogContentValidation: Display: Validating Blueprint /Game/Blueprint/MainCharcter_bp.MainCharcter_bp
+[2020.07.21-14.58.42:786][952]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/ThirdPersonBP/Blueprints/GraspOfDeath_PH.GraspOfDeath_PH
+[2020.07.21-14.58.44:270][ 10]LogRenderer: Reallocating scene render targets to support 976x536 Format 10 NumSamples 1 (Frame:1).
+[2020.07.21-14.59.15:966][684]LogUObjectHash: Compacting FUObjectHashTables data took   4.61ms
+[2020.07.21-14.59.24:174][684]LogSlate: Window 'Delete Assets' being destroyed
+[2020.07.21-15.00.07:858][684]LogWorld: UWorld::CleanupWorld for World_4, bSessionEnded=true, bCleanupResources=true
+[2020.07.21-15.00.07:858][684]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.07.21-15.00.07:957][684]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2020.07.21-15.00.07:957][684]LogWorld: UWorld::CleanupWorld for World_8, bSessionEnded=true, bCleanupResources=true
+[2020.07.21-15.00.07:957][684]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.07.21-15.00.08:010][684]LogUObjectGlobals: Force Deleting 3 Package(s):
+	Asset Name: /Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter
+	Asset Name: /Game/ThirdPersonBP/Blueprints/BlessedIdol_PH.BlessedIdol_PH
+	Asset Name: /Game/ThirdPersonBP/Blueprints/GraspOfDeath_PH.GraspOfDeath_PH
+[2020.07.21-15.00.14:401][684]LogUObjectHash: Compacting FUObjectHashTables data took   4.31ms
+[2020.07.21-15.00.15:581][684]LogUObjectHash: Compacting FUObjectHashTables data took   3.97ms
+[2020.07.21-15.00.15:623][684]LogUObjectHash: Compacting FUObjectHashTables data took   1.53ms
+[2020.07.21-15.00.15:664][684]LogUObjectHash: Compacting FUObjectHashTables data took   1.33ms
+[2020.07.21-15.00.15:700][684]LogUObjectHash: Compacting FUObjectHashTables data took   2.60ms
+[2020.07.21-15.00.15:736][684]LogUObjectHash: Compacting FUObjectHashTables data took   0.93ms
+[2020.07.21-15.00.25:012][220]LogUObjectHash: Compacting FUObjectHashTables data took   0.84ms
+[2020.07.21-15.00.25:086][220]LogSlate: Window 'Darchangel - Unreal Editor' being destroyed
+[2020.07.21-15.00.25:088][220]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2020.07.21-15.00.25:166][220]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2020.07.21-15.00.25:166][220]LogWorld: UWorld::CleanupWorld for World_0, bSessionEnded=true, bCleanupResources=true
+[2020.07.21-15.00.25:167][220]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.07.21-15.00.25:281][221]Cmd: QUIT_EDITOR
+[2020.07.21-15.00.25:282][221]LogCore: Engine exit requested (reason: UUnrealEdEngine::CloseEditor())
+[2020.07.21-15.00.25:312][221]LogCore: Engine exit requested (reason: EngineExit() was called; note: exit was already requested)
+[2020.07.21-15.00.25:312][221]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.07.21-15.00.25:350][221]LogExit: Preparing to exit.
+[2020.07.21-15.00.25:843][221]LogWorld: UWorld::CleanupWorld for World_1, bSessionEnded=true, bCleanupResources=true
+[2020.07.21-15.00.25:846][221]LogWorld: UWorld::CleanupWorld for World_2, bSessionEnded=true, bCleanupResources=true
+[2020.07.21-15.00.25:849][221]LogWorld: UWorld::CleanupWorld for World_5, bSessionEnded=true, bCleanupResources=true
+[2020.07.21-15.00.25:851][221]LogWorld: UWorld::CleanupWorld for World_6, bSessionEnded=true, bCleanupResources=true
+[2020.07.21-15.00.25:853][221]LogWorld: UWorld::CleanupWorld for World_7, bSessionEnded=true, bCleanupResources=true
+[2020.07.21-15.00.25:855][221]LogWorld: UWorld::CleanupWorld for World_3, bSessionEnded=true, bCleanupResources=true
+[2020.07.21-15.00.25:878][221]LogDemo: Cleaned up 0 splitscreen connections with owner deletion
+[2020.07.21-15.00.25:910][221]LogExit: Editor shut down
+[2020.07.21-15.00.25:910][221]LogExit: Transaction tracking system shut down
+[2020.07.21-15.00.26:320][221]LogExit: Object subsystem successfully closed.
+[2020.07.21-15.00.26:345][221]LogShaderCompilers: Display: Shaders left to compile 0
+[2020.07.21-15.00.26:381][221]LogModuleManager: Shutting down and abandoning module BlueprintGraph (700)
+[2020.07.21-15.00.26:381][221]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (698)
+[2020.07.21-15.00.26:381][221]LogModuleManager: Shutting down and abandoning module SceneOutliner (696)
+[2020.07.21-15.00.26:381][221]LogModuleManager: Shutting down and abandoning module AddContentDialog (694)
+[2020.07.21-15.00.26:382][221]LogModuleManager: Shutting down and abandoning module WidgetCarousel (693)
+[2020.07.21-15.00.26:382][221]LogModuleManager: Shutting down and abandoning module EditorWidgets (690)
+[2020.07.21-15.00.26:382][221]LogModuleManager: Shutting down and abandoning module CollectionManager (688)
+[2020.07.21-15.00.26:382][221]LogModuleManager: Shutting down and abandoning module StatsViewer (686)
+[2020.07.21-15.00.26:382][221]LogModuleManager: Shutting down and abandoning module VirtualTexturingEditor (684)
+[2020.07.21-15.00.26:383][221]LogModuleManager: Shutting down and abandoning module FoliageEdit (682)
+[2020.07.21-15.00.26:383][221]LogModuleManager: Shutting down and abandoning module LandscapeEditor (680)
+[2020.07.21-15.00.26:383][221]LogModuleManager: Shutting down and abandoning module MeshPaintMode (678)
+[2020.07.21-15.00.26:383][221]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (676)
+[2020.07.21-15.00.26:383][221]LogModuleManager: Shutting down and abandoning module ActorPickerMode (674)
+[2020.07.21-15.00.26:383][221]LogModuleManager: Shutting down and abandoning module GeometryMode (672)
+[2020.07.21-15.00.26:383][221]LogModuleManager: Shutting down and abandoning module TextureAlignMode (670)
+[2020.07.21-15.00.26:383][221]LogModuleManager: Shutting down and abandoning module BspMode (668)
+[2020.07.21-15.00.26:383][221]LogModuleManager: Shutting down and abandoning module PIEPreviewDeviceProfileSelector (666)
+[2020.07.21-15.00.26:383][221]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (664)
+[2020.07.21-15.00.26:383][221]LogModuleManager: Shutting down and abandoning module AutomationWorker (662)
+[2020.07.21-15.00.26:383][221]LogModuleManager: Shutting down and abandoning module SteamVREditor (660)
+[2020.07.21-15.00.26:383][221]LogModuleManager: Shutting down and abandoning module OculusMR (658)
+[2020.07.21-15.00.26:383][221]LogModuleManager: Shutting down and abandoning module AudioCaptureEditor (656)
+[2020.07.21-15.00.26:383][221]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (654)
+[2020.07.21-15.00.26:383][221]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (652)
+[2020.07.21-15.00.26:383][221]LogModuleManager: Shutting down and abandoning module PlacementMode (651)
+[2020.07.21-15.00.26:383][221]LogModuleManager: Shutting down and abandoning module MaterialEditor (650)
+[2020.07.21-15.00.26:383][221]LogModuleManager: Shutting down and abandoning module ActorSequenceEditor (646)
+[2020.07.21-15.00.26:383][221]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (644)
+[2020.07.21-15.00.26:383][221]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (642)
+[2020.07.21-15.00.26:384][221]LogModuleManager: Shutting down and abandoning module WebMMediaFactory (640)
+[2020.07.21-15.00.26:384][221]LogModuleManager: Shutting down and abandoning module WebMMediaEditor (638)
+[2020.07.21-15.00.26:384][221]LogModuleManager: Shutting down and abandoning module WebMMedia (636)
+[2020.07.21-15.00.26:384][221]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (634)
+[2020.07.21-15.00.26:384][221]LogModuleManager: Shutting down and abandoning module MediaCompositingEditor (632)
+[2020.07.21-15.00.26:384][221]LogModuleManager: Shutting down and abandoning module SequenceRecorder (631)
+[2020.07.21-15.00.26:384][221]LogModuleManager: Shutting down and abandoning module OpenExrWrapper (628)
+[2020.07.21-15.00.26:384][221]LogModuleManager: Shutting down and abandoning module ImgMediaFactory (626)
+[2020.07.21-15.00.26:384][221]LogModuleManager: Shutting down and abandoning module ImgMediaEditor (624)
+[2020.07.21-15.00.26:384][221]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (622)
+[2020.07.21-15.00.26:384][221]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (620)
+[2020.07.21-15.00.26:384][221]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (618)
+[2020.07.21-15.00.26:384][221]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (616)
+[2020.07.21-15.00.26:384][221]LogModuleManager: Shutting down and abandoning module MagicLeapMediaCodecFactory (614)
+[2020.07.21-15.00.26:384][221]LogModuleManager: Shutting down and abandoning module MagicLeapMediaFactory (612)
+[2020.07.21-15.00.26:384][221]LogModuleManager: Shutting down and abandoning module MagicLeapMediaEditor (610)
+[2020.07.21-15.00.26:384][221]LogModuleManager: Shutting down and abandoning module CharacterAI (608)
+[2020.07.21-15.00.26:385][221]LogModuleManager: Shutting down and abandoning module SmartSnapping (606)
+[2020.07.21-15.00.26:385][221]LogModuleManager: Shutting down and abandoning module SessionServices (604)
+[2020.07.21-15.00.26:385][221]LogModuleManager: Shutting down and abandoning module MeshPaint (602)
+[2020.07.21-15.00.26:385][221]LogModuleManager: Shutting down and abandoning module ViewportSnapping (600)
+[2020.07.21-15.00.26:385][221]LogModuleManager: Shutting down and abandoning module ViewportInteraction (598)
+[2020.07.21-15.00.26:385][221]LogModuleManager: Shutting down and abandoning module ClothPainter (596)
+[2020.07.21-15.00.26:385][221]LogModuleManager: Shutting down and abandoning module SkeletalMeshEditor (595)
+[2020.07.21-15.00.26:385][221]LogModuleManager: Shutting down and abandoning module LogVisualizer (592)
+[2020.07.21-15.00.26:385][221]LogModuleManager: Shutting down and abandoning module IntroTutorials (590)
+[2020.07.21-15.00.26:385][221]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (589)
+[2020.07.21-15.00.26:385][221]LogModuleManager: Shutting down and abandoning module LuminPlatformEditor (586)
+[2020.07.21-15.00.26:385][221]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (584)
+[2020.07.21-15.00.26:385][221]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (582)
+[2020.07.21-15.00.26:385][221]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (581)
+[2020.07.21-15.00.26:579][221]LogModuleManager: Shutting down and abandoning module WindowsPlatformEditor (578)
+[2020.07.21-15.00.26:579][221]LogModuleManager: Shutting down and abandoning module LuminRuntimeSettings (576)
+[2020.07.21-15.00.26:579][221]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (574)
+[2020.07.21-15.00.26:580][221]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (572)
+[2020.07.21-15.00.26:580][221]LogModuleManager: Shutting down and abandoning module EditorInteractiveToolsFramework (570)
+[2020.07.21-15.00.26:580][221]LogModuleManager: Shutting down and abandoning module TimeManagementEditor (568)
+[2020.07.21-15.00.26:580][221]LogModuleManager: Shutting down and abandoning module InputBindingEditor (566)
+[2020.07.21-15.00.26:580][221]LogModuleManager: Shutting down and abandoning module MergeActors (564)
+[2020.07.21-15.00.26:580][221]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (562)
+[2020.07.21-15.00.26:580][221]LogModuleManager: Shutting down and abandoning module LocalizationService (561)
+[2020.07.21-15.00.26:580][221]LogModuleManager: Shutting down and abandoning module HardwareTargeting (558)
+[2020.07.21-15.00.26:580][221]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (556)
+[2020.07.21-15.00.26:580][221]LogModuleManager: Shutting down and abandoning module UndoHistory (554)
+[2020.07.21-15.00.26:580][221]LogModuleManager: Shutting down and abandoning module XmlParser (552)
+[2020.07.21-15.00.26:580][221]LogModuleManager: Shutting down and abandoning module Blutility (550)
+[2020.07.21-15.00.26:580][221]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (548)
+[2020.07.21-15.00.26:580][221]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (547)
+[2020.07.21-15.00.26:580][221]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (544)
+[2020.07.21-15.00.26:580][221]LogModuleManager: Shutting down and abandoning module SettingsEditor (542)
+[2020.07.21-15.00.26:580][221]LogModuleManager: Shutting down and abandoning module ProjectLauncher (540)
+[2020.07.21-15.00.26:580][221]LogModuleManager: Shutting down and abandoning module SessionFrontend (538)
+[2020.07.21-15.00.26:580][221]LogModuleManager: Shutting down and abandoning module ProfilerClient (536)
+[2020.07.21-15.00.26:581][221]LogModuleManager: Shutting down and abandoning module DeviceManager (534)
+[2020.07.21-15.00.26:581][221]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (533)
+[2020.07.21-15.00.26:614][221]LogModuleManager: Shutting down and abandoning module AutomationController (530)
+[2020.07.21-15.00.26:614][221]LogModuleManager: Shutting down and abandoning module AutomationWindow (528)
+[2020.07.21-15.00.26:614][221]LogModuleManager: Shutting down and abandoning module Layers (526)
+[2020.07.21-15.00.26:614][221]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (524)
+[2020.07.21-15.00.26:614][221]LogModuleManager: Shutting down and abandoning module DetailCustomizations (522)
+[2020.07.21-15.00.26:614][221]LogModuleManager: Shutting down and abandoning module PackagesDialog (520)
+[2020.07.21-15.00.26:615][221]LogModuleManager: Shutting down and abandoning module AnimationBlueprintEditor (518)
+[2020.07.21-15.00.26:615][221]LogModuleManager: Shutting down and abandoning module Persona (516)
+[2020.07.21-15.00.26:615][221]LogModuleManager: Shutting down and abandoning module AdvancedPreviewScene (515)
+[2020.07.21-15.00.26:615][221]LogModuleManager: Shutting down and abandoning module AnimGraph (513)
+[2020.07.21-15.00.26:615][221]LogModuleManager: Shutting down and abandoning module Kismet (510)
+[2020.07.21-15.00.26:621][221]LogModuleManager: Shutting down and abandoning module KismetWidgets (509)
+[2020.07.21-15.00.26:621][221]LogModuleManager: Shutting down and abandoning module GraphEditor (506)
+[2020.07.21-15.00.26:621][221]LogModuleManager: Shutting down and abandoning module StructViewer (504)
+[2020.07.21-15.00.26:621][221]LogModuleManager: Shutting down and abandoning module ClassViewer (502)
+[2020.07.21-15.00.26:621][221]LogModuleManager: Shutting down and abandoning module Toolbox (500)
+[2020.07.21-15.00.26:621][221]LogModuleManager: Shutting down and abandoning module ModuleUI (498)
+[2020.07.21-15.00.26:621][221]LogModuleManager: Shutting down and abandoning module OutputLog (496)
+[2020.07.21-15.00.26:621][221]LogModuleManager: Shutting down and abandoning module GammaUI (494)
+[2020.07.21-15.00.26:621][221]LogModuleManager: Shutting down and abandoning module Documentation (492)
+[2020.07.21-15.00.26:622][221]LogModuleManager: Shutting down and abandoning module ToolMenus (490)
+[2020.07.21-15.00.26:622][221]LogModuleManager: Shutting down and abandoning module LiveCoding (488)
+[2020.07.21-15.00.26:622][221]LogModuleManager: Shutting down and abandoning module LevelSequence (486)
+[2020.07.21-15.00.26:622][221]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (484)
+[2020.07.21-15.00.26:622][221]LogModuleManager: Shutting down and abandoning module MovieScene (482)
+[2020.07.21-15.00.26:622][221]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (480)
+[2020.07.21-15.00.26:623][221]LogModuleManager: Shutting down and abandoning module LauncherPlatform (478)
+[2020.07.21-15.00.26:623][221]LogModuleManager: Shutting down and abandoning module AnalyticsET (476)
+[2020.07.21-15.00.26:623][221]LogModuleManager: Shutting down and abandoning module PortalServices (474)
+[2020.07.21-15.00.26:623][221]LogModuleManager: Shutting down and abandoning module PortalRpc (472)
+[2020.07.21-15.00.26:623][221]LogModuleManager: Shutting down and abandoning module MessagingRpc (470)
+[2020.07.21-15.00.26:623][221]LogModuleManager: Shutting down and abandoning module AudioMixerXAudio2 (468)
+[2020.07.21-15.00.26:623][221]LogModuleManager: Shutting down and abandoning module AIModule (466)
+[2020.07.21-15.00.26:623][221]LogModuleManager: Shutting down and abandoning module GameplayDebugger (465)
+[2020.07.21-15.00.26:623][221]LogModuleManager: Shutting down and abandoning module AITestSuite (463)
+[2020.07.21-15.00.26:623][221]LogModuleManager: Shutting down and abandoning module NavigationSystem (461)
+[2020.07.21-15.00.26:623][221]LogModuleManager: Shutting down and abandoning module ImageWriteQueue (458)
+[2020.07.21-15.00.26:627][221]LogModuleManager: Shutting down and abandoning module ProfilerService (456)
+[2020.07.21-15.00.26:655][221]LogModuleManager: Shutting down and abandoning module TaskGraph (454)
+[2020.07.21-15.00.26:656][221]LogModuleManager: Shutting down and abandoning module ScreenshotTools (452)
+[2020.07.21-15.00.26:656][221]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (450)
+[2020.07.21-15.00.26:656][221]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (448)
+[2020.07.21-15.00.26:656][221]LogModuleManager: Shutting down and abandoning module OculusEditor (446)
+[2020.07.21-15.00.26:656][221]LogModuleManager: Shutting down and abandoning module OculusInput (444)
+[2020.07.21-15.00.26:656][221]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (442)
+[2020.07.21-15.00.26:656][221]LogModuleManager: Shutting down and abandoning module EditableMesh (440)
+[2020.07.21-15.00.26:656][221]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (438)
+[2020.07.21-15.00.26:656][221]LogModuleManager: Shutting down and abandoning module CableComponent (436)
+[2020.07.21-15.00.26:656][221]LogModuleManager: Shutting down and abandoning module AudioCapture (434)
+[2020.07.21-15.00.26:656][221]LogModuleManager: Shutting down and abandoning module AudioCaptureRtAudio (433)
+[2020.07.21-15.00.26:656][221]LogModuleManager: Shutting down and abandoning module AssetTags (430)
+[2020.07.21-15.00.26:656][221]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (428)
+[2020.07.21-15.00.26:656][221]LogModuleManager: Shutting down and abandoning module AppleImageUtilsBlueprintSupport (426)
+[2020.07.21-15.00.26:656][221]LogModuleManager: Shutting down and abandoning module AppleImageUtils (424)
+[2020.07.21-15.00.26:656][221]LogModuleManager: Shutting down and abandoning module AndroidPermission (422)
+[2020.07.21-15.00.26:656][221]LogModuleManager: Shutting down and abandoning module NUTUnrealEngine4 (420)
+[2020.07.21-15.00.26:656][221]LogModuleManager: Shutting down and abandoning module NetcodeUnitTest (418)
+[2020.07.21-15.00.26:656][221]LogModuleManager: Shutting down and abandoning module MediaCompositing (416)
+[2020.07.21-15.00.26:656][221]LogModuleManager: Shutting down and abandoning module ImgMedia (414)
+[2020.07.21-15.00.26:656][221]LogModuleManager: Shutting down and abandoning module MagicLeapHelperVulkan (412)
+[2020.07.21-15.00.26:656][221]LogModuleManager: Shutting down and abandoning module MagicLeapHelperOpenGL (410)
+[2020.07.21-15.00.26:656][221]LogModuleManager: Shutting down and abandoning module MagicLeapAudio (408)
+[2020.07.21-15.00.26:656][221]LogModuleManager: Shutting down and abandoning module GeometryCacheTracks (406)
+[2020.07.21-15.00.26:656][221]LogModuleManager: Shutting down and abandoning module GeometryCacheSequencer (404)
+[2020.07.21-15.00.26:656][221]LogModuleManager: Shutting down and abandoning module BackChannel (402)
+[2020.07.21-15.00.26:657][221]LogModuleManager: Shutting down and abandoning module AutomationUtilsEditor (400)
+[2020.07.21-15.00.26:657][221]LogModuleManager: Shutting down and abandoning module AutomationUtils (398)
+[2020.07.21-15.00.26:657][221]LogModuleManager: Shutting down and abandoning module AlembicImporter (396)
+[2020.07.21-15.00.26:657][221]LogModuleManager: Shutting down and abandoning module AlembicLibrary (395)
+[2020.07.21-15.00.26:657][221]LogModuleManager: Shutting down and abandoning module GeometryCache (394)
+[2020.07.21-15.00.26:657][221]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (393)
+[2020.07.21-15.00.26:657][221]LogModuleManager: Shutting down and abandoning module VariantManagerContentEditor (388)
+[2020.07.21-15.00.26:657][221]LogModuleManager: Shutting down and abandoning module DatasmithContentEditor (386)
+[2020.07.21-15.00.26:657][221]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (384)
+[2020.07.21-15.00.26:657][221]LogModuleManager: Shutting down and abandoning module PluginBrowser (382)
+[2020.07.21-15.00.26:657][221]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (380)
+[2020.07.21-15.00.26:657][221]LogModuleManager: Shutting down and abandoning module MaterialAnalyzer (378)
+[2020.07.21-15.00.26:657][221]LogModuleManager: Shutting down and abandoning module CurveEditorTools (376)
+[2020.07.21-15.00.26:657][221]LogModuleManager: Shutting down and abandoning module CryptoKeysOpenSSL (374)
+[2020.07.21-15.00.26:657][221]LogModuleManager: Shutting down and abandoning module CryptoKeys (372)
+[2020.07.21-15.00.26:657][221]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (370)
+[2020.07.21-15.00.26:657][221]LogModuleManager: Shutting down and abandoning module VisualStudioCodeSourceCodeAccess (368)
+[2020.07.21-15.00.26:657][221]LogModuleManager: Shutting down and abandoning module UObjectPlugin (366)
+[2020.07.21-15.00.26:657][221]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (364)
+[2020.07.21-15.00.26:657][221]LogModuleManager: Shutting down and abandoning module PlasticSourceControl (362)
+[2020.07.21-15.00.26:657][221]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (360)
+[2020.07.21-15.00.26:657][221]LogModuleManager: Shutting down and abandoning module GitSourceControl (358)
+[2020.07.21-15.00.26:657][221]LogModuleManager: Shutting down and abandoning module SourceControl (357)
+[2020.07.21-15.00.26:657][221]LogModuleManager: Shutting down and abandoning module CLionSourceCodeAccess (354)
+[2020.07.21-15.00.26:657][221]LogModuleManager: Shutting down and abandoning module AnimationSharingEd (352)
+[2020.07.21-15.00.26:657][221]LogModuleManager: Shutting down and abandoning module ActorLayerUtilitiesEditor (350)
+[2020.07.21-15.00.26:657][221]LogModuleManager: Shutting down and abandoning module ActorLayerUtilities (348)
+[2020.07.21-15.00.26:658][221]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (346)
+[2020.07.21-15.00.26:658][221]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (344)
+[2020.07.21-15.00.26:658][221]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (342)
+[2020.07.21-15.00.26:658][221]LogModuleManager: Shutting down and abandoning module Paper2DEditor (340)
+[2020.07.21-15.00.26:658][221]LogModuleManager: Shutting down and abandoning module Darchangel (338)
+[2020.07.21-15.00.26:658][221]LogModuleManager: Shutting down and abandoning module SignificanceManager (336)
+[2020.07.21-15.00.26:658][221]LogModuleManager: Shutting down and abandoning module RuntimePhysXCooking (334)
+[2020.07.21-15.00.26:658][221]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (332)
+[2020.07.21-15.00.26:658][221]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (328)
+[2020.07.21-15.00.26:658][221]LogModuleManager: Shutting down and abandoning module ActorSequence (326)
+[2020.07.21-15.00.26:658][221]LogModuleManager: Shutting down and abandoning module UdpMessaging (324)
+[2020.07.21-15.00.26:759][221]LogModuleManager: Shutting down and abandoning module TcpMessaging (322)
+[2020.07.21-15.00.26:860][221]LogModuleManager: Shutting down and abandoning module MagicLeapPrivileges (320)
+[2020.07.21-15.00.26:860][221]LogModuleManager: Shutting down and abandoning module MagicLeapPlanes (318)
+[2020.07.21-15.00.26:860][221]LogMagicLeapPlanes: Planes tracker already destroyed.
+[2020.07.21-15.00.26:860][221]LogModuleManager: Shutting down and abandoning module MagicLeapIdentity (316)
+[2020.07.21-15.00.26:860][221]LogModuleManager: Shutting down and abandoning module MagicLeapSecureStorage (314)
+[2020.07.21-15.00.26:860][221]LogModuleManager: Shutting down and abandoning module MagicLeapImageTracker (312)
+[2020.07.21-15.00.26:860][221]LogModuleManager: Shutting down and abandoning module MagicLeapHandTracking (310)
+[2020.07.21-15.00.26:860][221]LogModuleManager: Shutting down and abandoning module MagicLeapHandMeshing (308)
+[2020.07.21-15.00.26:860][221]LogModuleManager: Shutting down and abandoning module MagicLeapEyeTracker (306)
+[2020.07.21-15.00.26:860][221]LogModuleManager: Shutting down and abandoning module MagicLeapController (304)
+[2020.07.21-15.00.26:860][221]LogSlate: Slate User Destroyed.  User Index 0, Is Virtual User: 0
+[2020.07.21-15.00.26:860][221]LogModuleManager: Shutting down and abandoning module MagicLeapARPin (302)
+[2020.07.21-15.00.26:860][221]LogModuleManager: Shutting down and abandoning module MagicLeapAR (300)
+[2020.07.21-15.00.26:860][221]LogModuleManager: Shutting down and abandoning module AugmentedReality (299)
+[2020.07.21-15.00.26:860][221]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (296)
+[2020.07.21-15.00.26:860][221]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (294)
+[2020.07.21-15.00.26:860][221]LogModuleManager: Shutting down and abandoning module FacialAnimation (292)
+[2020.07.21-15.00.26:860][221]LogModuleManager: Shutting down and abandoning module DataValidation (290)
+[2020.07.21-15.00.26:860][221]LogModuleManager: Shutting down and abandoning module AssetManagerEditor (288)
+[2020.07.21-15.00.26:861][221]LogModuleManager: Shutting down and abandoning module LevelEditor (287)
+[2020.07.21-15.00.26:861][221]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (286)
+[2020.07.21-15.00.26:861][221]LogModuleManager: Shutting down and abandoning module CommonMenuExtensions (284)
+[2020.07.21-15.00.26:861][221]LogModuleManager: Shutting down and abandoning module MainFrame (282)
+[2020.07.21-15.00.26:861][221]LogModuleManager: Shutting down and abandoning module HotReload (281)
+[2020.07.21-15.00.26:862][221]LogModuleManager: Shutting down and abandoning module ContentBrowser (277)
+[2020.07.21-15.00.26:863][221]LogModuleManager: Shutting down and abandoning module TreeMap (275)
+[2020.07.21-15.00.26:863][221]LogModuleManager: Shutting down and abandoning module AnimationSharing (272)
+[2020.07.21-15.00.26:863][221]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (270)
+[2020.07.21-15.00.26:863][221]LogModuleManager: Shutting down and abandoning module Paper2D (268)
+[2020.07.21-15.00.26:863][221]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (266)
+[2020.07.21-15.00.26:865][221]LogModuleManager: Shutting down and abandoning module WebMMoviePlayer (264)
+[2020.07.21-15.00.26:865][221]LogModuleManager: Shutting down and abandoning module NetworkReplayStreaming (262)
+[2020.07.21-15.00.26:865][221]LogModuleManager: Shutting down and abandoning module PacketHandler (260)
+[2020.07.21-15.00.26:865][221]LogModuleManager: Shutting down and abandoning module ClothingSystemEditor (258)
+[2020.07.21-15.00.26:865][221]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntimeNv (256)
+[2020.07.21-15.00.26:866][221]LogModuleManager: Shutting down and abandoning module MediaAssets (254)
+[2020.07.21-15.00.26:866][221]LogModuleManager: Shutting down and abandoning module Overlay (252)
+[2020.07.21-15.00.26:866][221]LogModuleManager: Shutting down and abandoning module OverlayEditor (251)
+[2020.07.21-15.00.26:866][221]LogModuleManager: Shutting down and abandoning module VREditor (248)
+[2020.07.21-15.00.26:866][221]LogModuleManager: Shutting down and abandoning module StringTableEditor (246)
+[2020.07.21-15.00.26:866][221]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (244)
+[2020.07.21-15.00.26:866][221]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (242)
+[2020.07.21-15.00.26:866][221]LogModuleManager: Shutting down and abandoning module FunctionalTesting (240)
+[2020.07.21-15.00.26:866][221]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (238)
+[2020.07.21-15.00.26:866][221]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (237)
+[2020.07.21-15.00.26:866][221]LogModuleManager: Shutting down and abandoning module UMG (234)
+[2020.07.21-15.00.26:866][221]LogModuleManager: Shutting down and abandoning module UMGEditor (233)
+[2020.07.21-15.00.26:866][221]LogModuleManager: Shutting down and abandoning module MessageLog (231)
+[2020.07.21-15.00.26:866][221]LogModuleManager: Shutting down and abandoning module SlateReflector (226)
+[2020.07.21-15.00.26:866][221]LogModuleManager: Shutting down and abandoning module Slate (224)
+[2020.07.21-15.00.26:866][221]LogModuleManager: Shutting down and abandoning module SlateCore (222)
+[2020.07.21-15.00.26:866][221]LogModuleManager: Shutting down and abandoning module LandscapeEditorUtilities (220)
+[2020.07.21-15.00.26:866][221]LogModuleManager: Shutting down and abandoning module UnrealEd (218)
+[2020.07.21-15.00.26:866][221]LogModuleManager: Shutting down and abandoning module MRMesh (216)
+[2020.07.21-15.00.26:866][221]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (214)
+[2020.07.21-15.00.26:866][221]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (212)
+[2020.07.21-15.00.26:866][221]LogModuleManager: Shutting down and abandoning module XAudio2 (210)
+[2020.07.21-15.00.26:866][221]LogModuleManager: Shutting down and abandoning module Networking (208)
+[2020.07.21-15.00.26:866][221]LogModuleManager: Shutting down and abandoning module Core (206)
+[2020.07.21-15.00.26:866][221]LogModuleManager: Shutting down and abandoning module MovieSceneTools (204)
+[2020.07.21-15.00.26:866][221]LogModuleManager: Shutting down and abandoning module CurveEditor (203)
+[2020.07.21-15.00.26:867][221]LogModuleManager: Shutting down and abandoning module Sequencer (201)
+[2020.07.21-15.00.26:867][221]LogModuleManager: Shutting down and abandoning module EditorStyle (200)
+[2020.07.21-15.00.26:868][221]LogModuleManager: Shutting down and abandoning module KismetCompiler (196)
+[2020.07.21-15.00.26:868][221]LogModuleManager: Shutting down and abandoning module MeshUtilities (194)
+[2020.07.21-15.00.26:868][221]LogModuleManager: Shutting down and abandoning module MeshMergeUtilities (193)
+[2020.07.21-15.00.26:868][221]LogModuleManager: Shutting down and abandoning module MeshReductionInterface (192)
+[2020.07.21-15.00.26:868][221]LogModuleManager: Shutting down and abandoning module MeshBoneReduction (191)
+[2020.07.21-15.00.26:868][221]LogModuleManager: Shutting down and abandoning module SkeletalMeshReduction (189)
+[2020.07.21-15.00.26:868][221]LogModuleManager: Shutting down and abandoning module ProxyLODMeshReduction (187)
+[2020.07.21-15.00.26:868][221]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (185)
+[2020.07.21-15.00.26:868][221]LogModuleManager: Shutting down and abandoning module MaterialBaking (181)
+[2020.07.21-15.00.26:868][221]LogModuleManager: Shutting down and abandoning module NullInstallBundleManager (176)
+[2020.07.21-15.00.26:869][221]LogModuleManager: Shutting down and abandoning module DerivedDataCache (174)
+[2020.07.21-15.00.26:869][221]LogDerivedDataCache: Shutdown
+[2020.07.21-15.00.26:869][221]LogModuleManager: Shutting down and abandoning module XGEController (172)
+[2020.07.21-15.00.26:869][221]LogModuleManager: Shutting down and abandoning module TargetPlatform (170)
+[2020.07.21-15.00.26:869][221]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (169)
+[2020.07.21-15.00.26:869][221]LogModuleManager: Shutting down and abandoning module ShaderFormatVectorVM (167)
+[2020.07.21-15.00.26:869][221]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (165)
+[2020.07.21-15.00.26:869][221]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (163)
+[2020.07.21-15.00.26:869][221]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (161)
+[2020.07.21-15.00.26:869][221]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (159)
+[2020.07.21-15.00.26:869][221]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (157)
+[2020.07.21-15.00.26:869][221]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (155)
+[2020.07.21-15.00.26:869][221]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (153)
+[2020.07.21-15.00.26:869][221]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (151)
+[2020.07.21-15.00.26:869][221]LogModuleManager: Shutting down and abandoning module ImageWrapper (150)
+[2020.07.21-15.00.26:869][221]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (147)
+[2020.07.21-15.00.26:869][221]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (145)
+[2020.07.21-15.00.26:869][221]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (143)
+[2020.07.21-15.00.26:869][221]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (141)
+[2020.07.21-15.00.26:869][221]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (139)
+[2020.07.21-15.00.26:869][221]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (137)
+[2020.07.21-15.00.26:869][221]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (135)
+[2020.07.21-15.00.26:870][221]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (133)
+[2020.07.21-15.00.26:870][221]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (131)
+[2020.07.21-15.00.26:870][221]LogModuleManager: Shutting down and abandoning module LuminTargetPlatform (129)
+[2020.07.21-15.00.26:871][221]LogModuleManager: Shutting down and abandoning module LinuxAArch64ServerTargetPlatform (127)
+[2020.07.21-15.00.26:871][221]LogModuleManager: Shutting down and abandoning module LinuxAArch64ClientTargetPlatform (125)
+[2020.07.21-15.00.26:871][221]LogModuleManager: Shutting down and abandoning module LinuxAArch64NoEditorTargetPlatform (123)
+[2020.07.21-15.00.26:871][221]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (121)
+[2020.07.21-15.00.26:871][221]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (119)
+[2020.07.21-15.00.26:871][221]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (117)
+[2020.07.21-15.00.26:871][221]LogModuleManager: Shutting down and abandoning module Messaging (115)
+[2020.07.21-15.00.26:871][221]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (113)
+[2020.07.21-15.00.26:872][221]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (111)
+[2020.07.21-15.00.26:876][221]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (109)
+[2020.07.21-15.00.26:876][221]LogModuleManager: Shutting down and abandoning module InputCore (106)
+[2020.07.21-15.00.26:876][221]LogModuleManager: Shutting down and abandoning module Settings (104)
+[2020.07.21-15.00.26:876][221]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (102)
+[2020.07.21-15.00.26:876][221]LogModuleManager: Shutting down and abandoning module PhysXCooking (100)
+[2020.07.21-15.00.26:876][221]LogModuleManager: Shutting down and abandoning module ChaosSolvers (98)
+[2020.07.21-15.00.26:878][221]LogModuleManager: Shutting down and abandoning module FieldSystemEngine (97)
+[2020.07.21-15.00.26:878][221]LogModuleManager: Shutting down and abandoning module Chaos (94)
+[2020.07.21-15.00.26:878][221]LogModuleManager: Shutting down and abandoning module WindowsPlatformFeatures (92)
+[2020.07.21-15.00.26:878][221]LogModuleManager: Shutting down and abandoning module GameplayMediaEncoder (91)
+[2020.07.21-15.00.26:878][221]LogModuleManager: Shutting down and abandoning module SteamVRInputDevice (88)
+[2020.07.21-15.00.26:878][221]LogModuleManager: Shutting down and abandoning module SteamVRInput (86)
+[2020.07.21-15.00.26:878][221]LogModuleManager: Shutting down and abandoning module SteamVR (84)
+[2020.07.21-15.00.26:878][221]LogHMD: Freeing OpenVRDLLHandle.
+[2020.07.21-15.00.26:878][221]LogModuleManager: Shutting down and abandoning module OculusHMD (82)
+[2020.07.21-15.00.26:878][221]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (80)
+[2020.07.21-15.00.26:878][221]LogModuleManager: Shutting down and abandoning module LauncherChunkInstaller (78)
+[2020.07.21-15.00.26:878][221]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (76)
+[2020.07.21-15.00.26:878][221]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (72)
+[2020.07.21-15.00.26:879][221]LogModuleManager: Shutting down and abandoning module XMPP (67)
+[2020.07.21-15.00.26:879][221]LogModuleManager: Shutting down and abandoning module WebSockets (66)
+[2020.07.21-15.00.26:912][221]LogModuleManager: Shutting down and abandoning module HTTP (63)
+[2020.07.21-15.00.26:912][221]LogHttp: Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
+[2020.07.21-15.00.26:912][221]LogHttp: Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B32D71FDF-4F1D-8A5F-FEFB-3C85B891E4C3%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.24.3-11590370%2B%2B%2BUE4%2BRelease-4.24&UserID=7047f5464a576fcce7d302b177b0266b%7C03fa9814f218427d9fa7530fdbbe964c%7C484dd342-e0cc-4f95-b2f2-bb4a94b77e99&AppEnvironment=datacollector-binary&UploadType=eteventstream] refs=[1] status=Processing
+[2020.07.21-15.00.26:924][221]LogModuleManager: Shutting down and abandoning module SSL (62)
+[2020.07.21-15.00.26:925][221]LogModuleManager: Shutting down and abandoning module WmfMedia (58)
+[2020.07.21-15.00.26:926][221]LogModuleManager: Shutting down and abandoning module Media (57)
+[2020.07.21-15.00.26:927][221]LogModuleManager: Shutting down and abandoning module MagicLeap (54)
+[2020.07.21-15.00.26:927][221]LogModuleManager: Shutting down and abandoning module VariantManagerContent (52)
+[2020.07.21-15.00.26:927][221]LogModuleManager: Shutting down and abandoning module DatasmithContent (50)
+[2020.07.21-15.00.26:928][221]LogModuleManager: Shutting down and abandoning module AISupportModule (48)
+[2020.07.21-15.00.26:928][221]LogModuleManager: Shutting down and abandoning module DesktopPlatform (46)
+[2020.07.21-15.00.26:928][221]LogModuleManager: Shutting down and abandoning module PlatformCryptoOpenSSL (44)
+[2020.07.21-15.00.26:928][221]LogModuleManager: Shutting down and abandoning module PlatformCryptoTypes (42)
+[2020.07.21-15.00.26:928][221]LogModuleManager: Shutting down and abandoning module PlatformCrypto (40)
+[2020.07.21-15.00.26:928][221]LogModuleManager: Shutting down and abandoning module AnimationModifiers (38)
+[2020.07.21-15.00.26:928][221]LogModuleManager: Shutting down and abandoning module PropertyEditor (37)
+[2020.07.21-15.00.26:928][221]LogModuleManager: Shutting down and abandoning module AudioEditor (34)
+[2020.07.21-15.00.26:929][221]LogModuleManager: Shutting down and abandoning module TextureCompressor (32)
+[2020.07.21-15.00.26:929][221]LogModuleManager: Shutting down and abandoning module RenderCore (30)
+[2020.07.21-15.00.26:929][221]LogModuleManager: Shutting down and abandoning module Landscape (28)
+[2020.07.21-15.00.26:929][221]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (26)
+[2020.07.21-15.00.26:931][221]LogModuleManager: Shutting down and abandoning module OpenGLDrv (24)
+[2020.07.21-15.00.26:931][221]LogModuleManager: Shutting down and abandoning module D3D11RHI (22)
+[2020.07.21-15.00.26:931][221]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (20)
+[2020.07.21-15.00.26:931][221]LogModuleManager: Shutting down and abandoning module Renderer (18)
+[2020.07.21-15.00.26:932][221]LogModuleManager: Shutting down and abandoning module Engine (16)
+[2020.07.21-15.00.26:932][221]LogModuleManager: Shutting down and abandoning module CoreUObject (14)
+[2020.07.21-15.00.26:932][221]LogModuleManager: Shutting down and abandoning module NetworkFile (12)
+[2020.07.21-15.00.26:932][221]LogModuleManager: Shutting down and abandoning module CookedIterativeFile (10)
+[2020.07.21-15.00.26:932][221]LogModuleManager: Shutting down and abandoning module StreamingFile (8)
+[2020.07.21-15.00.26:932][221]LogModuleManager: Shutting down and abandoning module SandboxFile (6)
+[2020.07.21-15.00.26:932][221]LogModuleManager: Shutting down and abandoning module PakFile (4)
+[2020.07.21-15.00.26:932][221]LogModuleManager: Shutting down and abandoning module RSA (3)
+[2020.07.21-15.00.26:934][221]LogD3D11RHI: Shutdown
+[2020.07.21-15.00.26:934][221]LogD3D11RHI: CleanupD3DDevice
+[2020.07.21-15.00.26:946][221]LogExit: Exiting.
+[2020.07.21-15.00.26:957][221]Log file closed, 07/21/20 23:00:26
