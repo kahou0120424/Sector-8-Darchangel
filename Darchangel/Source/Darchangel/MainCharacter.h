@@ -51,6 +51,7 @@ public:
 	FVector targetLocation;
 	FVector playerPos;
 	FHitResult OutHit;
+	FHitResult OutHit2;
 	FVector velocity;
 	bool isPull;
 

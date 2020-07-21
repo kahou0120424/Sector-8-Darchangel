@@ -8,5 +8,5 @@
     [3/4] UE4Editor-Darchangel-0003.dll
        Creating library C:\Users\User\Documents\Unreal Projects\Darchangel\Darchangel\Intermediate\Build\Win64\UE4Editor\Development\Darchangel\UE4Editor-Darchangel-0003.suppressed.lib and object C:\Users\User\Documents\Unreal Projects\Darchangel\Darchangel\Intermediate\Build\Win64\UE4Editor\Development\Darchangel\UE4Editor-Darchangel-0003.suppressed.exp
     [4/4] DarchangelEditor.target
-  Total time in Parallel executor: 59.51 seconds
-  Total execution time: 61.49 seconds
+  Total time in Parallel executor: 8.68 seconds
+  Total execution time: 9.63 seconds

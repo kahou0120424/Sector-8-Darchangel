@@ -96,9 +96,12 @@ void AMainCharacter::BeginPlay()
 void AMainCharacter::Raycast()
 {
 
-	FVector Start = this->GetActorLocation();
+	FVector Start = FVector(this->GetActorLocation().X, this->GetActorLocation().Y, 150);
+	APlayerController* playerController = (APlayerController*)GetWorld()->GetFirstPlayerController();
+	bool isHit2 = playerController->GetHitResultUnderCursorByChannel(UEngineTypes::ConvertToTraceType(ECC_Visibility), true, OutHit2);
+	FRotator rotatePoint = UKismetMathLibrary::FindLookAtRotation(this->GetActorLocation(), OutHit2.Location);
+	this->SetActorRotation(FRotator(0, rotatePoint.Yaw, 0));
 	FVector ForwardVector = this->GetActorForwardVector();
-
 
 	Start = Start + ForwardVector;
 	FVector End = Start + (ForwardVector * 5000.0f);

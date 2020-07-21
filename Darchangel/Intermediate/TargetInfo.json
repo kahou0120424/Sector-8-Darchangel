@@ -2,12 +2,12 @@
 	"Targets": [
 		{
 			"Name": "Darchangel",
-			"Path": "C:\\Users\\Foong\\Documents\\Unreal Projects\\FYP\\Darchangel\\Source\\Darchangel.Target.cs",
+			"Path": "C:\\Users\\User\\Documents\\Unreal Projects\\Darchangel\\Darchangel\\Source\\Darchangel.Target.cs",
 			"Type": "Game"
 		},
 		{
 			"Name": "DarchangelEditor",
-			"Path": "C:\\Users\\Foong\\Documents\\Unreal Projects\\FYP\\Darchangel\\Source\\DarchangelEditor.Target.cs",
+			"Path": "C:\\Users\\User\\Documents\\Unreal Projects\\Darchangel\\Darchangel\\Source\\DarchangelEditor.Target.cs",
 			"Type": "Editor"
 		}
 	]

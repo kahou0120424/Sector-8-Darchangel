@@ -1,2 +1,2 @@
-C:\Users\Foong\Documents\Unreal Projects\FYP\Darchangel\Intermediate\Build\Win64\UE4Editor\Development\Darchangel\Definitions.Darchangel.h
-c:\users\foong\documents\unreal projects\fyp\darchangel\source\darchangel\Darchangel.h
+C:\Users\User\Documents\Unreal Projects\Darchangel\Darchangel\Intermediate\Build\Win64\UE4Editor\Development\Darchangel\Definitions.Darchangel.h
+C:\Users\User\Documents\Unreal Projects\Darchangel\Darchangel\Source\Darchangel\Darchangel.h
