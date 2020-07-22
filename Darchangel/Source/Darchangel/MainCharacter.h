@@ -30,7 +30,7 @@ public:
 		UCameraComponent* FollowCamera;
 	
 
-	UPROPERTY(EditAnywhere, Category = "Chains Of Hell", meta = (ClampMin = "0.01", ClampMax = "0.1"))
+	UPROPERTY(EditAnywhere, Category = "Chains Of Hell", meta = (ClampMin = "0.01", ClampMax = "1.0"))
 		float speed;
 
 	//** Attakc Animation
