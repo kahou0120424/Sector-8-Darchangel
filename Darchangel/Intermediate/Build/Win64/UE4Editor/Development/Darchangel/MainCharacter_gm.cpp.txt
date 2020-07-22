@@ -1,9 +1,0 @@
-C:\Users\User\Documents\Unreal Projects\Darchangel\Darchangel\Intermediate\Build\Win64\UE4Editor\Development\Darchangel\Definitions.Darchangel.h
-C:\Users\User\Documents\Unreal Projects\Darchangel\Darchangel\Source\Darchangel\MainCharacter_gm.h
-D:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\Engine\Classes\GameFramework/GameMode.h
-D:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\Engine\Classes\GameFramework/GameModeBase.h
-D:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\Engine\Classes\Engine/ServerStatReplicator.h
-D:\Program Files\Epic Games\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\ServerStatReplicator.generated.h
-D:\Program Files\Epic Games\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\GameModeBase.generated.h
-D:\Program Files\Epic Games\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\GameMode.generated.h
-C:\Users\User\Documents\Unreal Projects\Darchangel\Darchangel\Intermediate\Build\Win64\UE4Editor\Inc\Darchangel\MainCharacter_gm.generated.h
